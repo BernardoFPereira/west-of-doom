@@ -413,3 +413,4 @@ class SocialCmdSet(CmdSet):
         self.add(CmdSocialSit)
         self.add(CmdSocialStand)
         self.add(CmdSocialPat)
+        self.add(CmdSocialTip)
