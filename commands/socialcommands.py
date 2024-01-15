@@ -266,6 +266,33 @@ class CmdSocialCheer(MuxCommand):
             return
         self.msg(f'|520You raise your arms, cheering! Hooray!|n')
 
+class CmdSocialTip(MuxCommand):
+    '''
+    |BSocial emote.|n
+    Tip your hat.
+
+    Usage:
+        tip
+        tip <someone>
+    '''
+    help_category = 'Social Emotes'
+    key = 'tip'
+
+    def parse(self):
+        args = self.args.strip()
+        if not args:
+            self.target = ""
+        else:
+            self.target = args
+
+    def func(self):
+        self.msg(f'You tip your hat.')
+        self.caller.location.msg_contents(
+            f'|520$You(caller) tips their hat.',
+            exclude=self.caller,
+            mapping={'caller':self.caller.get_display_name()}
+        )
+
 class CmdSocialBow(MuxCommand):
     '''
     |BSocial emote.|n
