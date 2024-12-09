@@ -28,13 +28,14 @@ class CmdShout(default_cmds.CmdSay, MuxCommand):
                                                     source_room.z,
                                                     1) #distance
         
-        direction = ''
 
         for room in target_rooms:
+            direction = ''
+            
             if source_room.y > room[1].y:
-                direction += "south"
-            if source_room.y < room[1].y:
                 direction += "north"
+            if source_room.y < room[1].y:
+                direction += "south"
 
             if source_room.x > room[1].x:
                 direction += "east"

@@ -1,0 +1,32 @@
+|Portal| 2024-12-09 03:21:16 [..] Loaded.
+|Portal| 2024-12-09 03:21:14 [..] Loading /home/beetledjuice/devworks/python/evennia/.evenv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2024-12-09 03:21:16 [..] Loaded.
+|Portal| 2024-12-09 03:21:16 [..] twistd 23.10.0 (/home/beetledjuice/devworks/python/evennia/.evenv/bin/python3 3.12.1) starting up.
+|Portal| 2024-12-09 03:21:16 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2024-12-09 03:21:16 [..] AMP starting on 4006
+|Portal| 2024-12-09 03:21:16 [..] Telnet starting on 4000
+|Portal| 2024-12-09 03:21:16 [..] Websocket starting on 4002
+|Portal| 2024-12-09 03:21:16 [..] Webserver-proxy starting on 4001
+|Portal| 2024-12-09 03:21:16 [..] Portal starting server ... 
+|Portal| 2024-12-09 03:28:53 [..] (TCP Port 4001 Closed)
+|Portal| 2024-12-09 03:28:53 [..] (TCP Port 4002 Closed)
+|Portal| 2024-12-09 03:28:53 [..] (TCP Port 4000 Closed)
+|Portal| 2024-12-09 03:28:53 [..] (TCP Port 4006 Closed)
+|Portal| 2024-12-09 03:28:53 [..] Main loop terminated.
+|Portal| 2024-12-09 03:28:53 [..] Server Shut Down.
+|Portal| 2024-12-09 03:45:31 [..] Loaded.
+|Portal| 2024-12-09 03:45:29 [..] Loading /home/beetledjuice/devworks/python/evennia/.evenv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2024-12-09 03:45:31 [..] Loaded.
+|Portal| 2024-12-09 03:45:31 [..] twistd 23.10.0 (/home/beetledjuice/devworks/python/evennia/.evenv/bin/python3 3.12.1) starting up.
+|Portal| 2024-12-09 03:45:31 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2024-12-09 03:45:31 [..] AMP starting on 4006
+|Portal| 2024-12-09 03:45:31 [..] Telnet starting on 4000
+|Portal| 2024-12-09 03:45:31 [..] Websocket starting on 4002
+|Portal| 2024-12-09 03:45:31 [..] Webserver-proxy starting on 4001
+|Portal| 2024-12-09 03:45:31 [..] Portal starting server ... 
+|Portal| 2024-12-09 03:50:09 [..] (TCP Port 4001 Closed)
+|Portal| 2024-12-09 03:50:09 [..] (TCP Port 4002 Closed)
+|Portal| 2024-12-09 03:50:09 [..] (TCP Port 4000 Closed)
+|Portal| 2024-12-09 03:50:09 [..] (TCP Port 4006 Closed)
+|Portal| 2024-12-09 03:50:09 [..] Main loop terminated.
+|Portal| 2024-12-09 03:50:09 [..] Server Shut Down.
