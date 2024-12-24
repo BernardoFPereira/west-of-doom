@@ -286,9 +286,9 @@ class CmdSocialTip(MuxCommand):
             self.target = args
 
     def func(self):
-        self.msg(f'You tip your hat.')
+        self.msg(f'|520You tip your hat.|n')
         self.caller.location.msg_contents(
-            f'|520$You(caller) tips their hat.',
+            f'|520$You(caller) tips their hat.|n',
             exclude=self.caller,
             mapping={'caller':self.caller.get_display_name()}
         )

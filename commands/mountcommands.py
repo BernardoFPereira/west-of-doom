@@ -101,9 +101,9 @@ class CmdLead(MuxCommand):
             mount_cap_name = self.caller.ndb.mount.get_display_name()[0].upper() + self.caller.ndb.mount.get_display_name()[1:]
             out_string = f"{mount_cap_name} is already following you!"
             
-            if self.caller.ndb.is_riding:
-                CmdDismount.func(self, lead=True)
-                out_string = f"$You() $conj(start) leading {self.caller.ndb.mount.get_display_name()}."
+        if self.caller.ndb.is_riding:
+            CmdDismount.func(self, lead=True)
+            out_string = f"$You() $conj(start) leading {self.caller.ndb.mount.get_display_name()}."
 
         else:    
             mount_cap_name = target_mount[0].get_display_name()[0].upper() + target_mount[0].get_display_name()[1:]

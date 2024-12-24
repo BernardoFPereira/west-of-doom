@@ -61,6 +61,20 @@ class Exit(ObjectParent, DefaultExit):
         
         return super().at_traverse(traversing_object, target_location)
     
+    def get_display_name(self, looker=None, **kwargs):
+        mode = kwargs.get('mode')
+        display_name = self.name
+
+        if mode == 'dir':
+            return (
+                display_name + f"({self.dbref})"
+                if looker.locks.check_lockstring(looker, "_dummy:perm(Builder)")
+                else display_name)
+        return (
+            (f"{self.key}" + f"({self.dbref})")
+            if looker.locks.check_lockstring(looker, "_dummy:perm(Builder)")
+            else f"{self.key}")
+    
 
 class Road(Exit):
     def at_object_creation(self):        

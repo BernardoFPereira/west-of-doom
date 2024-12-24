@@ -38,6 +38,9 @@ class ShootCmd(MuxCommand):
             if source_room.x < room[1].x:
                 direction += "west"
 
+            if direction:
+                direction = f"the {direction}"
+
             if source_room.z > room[1].z:
                 direction = "above"
             if source_room.z < room[1].z:
@@ -48,11 +51,11 @@ class ShootCmd(MuxCommand):
                 room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
                 
             if distance < 5 and distance > 2:
-                room[1].msg_contents(f"|yBOOM!|Y Shots fired around the {direction}.|n")
+                room[1].msg_contents(f"|yBOOM!|Y Shots fired around {direction}.|n")
                 room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
                 
             if distance > 0 and distance <= 2:
-                room[1].msg_contents(f"|yBANG!|Y Shots fired from the {direction}.|n", exclude=caller)
+                room[1].msg_contents(f"|yBANG!|Y Shots fired from {direction}.|n", exclude=caller)
                 room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
                 
             if distance == 0:
