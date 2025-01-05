@@ -292,6 +292,14 @@ class Room(ObjectParent, DefaultRoom):
         # return rooms
         ##################### CODE FOR CIRCLE SEARCH #####################
 
+@classmethod
+def turn_dark(self):
+    self.db.is_dark = True
+
+@classmethod
+def turn_light(self):
+    self.db.is_dark = False
+    
 class BuildingRoom(Room):
     def at_object_creation(self):
         self.db.is_dark = False

@@ -172,3 +172,874 @@ None2024-12-24 03:52:21 [EE] Error encountered for cmdset at path 'commands.defa
 2024-12-24 04:03:37 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
 2024-12-24 04:03:37 [..] Webserver starting on 4005
 2024-12-24 04:03:37 [..] Server successfully reloaded.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2024-12-26 13:28:25 [..] Loaded.
+2024-12-26 13:28:25 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2024-12-26 13:28:25 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2024-12-26 13:28:25 [..] Webserver starting on 4005
+2024-12-26 13:28:25 [..] Evennia Server successfully started.
+2024-12-26 13:29:25 [..] Ran unpuppet-hooks for 2 link-dead puppets.
+2024-12-26 13:29:50 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2024-12-26 13:29:51 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2024-12-26 13:41:26 [EE] Overwriting existing registered function stopWordFilter
+2024-12-26 13:41:56 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2024-12-26 13:42:08 [..] Server disconnected from the portal.
+2024-12-26 13:42:08 [..] Main loop terminated.
+2024-12-26 13:42:08 [..] Server Shut Down.
+2024-12-26 13:42:08 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2024-12-27 18:53:29 [..] Loaded.
+2024-12-27 18:53:29 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2024-12-27 18:53:29 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2024-12-27 18:53:29 [..] Webserver starting on 4005
+2024-12-27 18:53:29 [..] Evennia Server successfully started.
+2024-12-27 18:53:40 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2024-12-27 18:53:40 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2024-12-27 18:59:00 [..] Server disconnected from the portal.
+2024-12-27 18:59:00 [..] Main loop terminated.
+2024-12-27 18:59:00 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:59:03 [..] Loaded.
+2024-12-27 18:59:01 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2024-12-27 18:59:03 [..] Loaded.
+2024-12-27 18:59:03 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2024-12-27 18:59:03 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2024-12-27 18:59:03 [..] Webserver starting on 4005
+2024-12-27 18:59:03 [..] Server successfully reloaded.
+2024-12-27 18:59:52 [..] Server disconnected from the portal.
+2024-12-27 18:59:52 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:59:52 [..] Server Shut Down.
+2024-12-27 18:59:55 [..] Loaded.
+2024-12-27 18:59:53 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2024-12-27 18:59:55 [..] Loaded.
+2024-12-27 18:59:55 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2024-12-27 18:59:55 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2024-12-27 18:59:55 [..] Webserver starting on 4005
+2024-12-27 18:59:55 [..] Server successfully reloaded.
+2024-12-27 19:04:04 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2024-12-27 19:07:59 [..] Server disconnected from the portal.
+2024-12-27 19:07:59 [..] Main loop terminated.
+2024-12-27 19:07:59 [..] Server Shut Down.
+2024-12-27 19:07:59 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2024-12-27 19:21:47 [..] Loaded.
+2024-12-27 19:21:47 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2024-12-27 19:21:47 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2024-12-27 19:21:47 [..] Webserver starting on 4005
+2024-12-27 19:21:47 [..] Evennia Server successfully started.
+2024-12-27 19:21:58 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2024-12-27 19:21:58 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2024-12-27 19:22:13 [EE] Overwriting existing registered function stopWordFilter
+2024-12-27 19:30:47 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+None2024-12-27 19:43:03 [EE] Could not load typeclass 'Room.Cavern'
+2024-12-27 19:43:03 [EE] Paths searched:
+2024-12-27 19:43:03 [EE]     Room.Cavern
+2024-12-27 19:43:03 [EE]     typeclasses.Room.Cavern
+2024-12-27 19:43:03 [EE]     evennia.Room.Cavern
+2024-12-27 19:43:03 [EE]     evennia.contrib.Room.Cavern
+2024-12-27 19:43:03 [EE]     evennia.contrib.game_systems.Room.Cavern
+2024-12-27 19:43:03 [EE]     evennia.contrib.base_systems.Room.Cavern
+2024-12-27 19:43:03 [EE]     evennia.contrib.full_systems.Room.Cavern
+2024-12-27 19:43:03 [EE]     evennia.contrib.tutorials.Room.Cavern
+2024-12-27 19:43:03 [EE]     evennia.contrib.utils.Room.Cavern
+2024-12-27 19:43:03 [!!] Traceback (most recent call last):
+2024-12-27 19:43:03 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2024-12-27 19:43:03 [!!]     ret = cmd.func()
+2024-12-27 19:43:03 [!!]           ^^^^^^^^^^
+2024-12-27 19:43:03 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\buildingcommands.py", line 76, in func
+2024-12-27 19:43:03 [!!]     new_room = create.create_object(
+2024-12-27 19:43:03 [!!]                ^^^^^^^^^^^^^^^^^^^^^
+2024-12-27 19:43:03 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\manager.py", line 660, in create_object
+2024-12-27 19:43:03 [!!]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2024-12-27 19:43:03 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-27 19:43:03 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1668, in class_from_module
+2024-12-27 19:43:03 [!!]     raise ImportError(err)
+2024-12-27 19:43:03 [!!] ImportError: 
+2024-12-27 19:43:03 [!!] Could not load typeclass 'Room.Cavern'
+2024-12-27 19:43:03 [!!] Paths searched:
+2024-12-27 19:43:03 [!!]     Room.Cavern
+2024-12-27 19:43:03 [!!]     typeclasses.Room.Cavern
+2024-12-27 19:43:03 [!!]     evennia.Room.Cavern
+2024-12-27 19:43:03 [!!]     evennia.contrib.Room.Cavern
+2024-12-27 19:43:03 [!!]     evennia.contrib.game_systems.Room.Cavern
+2024-12-27 19:43:03 [!!]     evennia.contrib.base_systems.Room.Cavern
+2024-12-27 19:43:03 [!!]     evennia.contrib.full_systems.Room.Cavern
+2024-12-27 19:43:03 [!!]     evennia.contrib.tutorials.Room.Cavern
+2024-12-27 19:43:03 [!!]     evennia.contrib.utils.Room.Cavern
+2024-12-27 19:43:03 [EE] User input was: '@dig Small Pit;Pit:Room.Cavern = down;d:Exit.Door, up;u:Exit.Door'.
+None2024-12-27 19:46:39 [EE] Could not load typeclass 'rooms.Cavern'
+2024-12-27 19:46:39 [EE] Paths searched:
+2024-12-27 19:46:39 [EE]     rooms.Cavern
+2024-12-27 19:46:39 [EE]     typeclasses.rooms.Cavern
+2024-12-27 19:46:39 [EE]     evennia.rooms.Cavern
+2024-12-27 19:46:39 [EE]     evennia.contrib.rooms.Cavern
+2024-12-27 19:46:39 [EE]     evennia.contrib.game_systems.rooms.Cavern
+2024-12-27 19:46:39 [EE]     evennia.contrib.base_systems.rooms.Cavern
+2024-12-27 19:46:39 [EE]     evennia.contrib.full_systems.rooms.Cavern
+2024-12-27 19:46:39 [EE]     evennia.contrib.tutorials.rooms.Cavern
+2024-12-27 19:46:39 [EE]     evennia.contrib.utils.rooms.Cavern
+2024-12-27 19:46:39 [!!] Traceback (most recent call last):
+2024-12-27 19:46:39 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2024-12-27 19:46:39 [!!]     ret = cmd.func()
+2024-12-27 19:46:39 [!!]           ^^^^^^^^^^
+2024-12-27 19:46:39 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\buildingcommands.py", line 76, in func
+2024-12-27 19:46:39 [!!]     new_room = create.create_object(
+2024-12-27 19:46:39 [!!]                ^^^^^^^^^^^^^^^^^^^^^
+2024-12-27 19:46:39 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\manager.py", line 660, in create_object
+2024-12-27 19:46:39 [!!]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2024-12-27 19:46:39 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-27 19:46:39 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1668, in class_from_module
+2024-12-27 19:46:39 [!!]     raise ImportError(err)
+2024-12-27 19:46:39 [!!] ImportError: 
+2024-12-27 19:46:39 [!!] Could not load typeclass 'rooms.Cavern'
+2024-12-27 19:46:39 [!!] Paths searched:
+2024-12-27 19:46:39 [!!]     rooms.Cavern
+2024-12-27 19:46:39 [!!]     typeclasses.rooms.Cavern
+2024-12-27 19:46:39 [!!]     evennia.rooms.Cavern
+2024-12-27 19:46:39 [!!]     evennia.contrib.rooms.Cavern
+2024-12-27 19:46:39 [!!]     evennia.contrib.game_systems.rooms.Cavern
+2024-12-27 19:46:39 [!!]     evennia.contrib.base_systems.rooms.Cavern
+2024-12-27 19:46:39 [!!]     evennia.contrib.full_systems.rooms.Cavern
+2024-12-27 19:46:39 [!!]     evennia.contrib.tutorials.rooms.Cavern
+2024-12-27 19:46:39 [!!]     evennia.contrib.utils.rooms.Cavern
+2024-12-27 19:46:39 [EE] User input was: '@dig Small Pit;Pit:rooms.Cavern = down;d:exits.Door, up;u:exits.Door'.
+None2024-12-27 19:50:10 [EE] Could not load typeclass 'rooms.Cavern'
+2024-12-27 19:50:10 [EE] Paths searched:
+2024-12-27 19:50:10 [EE]     rooms.Cavern
+2024-12-27 19:50:10 [EE]     typeclasses.rooms.Cavern
+2024-12-27 19:50:10 [EE]     evennia.rooms.Cavern
+2024-12-27 19:50:10 [EE]     evennia.contrib.rooms.Cavern
+2024-12-27 19:50:10 [EE]     evennia.contrib.game_systems.rooms.Cavern
+2024-12-27 19:50:10 [EE]     evennia.contrib.base_systems.rooms.Cavern
+2024-12-27 19:50:10 [EE]     evennia.contrib.full_systems.rooms.Cavern
+2024-12-27 19:50:10 [EE]     evennia.contrib.tutorials.rooms.Cavern
+2024-12-27 19:50:10 [EE]     evennia.contrib.utils.rooms.Cavern
+2024-12-27 19:50:10 [!!] Traceback (most recent call last):
+2024-12-27 19:50:10 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2024-12-27 19:50:10 [!!]     ret = cmd.func()
+2024-12-27 19:50:10 [!!]           ^^^^^^^^^^
+2024-12-27 19:50:10 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\buildingcommands.py", line 76, in func
+2024-12-27 19:50:10 [!!]     new_room = create.create_object(
+2024-12-27 19:50:10 [!!]                ^^^^^^^^^^^^^^^^^^^^^
+2024-12-27 19:50:10 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\manager.py", line 660, in create_object
+2024-12-27 19:50:10 [!!]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2024-12-27 19:50:10 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-27 19:50:10 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1668, in class_from_module
+2024-12-27 19:50:10 [!!]     raise ImportError(err)
+2024-12-27 19:50:10 [!!] ImportError: 
+2024-12-27 19:50:10 [!!] Could not load typeclass 'rooms.Cavern'
+2024-12-27 19:50:10 [!!] Paths searched:
+2024-12-27 19:50:10 [!!]     rooms.Cavern
+2024-12-27 19:50:10 [!!]     typeclasses.rooms.Cavern
+2024-12-27 19:50:10 [!!]     evennia.rooms.Cavern
+2024-12-27 19:50:10 [!!]     evennia.contrib.rooms.Cavern
+2024-12-27 19:50:10 [!!]     evennia.contrib.game_systems.rooms.Cavern
+2024-12-27 19:50:10 [!!]     evennia.contrib.base_systems.rooms.Cavern
+2024-12-27 19:50:10 [!!]     evennia.contrib.full_systems.rooms.Cavern
+2024-12-27 19:50:10 [!!]     evennia.contrib.tutorials.rooms.Cavern
+2024-12-27 19:50:10 [!!]     evennia.contrib.utils.rooms.Cavern
+2024-12-27 19:50:10 [EE] User input was: '@dig Small Pit;Pit:rooms.Cavern = down;d:doors.Door, up;u:doors.Door'.
+2024-12-27 20:02:21 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2024-12-27 20:02:42 [..] Server disconnected from the portal.
+2024-12-27 20:02:42 [..] Main loop terminated.
+2024-12-27 20:02:42 [..] Server Shut Down.
+2024-12-27 20:02:42 [..] Server Shut Down.
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:124:log_trace
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 124, in log_trace
+    _log(msg, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x000001E26116F9B0> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py:447:getApplication
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\threadable.py:51:sync
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\log.py:276:msg
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py:104:write
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 447, in getApplication
+    log.msg("Loaded.")
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\log.py", line 276, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_legacy.py", line 147, in publishToNewObserver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\python\logfile.py", line 104, in write
+    self._file.write(data)
+builtins.ValueError: I/O operation on closed file
+
+secret_settings.py file not found or failed to import.
+2025-01-05 17:41:37 [..] Loaded.
+2025-01-05 17:41:35 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 17:41:37 [..] Loaded.
+2025-01-05 17:41:37 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 17:41:37 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 17:41:37 [..] Webserver starting on 4005
+2025-01-05 17:41:37 [..] Server successfully reloaded.
+2025-01-05 17:41:49 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-05 17:41:49 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-05 17:43:09 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-05 17:46:59 [SS] Authentication Success: deputy(account 2) (IP: 127.0.0.1).
+2025-01-05 17:46:59 [..] Logged in: deputy(account 2) 127.0.0.1 (1 session(s) total)
+2025-01-05 17:55:08 [..] Logged out: deputy(account 2) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-05 17:58:57 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-05 17:58:57 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-05 18:30:46 [SS] Authentication Success: deputy(account 2) (IP: 127.0.0.1).
+2025-01-05 18:30:46 [..] Logged in: deputy(account 2) 127.0.0.1 (1 session(s) total)
+2025-01-05 18:35:01 [..] Server disconnected from the portal.
+2025-01-05 18:35:01 [..] Main loop terminated.
+2025-01-05 18:35:01 [..] Server Shut Down.
+2025-01-05 18:35:01 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:35:04 [..] Loaded.
+2025-01-05 18:35:04 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:35:04 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:35:04 [..] Webserver starting on 4005
+2025-01-05 18:35:04 [..] Server successfully reloaded.
+2025-01-05 18:35:04 [!!] Traceback (most recent call last):
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 186, in import_cmdset
+2025-01-05 18:35:04 [!!]     raise exc.with_traceback(tb)
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 181, in import_cmdset
+2025-01-05 18:35:04 [!!]     module = import_module(modpath, package="evennia")
+2025-01-05 18:35:04 [!!]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\default_cmdsets.py", line 18, in <module>
+2025-01-05 18:35:04 [!!]     from commands import mycommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\radiocommands.py", line 3, in <module>
+2025-01-05 18:35:04 [!!]     from typeclasses.characters import Character
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [!!]     from .rules import dice
+2025-01-05 18:35:04 [!!] ModuleNotFoundError: No module named 'typeclasses.rules'
+2025-01-05 18:35:04 [EE] Traceback (most recent call last):
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 186, in import_cmdset
+2025-01-05 18:35:04 [EE]     raise exc.with_traceback(tb)
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 181, in import_cmdset
+2025-01-05 18:35:04 [EE]     module = import_module(modpath, package="evennia")
+2025-01-05 18:35:04 [EE]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\default_cmdsets.py", line 18, in <module>
+2025-01-05 18:35:04 [EE]     from commands import mycommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\radiocommands.py", line 3, in <module>
+2025-01-05 18:35:04 [EE]     from typeclasses.characters import Character
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [EE]     from .rules import dice
+2025-01-05 18:35:04 [EE] ModuleNotFoundError: No module named 'typeclasses.rules'
+None2025-01-05 18:35:04 [EE] Error loading cmdset 'commands.default_cmdsets.SessionCmdSet'
+2025-01-05 18:35:04 [EE] (Traceback was logged 25-01-05 18:35:04-03)
+None2025-01-05 18:35:04 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+2025-01-05 18:35:04 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+None2025-01-05 18:35:04 [EE] Could not load typeclass 'typeclasses.characters.Character' with the following traceback:
+2025-01-05 18:35:04 [EE] Traceback (most recent call last):
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1641, in class_from_module
+2025-01-05 18:35:04 [EE]     mod = importlib.import_module(testpath, package="evennia")
+2025-01-05 18:35:04 [EE]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [EE]     from .rules import dice
+2025-01-05 18:35:04 [EE] ModuleNotFoundError: No module named 'typeclasses.rules'
+2025-01-05 18:35:04 [EE] .
+2025-01-05 18:35:04 [!!] Traceback (most recent call last):
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 287, in set_class_from_typeclass
+2025-01-05 18:35:04 [!!]     self.__class__ = class_from_module(self.db_typeclass_path)
+2025-01-05 18:35:04 [!!]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1668, in class_from_module
+2025-01-05 18:35:04 [!!]     raise ImportError(err)
+2025-01-05 18:35:04 [!!] ImportError: 
+2025-01-05 18:35:04 [!!] Could not load typeclass 'typeclasses.characters.Character' with the following traceback:
+2025-01-05 18:35:04 [!!] Traceback (most recent call last):
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1641, in class_from_module
+2025-01-05 18:35:04 [!!]     mod = importlib.import_module(testpath, package="evennia")
+2025-01-05 18:35:04 [!!]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [!!]     from .rules import dice
+2025-01-05 18:35:04 [!!] ModuleNotFoundError: No module named 'typeclasses.rules'
+2025-01-05 18:35:04 [!!] .
+2025-01-05 18:35:04 [!!] Traceback (most recent call last):
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 186, in import_cmdset
+2025-01-05 18:35:04 [!!]     raise exc.with_traceback(tb)
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 181, in import_cmdset
+2025-01-05 18:35:04 [!!]     module = import_module(modpath, package="evennia")
+2025-01-05 18:35:04 [!!]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\default_cmdsets.py", line 18, in <module>
+2025-01-05 18:35:04 [!!]     from commands import mycommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\radiocommands.py", line 3, in <module>
+2025-01-05 18:35:04 [!!]     from typeclasses.characters import Character
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [!!]     from .rules import dice
+2025-01-05 18:35:04 [!!] ModuleNotFoundError: No module named 'typeclasses.rules'
+2025-01-05 18:35:04 [EE] Traceback (most recent call last):
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 186, in import_cmdset
+2025-01-05 18:35:04 [EE]     raise exc.with_traceback(tb)
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 181, in import_cmdset
+2025-01-05 18:35:04 [EE]     module = import_module(modpath, package="evennia")
+2025-01-05 18:35:04 [EE]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\default_cmdsets.py", line 18, in <module>
+2025-01-05 18:35:04 [EE]     from commands import mycommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\radiocommands.py", line 3, in <module>
+2025-01-05 18:35:04 [EE]     from typeclasses.characters import Character
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [EE]     from .rules import dice
+2025-01-05 18:35:04 [EE] ModuleNotFoundError: No module named 'typeclasses.rules'
+None2025-01-05 18:35:04 [EE] Error loading cmdset 'commands.default_cmdsets.SessionCmdSet'
+2025-01-05 18:35:04 [EE] (Traceback was logged 25-01-05 18:35:04-03)
+None2025-01-05 18:35:04 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+2025-01-05 18:35:04 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+None2025-01-05 18:35:04 [EE] Could not load typeclass 'typeclasses.characters.Character' with the following traceback:
+2025-01-05 18:35:04 [EE] Traceback (most recent call last):
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1641, in class_from_module
+2025-01-05 18:35:04 [EE]     mod = importlib.import_module(testpath, package="evennia")
+2025-01-05 18:35:04 [EE]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [EE]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [EE]     from .rules import dice
+2025-01-05 18:35:04 [EE] ModuleNotFoundError: No module named 'typeclasses.rules'
+2025-01-05 18:35:04 [EE] .
+2025-01-05 18:35:04 [!!] Traceback (most recent call last):
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 287, in set_class_from_typeclass
+2025-01-05 18:35:04 [!!]     self.__class__ = class_from_module(self.db_typeclass_path)
+2025-01-05 18:35:04 [!!]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1668, in class_from_module
+2025-01-05 18:35:04 [!!]     raise ImportError(err)
+2025-01-05 18:35:04 [!!] ImportError: 
+2025-01-05 18:35:04 [!!] Could not load typeclass 'typeclasses.characters.Character' with the following traceback:
+2025-01-05 18:35:04 [!!] Traceback (most recent call last):
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1641, in class_from_module
+2025-01-05 18:35:04 [!!]     mod = importlib.import_module(testpath, package="evennia")
+2025-01-05 18:35:04 [!!]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-05 18:35:04 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-05 18:35:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-05 18:35:04 [!!]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-05 18:35:04 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 15, in <module>
+2025-01-05 18:35:04 [!!]     from .rules import dice
+2025-01-05 18:35:04 [!!] ModuleNotFoundError: No module named 'typeclasses.rules'
+2025-01-05 18:35:04 [!!] .
+2025-01-05 18:35:46 [..] Server disconnected from the portal.
+2025-01-05 18:35:46 [..] Main loop terminated.
+2025-01-05 18:35:46 [..] Server Shut Down.
+2025-01-05 18:35:46 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:35:49 [..] Loaded.
+2025-01-05 18:35:49 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:35:49 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:35:49 [..] Webserver starting on 4005
+2025-01-05 18:35:49 [..] Server successfully reloaded.
+2025-01-05 18:36:29 [!!] Traceback (most recent call last):
+2025-01-05 18:36:29 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-05 18:36:29 [!!]     ret = cmd.func()
+2025-01-05 18:36:29 [!!]           ^^^^^^^^^^
+2025-01-05 18:36:29 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\interactioncommands.py", line 98, in func
+2025-01-05 18:36:29 [!!]     if self.exit:
+2025-01-05 18:36:29 [!!]        ^^^^^^^^^
+2025-01-05 18:36:29 [!!] AttributeError: 'CmdObjClose' object has no attribute 'exit'
+2025-01-05 18:36:29 [EE] User input was: 'cl narrow'.
+2025-01-05 18:36:46 [..] Server disconnected from the portal.
+2025-01-05 18:36:46 [..] Main loop terminated.
+2025-01-05 18:36:46 [..] Server Shut Down.
+2025-01-05 18:36:46 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:36:49 [..] Loaded.
+2025-01-05 18:36:49 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:36:49 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:36:49 [..] Webserver starting on 4005
+2025-01-05 18:36:49 [..] Server successfully reloaded.
+2025-01-05 18:37:05 [!!] Traceback (most recent call last):
+2025-01-05 18:37:05 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-05 18:37:05 [!!]     ret = cmd.func()
+2025-01-05 18:37:05 [!!]           ^^^^^^^^^^
+2025-01-05 18:37:05 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\interactioncommands.py", line 98, in func
+2025-01-05 18:37:05 [!!]     if self.exit:
+2025-01-05 18:37:05 [!!]        ^^^^^^^^^
+2025-01-05 18:37:05 [!!] AttributeError: 'CmdObjClose' object has no attribute 'exit'
+2025-01-05 18:37:05 [EE] User input was: 'cl narrow'.
+2025-01-05 18:37:11 [!!] Traceback (most recent call last):
+2025-01-05 18:37:11 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-05 18:37:11 [!!]     ret = cmd.func()
+2025-01-05 18:37:11 [!!]           ^^^^^^^^^^
+2025-01-05 18:37:11 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\interactioncommands.py", line 98, in func
+2025-01-05 18:37:11 [!!]     if self.exit:
+2025-01-05 18:37:11 [!!]        ^^^^^^^^^
+2025-01-05 18:37:11 [!!] AttributeError: 'CmdObjClose' object has no attribute 'exit'
+2025-01-05 18:37:11 [EE] User input was: 'cl narrow'.
+2025-01-05 18:39:32 [..] Server disconnected from the portal.
+2025-01-05 18:39:32 [..] Main loop terminated.
+2025-01-05 18:39:32 [..] Server Shut Down.
+2025-01-05 18:39:32 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:39:35 [..] Loaded.
+2025-01-05 18:39:35 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:39:35 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:39:35 [..] Webserver starting on 4005
+2025-01-05 18:39:35 [..] Server successfully reloaded.
+2025-01-05 18:40:23 [..] Server disconnected from the portal.
+2025-01-05 18:40:23 [..] Main loop terminated.
+2025-01-05 18:40:23 [..] Server Shut Down.
+2025-01-05 18:40:23 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:40:26 [..] Loaded.
+2025-01-05 18:40:26 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:40:26 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:40:26 [..] Webserver starting on 4005
+2025-01-05 18:40:26 [..] Server successfully reloaded.
+2025-01-05 18:45:53 [..] Logged out: deputy(account 2) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-05 18:46:30 [..] Server disconnected from the portal.
+2025-01-05 18:46:30 [..] Main loop terminated.
+2025-01-05 18:46:30 [..] Server Shut Down.
+2025-01-05 18:46:30 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:46:33 [..] Loaded.
+2025-01-05 18:46:33 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:46:33 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:46:33 [..] Webserver starting on 4005
+2025-01-05 18:46:33 [..] Server successfully reloaded.
+2025-01-05 18:46:55 [SS] Authentication Success: deputy(account 2) (IP: 127.0.0.1).
+2025-01-05 18:46:55 [..] Logged in: deputy(account 2) 127.0.0.1 (1 session(s) total)
+2025-01-05 18:48:21 [..] Server disconnected from the portal.
+2025-01-05 18:48:21 [..] Main loop terminated.
+2025-01-05 18:48:21 [..] Server Shut Down.
+2025-01-05 18:48:21 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:48:24 [..] Loaded.
+2025-01-05 18:48:24 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:48:24 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:48:24 [..] Webserver starting on 4005
+2025-01-05 18:48:24 [..] Server successfully reloaded.
+2025-01-05 18:50:01 [..] Logged out: deputy(account 2) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-05 18:54:06 [..] Server disconnected from the portal.
+2025-01-05 18:54:06 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:54:06 [..] Server Shut Down.
+2025-01-05 18:54:08 [..] Loaded.
+2025-01-05 18:54:06 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-05 18:54:08 [..] Loaded.
+2025-01-05 18:54:08 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-05 18:54:08 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-05 18:54:08 [..] Webserver starting on 4005
+2025-01-05 18:54:08 [..] Server successfully reloaded.
+2025-01-05 18:54:41 [EE] Overwriting existing registered function stopWordFilter
+2025-01-05 18:58:11 [..] Server disconnected from the portal.
+2025-01-05 18:58:11 [..] Main loop terminated.
+2025-01-05 18:58:11 [..] Server Shut Down.
+2025-01-05 18:58:11 [..] Server Shut Down.

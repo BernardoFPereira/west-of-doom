@@ -1,0 +1,241 @@
+|Portal| 2024-12-24 02:44:58 [..] Loaded.
+|Portal| 2024-12-24 02:44:56 [..] Loading /home/beetledjuice/devworks/python/evennia/.evenv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2024-12-24 02:44:58 [..] Loaded.
+|Portal| 2024-12-24 02:44:58 [..] twistd 23.10.0 (/home/beetledjuice/devworks/python/evennia/.evenv/bin/python3 3.12.1) starting up.
+|Portal| 2024-12-24 02:44:58 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2024-12-24 02:44:59 [..] AMP starting on 4006
+|Portal| 2024-12-24 02:44:59 [..] Telnet starting on 4000
+|Portal| 2024-12-24 02:44:59 [..] Websocket starting on 4002
+|Portal| 2024-12-24 02:44:59 [..] Webserver-proxy starting on 4001
+|Portal| 2024-12-24 02:45:00 [..] Portal starting server ... 
+|Portal| 2024-12-24 03:06:06 [..] (TCP Port 4001 Closed)
+|Portal| 2024-12-24 03:06:06 [..] (TCP Port 4002 Closed)
+|Portal| 2024-12-24 03:06:06 [..] (TCP Port 4000 Closed)
+|Portal| 2024-12-24 03:06:06 [..] (TCP Port 4006 Closed)
+|Portal| 2024-12-24 03:06:06 [..] Main loop terminated.
+|Portal| 2024-12-24 03:06:06 [..] Server Shut Down.
+|Portal| 2024-12-24 03:39:01 [..] Loaded.
+|Portal| 2024-12-24 03:38:59 [..] Loading /home/beetledjuice/devworks/python/evennia/.evenv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2024-12-24 03:39:01 [..] Loaded.
+|Portal| 2024-12-24 03:39:01 [..] twistd 23.10.0 (/home/beetledjuice/devworks/python/evennia/.evenv/bin/python3 3.12.1) starting up.
+|Portal| 2024-12-24 03:39:01 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2024-12-24 03:39:01 [..] AMP starting on 4006
+|Portal| 2024-12-24 03:39:01 [..] Telnet starting on 4000
+|Portal| 2024-12-24 03:39:01 [..] Websocket starting on 4002
+|Portal| 2024-12-24 03:39:01 [..] Webserver-proxy starting on 4001
+|Portal| 2024-12-24 03:39:02 [..] Portal starting server ... 
+|Portal| 2024-12-24 03:50:53 [..] Portal starting server ... 
+|Portal| 2024-12-24 03:52:19 [..] Portal starting server ... 
+|Portal| 2024-12-24 03:53:06 [..] Portal starting server ... 
+|Portal| 2024-12-24 03:58:52 [..] Portal starting server ... 
+|Portal| 2024-12-24 04:00:33 [..] Portal starting server ... 
+|Portal| 2024-12-24 04:03:35 [..] Portal starting server ... 
+|Portal| 2024-12-24 23:12:39 [..] Loaded.
+|Portal| 2024-12-24 23:12:37 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2024-12-24 23:12:39 [..] Loaded.
+|Portal| 2024-12-24 23:12:39 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.13.0) starting up.
+|Portal| 2024-12-24 23:12:39 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2024-12-24 23:12:39 [EE] Traceback (most recent call last):
+|Portal| 2024-12-24 23:12:39 [EE]   File "<frozen runpy>", line 198, in _run_module_as_main
+|Portal| 2024-12-24 23:12:39 [EE]   File "<frozen runpy>", line 88, in _run_code
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\scripts\twistd.exe\__main__.py", line 7, in <module>
+|Portal| 2024-12-24 23:12:39 [EE]     sys.exit(run())
+|Portal| 2024-12-24 23:12:39 [EE]              ~~~^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 35, in run
+|Portal| 2024-12-24 23:12:39 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2024-12-24 23:12:39 [EE]     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 673, in run
+|Portal| 2024-12-24 23:12:39 [EE]     runApp(config)
+|Portal| 2024-12-24 23:12:39 [EE]     ~~~~~~^^^^^^^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 29, in runApp
+|Portal| 2024-12-24 23:12:39 [EE]     runner.run()
+|Portal| 2024-12-24 23:12:39 [EE]     ~~~~~~~~~~^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 374, in run
+|Portal| 2024-12-24 23:12:39 [EE]     self.postApplication()
+|Portal| 2024-12-24 23:12:39 [EE]     ~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\_twistw.py", line 51, in postApplication
+|Portal| 2024-12-24 23:12:39 [EE]     service.IService(self.application).privilegedStartService()
+|Portal| 2024-12-24 23:12:39 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2024-12-24 23:12:39 [EE]     service.privilegedStartService()
+|Portal| 2024-12-24 23:12:39 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 90, in privilegedStartService
+|Portal| 2024-12-24 23:12:39 [EE]     self.register_webserver()
+|Portal| 2024-12-24 23:12:39 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 178, in register_webserver
+|Portal| 2024-12-24 23:12:39 [EE]     from evennia.server.webserver import EvenniaReverseProxyResource, Website
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\webserver.py", line 24, in <module>
+|Portal| 2024-12-24 23:12:39 [EE]     from twisted.web import http, resource, server, static
+|Portal| 2024-12-24 23:12:39 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\web\http.py", line 103, in <module>
+|Portal| 2024-12-24 23:12:39 [EE]     import cgi
+|Portal| 2024-12-24 23:12:39 [EE] ModuleNotFoundError: No module named 'cgi'
+|Portal| 2024-12-24 23:13:48 [..] Loaded.
+|Portal| 2024-12-24 23:13:46 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2024-12-24 23:13:48 [..] Loaded.
+|Portal| 2024-12-24 23:13:48 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.13.0) starting up.
+|Portal| 2024-12-24 23:13:48 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2024-12-24 23:13:48 [EE] Traceback (most recent call last):
+|Portal| 2024-12-24 23:13:48 [EE]   File "<frozen runpy>", line 198, in _run_module_as_main
+|Portal| 2024-12-24 23:13:48 [EE]   File "<frozen runpy>", line 88, in _run_code
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\scripts\twistd.exe\__main__.py", line 7, in <module>
+|Portal| 2024-12-24 23:13:48 [EE]     sys.exit(run())
+|Portal| 2024-12-24 23:13:48 [EE]              ~~~^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 35, in run
+|Portal| 2024-12-24 23:13:48 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2024-12-24 23:13:48 [EE]     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 673, in run
+|Portal| 2024-12-24 23:13:48 [EE]     runApp(config)
+|Portal| 2024-12-24 23:13:48 [EE]     ~~~~~~^^^^^^^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 29, in runApp
+|Portal| 2024-12-24 23:13:48 [EE]     runner.run()
+|Portal| 2024-12-24 23:13:48 [EE]     ~~~~~~~~~~^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 374, in run
+|Portal| 2024-12-24 23:13:48 [EE]     self.postApplication()
+|Portal| 2024-12-24 23:13:48 [EE]     ~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\_twistw.py", line 51, in postApplication
+|Portal| 2024-12-24 23:13:48 [EE]     service.IService(self.application).privilegedStartService()
+|Portal| 2024-12-24 23:13:48 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2024-12-24 23:13:48 [EE]     service.privilegedStartService()
+|Portal| 2024-12-24 23:13:48 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 90, in privilegedStartService
+|Portal| 2024-12-24 23:13:48 [EE]     self.register_webserver()
+|Portal| 2024-12-24 23:13:48 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 178, in register_webserver
+|Portal| 2024-12-24 23:13:48 [EE]     from evennia.server.webserver import EvenniaReverseProxyResource, Website
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\webserver.py", line 24, in <module>
+|Portal| 2024-12-24 23:13:48 [EE]     from twisted.web import http, resource, server, static
+|Portal| 2024-12-24 23:13:48 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\web\http.py", line 103, in <module>
+|Portal| 2024-12-24 23:13:48 [EE]     import cgi
+|Portal| 2024-12-24 23:13:48 [EE] ModuleNotFoundError: No module named 'cgi'
+|Portal| 2024-12-24 23:15:24 [..] Loaded.
+|Portal| 2024-12-24 23:15:22 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2024-12-24 23:15:24 [..] Loaded.
+|Portal| 2024-12-24 23:15:24 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.13.0) starting up.
+|Portal| 2024-12-24 23:15:24 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2024-12-24 23:15:24 [EE] Traceback (most recent call last):
+|Portal| 2024-12-24 23:15:24 [EE]   File "<frozen runpy>", line 198, in _run_module_as_main
+|Portal| 2024-12-24 23:15:24 [EE]   File "<frozen runpy>", line 88, in _run_code
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\scripts\twistd.exe\__main__.py", line 7, in <module>
+|Portal| 2024-12-24 23:15:24 [EE]     sys.exit(run())
+|Portal| 2024-12-24 23:15:24 [EE]              ~~~^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 35, in run
+|Portal| 2024-12-24 23:15:24 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2024-12-24 23:15:24 [EE]     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 673, in run
+|Portal| 2024-12-24 23:15:24 [EE]     runApp(config)
+|Portal| 2024-12-24 23:15:24 [EE]     ~~~~~~^^^^^^^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 29, in runApp
+|Portal| 2024-12-24 23:15:24 [EE]     runner.run()
+|Portal| 2024-12-24 23:15:24 [EE]     ~~~~~~~~~~^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 374, in run
+|Portal| 2024-12-24 23:15:24 [EE]     self.postApplication()
+|Portal| 2024-12-24 23:15:24 [EE]     ~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\_twistw.py", line 51, in postApplication
+|Portal| 2024-12-24 23:15:24 [EE]     service.IService(self.application).privilegedStartService()
+|Portal| 2024-12-24 23:15:24 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2024-12-24 23:15:24 [EE]     service.privilegedStartService()
+|Portal| 2024-12-24 23:15:24 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 90, in privilegedStartService
+|Portal| 2024-12-24 23:15:24 [EE]     self.register_webserver()
+|Portal| 2024-12-24 23:15:24 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 178, in register_webserver
+|Portal| 2024-12-24 23:15:24 [EE]     from evennia.server.webserver import EvenniaReverseProxyResource, Website
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\webserver.py", line 24, in <module>
+|Portal| 2024-12-24 23:15:24 [EE]     from twisted.web import http, resource, server, static
+|Portal| 2024-12-24 23:15:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\web\http.py", line 103, in <module>
+|Portal| 2024-12-24 23:15:24 [EE]     import cgi
+|Portal| 2024-12-24 23:15:24 [EE] ModuleNotFoundError: No module named 'cgi'
+|Portal| 2024-12-26 13:21:15 [..] Loaded.
+|Portal| 2024-12-26 13:21:13 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2024-12-26 13:21:15 [..] Loaded.
+|Portal| 2024-12-26 13:21:15 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.13.0) starting up.
+|Portal| 2024-12-26 13:21:15 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2024-12-26 13:21:15 [EE] Traceback (most recent call last):
+|Portal| 2024-12-26 13:21:15 [EE]   File "<frozen runpy>", line 198, in _run_module_as_main
+|Portal| 2024-12-26 13:21:15 [EE]   File "<frozen runpy>", line 88, in _run_code
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\scripts\twistd.exe\__main__.py", line 7, in <module>
+|Portal| 2024-12-26 13:21:15 [EE]     sys.exit(run())
+|Portal| 2024-12-26 13:21:15 [EE]              ~~~^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 35, in run
+|Portal| 2024-12-26 13:21:15 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2024-12-26 13:21:15 [EE]     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 673, in run
+|Portal| 2024-12-26 13:21:15 [EE]     runApp(config)
+|Portal| 2024-12-26 13:21:15 [EE]     ~~~~~~^^^^^^^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 29, in runApp
+|Portal| 2024-12-26 13:21:15 [EE]     runner.run()
+|Portal| 2024-12-26 13:21:15 [EE]     ~~~~~~~~~~^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 374, in run
+|Portal| 2024-12-26 13:21:15 [EE]     self.postApplication()
+|Portal| 2024-12-26 13:21:15 [EE]     ~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\_twistw.py", line 51, in postApplication
+|Portal| 2024-12-26 13:21:15 [EE]     service.IService(self.application).privilegedStartService()
+|Portal| 2024-12-26 13:21:15 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2024-12-26 13:21:15 [EE]     service.privilegedStartService()
+|Portal| 2024-12-26 13:21:15 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 90, in privilegedStartService
+|Portal| 2024-12-26 13:21:15 [EE]     self.register_webserver()
+|Portal| 2024-12-26 13:21:15 [EE]     ~~~~~~~~~~~~~~~~~~~~~~~^^
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 178, in register_webserver
+|Portal| 2024-12-26 13:21:15 [EE]     from evennia.server.webserver import EvenniaReverseProxyResource, Website
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\webserver.py", line 24, in <module>
+|Portal| 2024-12-26 13:21:15 [EE]     from twisted.web import http, resource, server, static
+|Portal| 2024-12-26 13:21:15 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\web\http.py", line 103, in <module>
+|Portal| 2024-12-26 13:21:15 [EE]     import cgi
+|Portal| 2024-12-26 13:21:15 [EE] ModuleNotFoundError: No module named 'cgi'
+|Portal| 2024-12-26 13:28:21 [..] Loaded.
+|Portal| 2024-12-26 13:28:19 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2024-12-26 13:28:21 [..] Loaded.
+|Portal| 2024-12-26 13:28:21 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2024-12-26 13:28:21 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2024-12-26 13:28:21 [..] AMP starting on 4006
+|Portal| 2024-12-26 13:28:21 [..] Telnet starting on 4000
+|Portal| 2024-12-26 13:28:21 [..] Websocket starting on 4002
+|Portal| 2024-12-26 13:28:21 [..] Webserver-proxy starting on 4001
+|Portal| 2024-12-26 13:28:22 [..] Portal starting server ... 
+|Portal| 2024-12-26 13:42:08 [..] (TCP Port 4001 Closed)
+|Portal| 2024-12-26 13:42:08 [..] (TCP Port 4002 Closed)
+|Portal| 2024-12-26 13:42:08 [..] (TCP Port 4000 Closed)
+|Portal| 2024-12-26 13:42:08 [..] (TCP Port 4006 Closed)
+|Portal| 2024-12-26 13:42:08 [..] Main loop terminated.
+|Portal| 2024-12-26 13:42:08 [..] Server Shut Down.
+|Portal| 2024-12-26 13:42:08 [..] Server Shut Down.
+|Portal| 2024-12-27 18:53:24 [..] Loaded.
+|Portal| 2024-12-27 18:53:21 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2024-12-27 18:53:24 [..] Loaded.
+|Portal| 2024-12-27 18:53:24 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2024-12-27 18:53:24 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2024-12-27 18:53:25 [..] AMP starting on 4006
+|Portal| 2024-12-27 18:53:25 [..] Telnet starting on 4000
+|Portal| 2024-12-27 18:53:25 [..] Websocket starting on 4002
+|Portal| 2024-12-27 18:53:25 [..] Webserver-proxy starting on 4001
+|Portal| 2024-12-27 18:53:26 [..] Portal starting server ... 
+|Portal| 2024-12-27 18:59:00 [..] Portal starting server ... 
+|Portal| 2024-12-27 18:59:52 [..] Portal starting server ... 
+|Portal| 2024-12-27 19:07:59 [..] (TCP Port 4001 Closed)
+|Portal| 2024-12-27 19:07:59 [..] (TCP Port 4000 Closed)
+|Portal| 2024-12-27 19:07:59 [..] (TCP Port 4006 Closed)
+|Portal| 2024-12-27 19:07:59 [..] (TCP Port 4002 Closed)
+|Portal| 2024-12-27 19:07:59 [..] Main loop terminated.
+|Portal| 2024-12-27 19:07:59 [..] Server Shut Down.
+|Portal| 2024-12-27 19:07:59 [..] Server Shut Down.
+|Portal| 2024-12-27 19:21:43 [..] Loaded.
+|Portal| 2024-12-27 19:21:41 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2024-12-27 19:21:43 [..] Loaded.
+|Portal| 2024-12-27 19:21:43 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2024-12-27 19:21:43 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2024-12-27 19:21:44 [..] AMP starting on 4006
+|Portal| 2024-12-27 19:21:44 [..] Telnet starting on 4000
+|Portal| 2024-12-27 19:21:44 [..] Websocket starting on 4002
+|Portal| 2024-12-27 19:21:44 [..] Webserver-proxy starting on 4001
+|Portal| 2024-12-27 19:21:44 [..] Portal starting server ... 
+|Portal| 2024-12-27 20:02:42 [..] (TCP Port 4001 Closed)
+|Portal| 2024-12-27 20:02:42 [..] (TCP Port 4002 Closed)
+|Portal| 2024-12-27 20:02:42 [..] (TCP Port 4000 Closed)
+|Portal| 2024-12-27 20:02:42 [..] (TCP Port 4006 Closed)
+|Portal| 2024-12-27 20:02:42 [..] Main loop terminated.
+|Portal| 2024-12-27 20:02:42 [..] Server Shut Down.
+|Portal| 2024-12-27 20:02:42 [..] Server Shut Down.

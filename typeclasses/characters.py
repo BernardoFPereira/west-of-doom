@@ -11,8 +11,85 @@ import random
 from evennia.objects.objects import DefaultCharacter
 from .objects import ObjectParent
 from django.utils.translation import gettext as _
+from rules import dice
 
-class Character(ObjectParent, DefaultCharacter):
+class LivingMixin:
+    is_pc = False
+    
+    @property
+    def hurt_level(self):
+        """
+        String describing how hurt this character is.
+        """
+        
+        percent = max(0, min(100, 100 * (self.hp / self.hp_max)))
+        if 95 < percent <= 100:
+            return "|gUnharmed|n"
+        elif 80 < percent <= 95:
+            return "|gScraped|n"
+        elif 60 < percent <= 80:
+            return "|GBruised|n"
+        elif 45 < percent <= 60:
+            return "|yHurt|n"
+        elif 30 < percent <= 45:
+            return "|yWounded|n"
+        elif 15 < percent <= 30:
+            return "|rBadly wounded|n"
+        elif 1 < percent < 15:
+            return "|rBarely hanging on|n"
+        elif percent == 0:
+            return "|RCollapsed!|n"
+
+    def heal(self, hp):
+        """
+        Heal hp amount of health, not allowing to exceed our max hp
+        """
+        damage = self.hp_max - self.hp
+        healed = min(damage, hp)
+        self.hp += healed
+
+        self.msg(f"You heal for {healed} HP.")
+
+    def at_attacked(self, attacker, **kwargs):
+        """
+        Called when being attacked and combat starts
+        """
+        pass
+
+    def at_damage(self, damage, attacker=None):
+        """Called when attacked and taking damage"""
+        self.hp -= damage
+
+    def at_defeat(self):
+        """
+        Called when defeated. By default this means death
+        """
+        self.at_death()
+
+    def at_death(self):
+        """Called when this thing dies."""
+        # this will mean different things for different living things
+        pass
+
+    def at_do_loot(self, looted):
+        looted.at_looted(self)
+
+    def at_looted(self, looter):
+        """Called when looted by another entity"""
+
+        # default to stealing some coins
+        max_steal = dice.roll("1d10")
+        stolen = self.at_pay(max_steal)
+        looter.coins += stolen
+
+    def at_pay(self, amount):
+        """When paying coins, make sure to never detract more than we have"""
+        amount = min(amount, self.coins)
+        self.coins -= amount
+        return amount
+    
+    
+class Character(ObjectParent, LivingMixin, DefaultCharacter):
     """
     The Character defaults to reimplementing some of base Object's hook methods with the
     following functionality:
@@ -41,6 +118,8 @@ class Character(ObjectParent, DefaultCharacter):
 {footer}
     """
 
+    is_pc = True
+
     def at_object_creation(self):
         self.db.gender = 'male'
         self.db.stance = 'standing'
@@ -61,7 +140,7 @@ class Character(ObjectParent, DefaultCharacter):
                                                          sneak = 'S' if self.ndb.sneaking else "",
                                                          swim = 'W' if self.db.will_swim else "",
                                                          )
-        prompt_ending = "> "
+        prompt_ending = ">\n"
 
         prompt = prompt_room_info + prompt_sep + prompt_char_stats + prompt_sep + prompt_ending
         if not prompt_char_stats:
@@ -223,3 +302,4 @@ class Character(ObjectParent, DefaultCharacter):
             self.execute_cmd("abandon")
 
         return super().at_post_unpuppet(account, session, **kwargs)
+

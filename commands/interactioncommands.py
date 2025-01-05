@@ -50,7 +50,7 @@ class CmdObjOpen(MuxCommand):
         if target.db.is_open == False:
             open_msg = f"$You() $conj(open) the {target_name}."
 
-            if self.exit:
+            if self.exit or target.is_typeclass('typeclasses.doors.Door'):
                 target_name = target.db.door_name
                 target.destination.msg_contents(f"Someone opened the {target_name} from the other side")
 
@@ -112,7 +112,7 @@ class CmdObjClose(MuxCommand):
         if target.db.is_open:
             close_msg = f"$You() $conj(close) the {target_name}."
 
-            if self.exit:
+            if self.exit or target.is_typeclass('typeclasses.doors.Door'):
                 target_name = target.db.door_name
                 target.destination.msg_contents(f"Someone closed the {target_name} from the other side")
 
@@ -171,7 +171,7 @@ class CmdPut(MuxCommand):
 
         targ_item[0].location = targ_container
 
-        caller.location.msg_contents(f"$You() $conj(put) $obj(target) in the $obj(container).",
+        caller.location.msg_contents("$You() $conj(put) $obj(target) in the $obj(container).",
                                      from_obj=caller,
                                      mapping={'target':targ_item[0].get_numbered_name(1,caller)[0],'container':targ_container.get_display_name()}
                                     )
@@ -215,7 +215,7 @@ class CustomCmdGet(MuxCommand):
                 return caller.msg(f"There's no '{container}' around.")
 
             if not targ_container[0].is_typeclass('typeclasses.containers.Container'):
-                return caller.msg(f"You can't do that!")
+                return caller.msg("You can't do that!")
             
             if not targ_container[0].db.is_open:
                 return caller.msg(f"The {targ_container[0].name} is closed!")
