@@ -1,14 +1,17 @@
 from evennia.utils.funcparser import FuncParser
 from evennia.utils.funcparser import funcparser_callable_an
 
-from typeclasses.characters import Character
+from typeclasses.characters import Character, LivingMixin
+from typeclasses.mounts import Mount
 from utils.utils import iter_to_multiline
+
+from django.utils.translation import gettext as _
 
 from random import randint
 
 parser = FuncParser({"an": funcparser_callable_an})
 
-class Animal(Character):
+class Animal(Character, LivingMixin):
     '''
     This is a base class for Animals.
 
@@ -89,6 +92,13 @@ class Animal(Character):
             article, color_name = full_color_name.split(' ', 1)
             display_name = f"{article} {color_name} |h{self.key}|H"
         else:
+            self.appearance_template =  """
+|B{name}|n
+{header}
+{desc}{characters}{things}
+{exits}
+{footer}
+            """
             display_name += " the {animal}".format(animal = self.animal_type)
 
         if looker:
@@ -102,8 +112,8 @@ class Animal(Character):
     #     desc = self.db.desc, self.db.desc_appearance
     #     return iter_to_multiline(desc)
     
-    def move_around(self):
-        print(f'{self.key} is moving!')
+    # def move_around(self):
+    #     print(f'{self.key} is moving!')
 
     def generate_animal(self):
         full_animal_type = parser.parse(f"$an({self.animal_type})").capitalize()
@@ -117,7 +127,7 @@ class Animal(Character):
         
         animal_description = (
             "{animal} with {color} fur, {density} and {length}."
-            .format(animal=full_animal_type, color=traits['fur_color'], density=traits['fur_density'], pattern=traits['fur_pattern'], length=traits['fur_length']) 
+            .format(animal=full_animal_type, color=traits['fur_color'], density=traits['fur_density'], length=traits['fur_length']) 
                     if traits['fur_length'] != 'medium'
                     else ("{animal} with {color}, {density} fur."
                      .format(animal=full_animal_type, color=traits['fur_color'], density=traits['fur_density'])
@@ -231,3 +241,80 @@ class Cat(Animal):
     #     super().at_object_creation()
     #     self.db.desc = cat_description        
     #     return
+
+class Dog(Animal):
+    '''
+    Dogs! Man's best friend.
+    '''
+    _content_types = ("animal",)
+
+    trait_options = {
+        'fur_color':['black','white','grey','auburn','silver','dark grey','orange','brown'],
+        'fur_density':['feathery','fuzzy','thick','thin','straight'],
+        'fur_pattern':['spotted','plain'],
+        'fur_length':['short','medium','long'],
+        'skin_color':['beige','black','grey'],
+        }
+
+    
+class Horse(Animal, Mount):
+    '''
+    The standard mount in the Doomland.
+    '''
+    _content_types = ("mount",)
+    
+    trait_options = {
+        'fur_color':['black','white','grey','auburn','dark grey','brown'],
+        'fur_density':['feathery','fuzzy','thick','thin','straight'],
+        'fur_pattern':['spotted','plain'],
+        'mane_style':['straight', 'braided', 'fuzzy', 'scraggly', 'wavy'],
+        'mane_length':['short','medium','long'],
+        'skin_color':['beige','black','grey'],
+        }
+        
+    def generate_animal(self):
+            full_animal_type = parser.parse(f"$an({self.animal_type})").capitalize()
+
+            trait_options = self.trait_options
+            traits = {}
+        
+            for trait in trait_options:
+                rand_index = randint(0, len(trait_options[trait])-1)
+                traits[trait] = (trait_options[trait][rand_index])
+        
+            animal_description = (
+                "{animal} with {color} and {density} fur, with a {style} {length} mane."
+                .format(animal=full_animal_type, color=traits['fur_color'], density=traits['fur_density'], length=traits['mane_length'], style=traits['mane_style']) 
+                )
+
+            self.db.appearance = {
+                'color':traits['fur_color'],
+                'density':traits['fur_density'],
+                'style':traits['mane_style'],
+                'length':traits['mane_length'],
+                }
+            
+            if traits['fur_pattern'] != 'plain':
+                secondary_color = trait_options['fur_color'][randint(0,len(trait_options[trait])-1)]
+
+                if secondary_color == traits['fur_color']:
+                    while secondary_color == traits['fur_color']:
+                        secondary_color = trait_options['fur_color'][randint(0,len(trait_options[trait])-1)]
+
+                animal_description = (
+                    "{animal} with {density} fur, {color1} and {color2} in a {pattern} pattern with a {style}, {length} mane."
+                    .format(animal=full_animal_type, color1=traits['fur_color'], color2=secondary_color,
+                            density=traits['fur_density'], pattern=traits['fur_pattern'],
+                            length=traits['mane_length'], style=traits['mane_style'])
+                    )
+            
+                self.db.appearance = {
+                    'color':traits['fur_color'],
+                    'density':traits['fur_density'],
+                    'pattern':traits['fur_pattern'],
+                    'length':traits['mane_length'],
+                    'style':traits['mane_style'],
+                    }
+
+            self.db.desc = animal_description
+            

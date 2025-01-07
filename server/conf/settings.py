@@ -32,8 +32,8 @@ from evennia.settings_default import *
 ######################################################################
 
 # This is the name of your game. Make it catchy!
-SERVERNAME = "Super Duper Tutorial Doober"
-GAME_SLOGAN = "The Tutorial Project!"
+SERVERNAME = "West of Doom"
+GAME_SLOGAN = "Where you can find the bad, the worse and the terrible!"
 
 COMMAND_DEFAULT_CLASS = "commands.command.MuxCommand"
 

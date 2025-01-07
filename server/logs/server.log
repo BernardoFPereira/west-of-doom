@@ -1043,3 +1043,1076 @@ secret_settings.py file not found or failed to import.
 2025-01-05 18:58:11 [..] Main loop terminated.
 2025-01-05 18:58:11 [..] Server Shut Down.
 2025-01-05 18:58:11 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-06 19:34:24 [..] Loaded.
+2025-01-06 19:34:24 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-06 19:34:24 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-06 19:34:24 [..] Webserver starting on 4005
+2025-01-06 19:34:24 [..] Evennia Server successfully started.
+2025-01-06 19:34:50 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-06 19:34:50 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-06 19:35:44 [SS] Authentication Success: deputy(account 2) (IP: 127.0.0.1).
+2025-01-06 19:35:44 [..] Logged in: deputy(account 2) 127.0.0.1 (1 session(s) total)
+2025-01-06 19:36:34 [..] Logged out: deputy(account 2) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-06 19:37:16 [..] Server disconnected from the portal.
+2025-01-06 19:37:16 [..] Main loop terminated.
+2025-01-06 19:37:16 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:37:19 [..] Loaded.
+2025-01-06 19:37:17 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-06 19:37:19 [..] Loaded.
+2025-01-06 19:37:19 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-06 19:37:19 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-06 19:37:19 [..] Webserver starting on 4005
+2025-01-06 19:37:19 [..] Server successfully reloaded.
+2025-01-06 19:37:28 [SS] Authentication Success: deputy(account 2) (IP: 127.0.0.1).
+2025-01-06 19:37:28 [..] Logged in: deputy(account 2) 127.0.0.1 (1 session(s) total)
+2025-01-06 19:38:40 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+6 19:38:40 [..] Server Shut Down.
+2025-01-06 19:38:40 [..] Server Shut Down.
+2025-01-06 19:38:43 [..] Loaded.
+2025-01-06 19:38:41 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-06 19:38:43 [..] Loaded.
+2025-01-06 19:38:43 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-06 19:38:43 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-06 19:38:43 [..] Webserver starting on 4005
+2025-01-06 19:38:43 [..] Server successfully reloaded.
+2025-01-06 19:40:02 [..] Server disconnected from the portal.
+2025-01-06 19:40:02 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:40:02 [..] Server Shut Down.
+2025-01-06 19:40:04 [..] Loaded.
+2025-01-06 19:40:02 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-06 19:40:04 [..] Loaded.
+2025-01-06 19:40:04 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-06 19:40:04 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-06 19:40:04 [..] Webserver starting on 4005
+2025-01-06 19:40:04 [..] Server successfully reloaded.
+2025-01-06 19:41:35 [..] Server disconnected from the portal.
+2025-01-06 19:41:35 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:41:35 [..] Server Shut Down.
+2025-01-06 19:41:38 [..] Loaded.
+2025-01-06 19:41:36 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-06 19:41:38 [..] Loaded.
+2025-01-06 19:41:38 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-06 19:41:38 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-06 19:41:38 [..] Webserver starting on 4005
+2025-01-06 19:41:38 [..] Server successfully reloaded.
+2025-01-06 19:42:16 [..] Logged out: deputy(account 2) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-06 19:42:18 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-06 19:42:27 [..] Server disconnected from the portal.
+2025-01-06 19:42:27 [..] Main loop terminated.
+2025-01-06 19:42:27 [..] Server Shut Down.
+2025-01-06 19:42:27 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-06 20:56:48 [..] Loaded.
+2025-01-06 20:56:48 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-06 20:56:48 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-06 20:56:48 [..] Webserver starting on 4005
+2025-01-06 20:56:48 [..] Evennia Server successfully started.
+2025-01-06 20:56:54 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-06 20:56:54 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-06 20:59:32 [..] Server disconnected from the portal.
+2025-01-06 20:59:32 [..] Main loop terminated.
+2025-01-06 20:59:32 [..] Server Shut Down.
+2025-01-06 20:59:32 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:29:37 [..] Loaded.
+2025-01-07 16:29:37 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:29:37 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:29:37 [..] Webserver starting on 4005
+2025-01-07 16:29:37 [..] Evennia Server successfully started.
+2025-01-07 16:29:47 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-07 16:29:47 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-07 16:30:04 [EE] Overwriting existing registered function stopWordFilter
+2025-01-07 16:33:43 [EE] 'fur_length'
+2025-01-07 16:34:17 [..] Server disconnected from the portal.
+2025-01-07 16:34:17 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:34:17 [..] Server Shut Down.
+2025-01-07 16:34:20 [..] Loaded.
+2025-01-07 16:34:18 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:34:20 [..] Loaded.
+2025-01-07 16:34:20 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:34:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:34:21 [..] Webserver starting on 4005
+2025-01-07 16:34:21 [..] Server successfully reloaded.
+2025-01-07 16:36:03 [EE] 'mane_pattern'
+2025-01-07 16:36:40 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 16:36:40 [..] Server Shut Down.
+2025-01-07 16:36:40 [..] Server Shut Down.
+2025-01-07 16:36:43 [..] Loaded.
+2025-01-07 16:36:41 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:36:43 [..] Loaded.
+2025-01-07 16:36:43 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:36:43 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:36:43 [..] Webserver starting on 4005
+2025-01-07 16:36:43 [..] Server successfully reloaded.
+2025-01-07 16:39:27 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 16:39:27 [..] Server Shut Down.
+2025-01-07 16:39:27 [..] Server Shut Down.
+2025-01-07 16:39:30 [..] Loaded.
+2025-01-07 16:39:27 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:39:30 [..] Loaded.
+2025-01-07 16:39:30 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:39:30 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:39:30 [..] Webserver starting on 4005
+2025-01-07 16:39:30 [..] Server successfully reloaded.
+2025-01-07 16:39:34 [!!] Traceback (most recent call last):
+2025-01-07 16:39:34 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 16:39:34 [!!]     ret = cmd.func()
+2025-01-07 16:39:34 [!!]           ^^^^^^^^^^
+2025-01-07 16:39:34 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 111, in func
+2025-01-07 16:39:34 [!!]     if not target_mount[0].is_typeclass(Mount):
+2025-01-07 16:39:34 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 16:39:34 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 16:39:34 [!!]     typeclass = [typeclass.path]
+2025-01-07 16:39:34 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 16:39:34 [!!] AttributeError: type object 'Mount' has no attribute 'path'
+2025-01-07 16:39:34 [EE] User input was: 'lead horse'.
+2025-01-07 16:39:47 [!!] Traceback (most recent call last):
+2025-01-07 16:39:47 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 16:39:47 [!!]     ret = cmd.func()
+2025-01-07 16:39:47 [!!]           ^^^^^^^^^^
+2025-01-07 16:39:47 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 50, in func
+2025-01-07 16:39:47 [!!]     if not target_mount.is_typeclass(Mount):
+2025-01-07 16:39:47 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 16:39:47 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 16:39:47 [!!]     typeclass = [typeclass.path]
+2025-01-07 16:39:47 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 16:39:47 [!!] AttributeError: type object 'Mount' has no attribute 'path'
+2025-01-07 16:39:47 [EE] User input was: 'ride horse'.
+2025-01-07 16:41:39 [..] Server disconnected from the portal.
+2025-01-07 16:41:39 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:41:39 [..] Server Shut Down.
+2025-01-07 16:41:42 [..] Loaded.
+2025-01-07 16:41:40 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:41:42 [..] Loaded.
+2025-01-07 16:41:42 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:41:42 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:41:43 [..] Webserver starting on 4005
+2025-01-07 16:41:43 [..] Server successfully reloaded.
+2025-01-07 16:42:30 [EE] Overwriting existing registered function stopWordFilter
+2025-01-07 16:44:27 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 16:44:27 [..] Server Shut Down.
+2025-01-07 16:44:27 [..] Server Shut Down.
+2025-01-07 16:44:30 [..] Loaded.
+2025-01-07 16:44:28 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:44:30 [..] Loaded.
+2025-01-07 16:44:30 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:44:30 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:44:30 [..] Webserver starting on 4005
+2025-01-07 16:44:30 [..] Server successfully reloaded.
+2025-01-07 16:45:14 [..] Server disconnected from the portal.
+2025-01-07 16:45:14 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:45:14 [..] Server Shut Down.
+2025-01-07 16:45:17 [..] Loaded.
+2025-01-07 16:45:15 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:45:17 [..] Loaded.
+2025-01-07 16:45:17 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:45:17 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:45:17 [..] Webserver starting on 4005
+2025-01-07 16:45:17 [..] Server successfully reloaded.
+2025-01-07 16:45:30 [!!] Traceback (most recent call last):
+2025-01-07 16:45:30 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 16:45:30 [!!]     ret = cmd.func()
+2025-01-07 16:45:30 [!!]           ^^^^^^^^^^
+2025-01-07 16:45:30 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 111, in func
+2025-01-07 16:45:30 [!!]     if not target_mount[0].is_typeclass(Mount):
+2025-01-07 16:45:30 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 16:45:30 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 16:45:30 [!!]     typeclass = [typeclass.path]
+2025-01-07 16:45:30 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 16:45:30 [!!] AttributeError: type object 'Mount' has no attribute 'path'
+2025-01-07 16:45:30 [EE] User input was: 'lead horse'.
+2025-01-07 16:55:44 [..] Server disconnected from the portal.
+2025-01-07 16:55:44 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:55:44 [..] Server Shut Down.
+2025-01-07 16:55:47 [..] Loaded.
+2025-01-07 16:55:45 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:55:47 [..] Loaded.
+2025-01-07 16:55:47 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:55:47 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:55:47 [..] Webserver starting on 4005
+2025-01-07 16:55:47 [..] Server successfully reloaded.
+2025-01-07 16:55:53 [!!] Traceback (most recent call last):
+2025-01-07 16:55:53 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 16:55:53 [!!]     ret = cmd.func()
+2025-01-07 16:55:53 [!!]           ^^^^^^^^^^
+2025-01-07 16:55:53 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 112, in func
+2025-01-07 16:55:53 [!!]     if not target_mount[0].is_typeclass(Mount):
+2025-01-07 16:55:53 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 16:55:53 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 16:55:53 [!!]     typeclass = [typeclass.path]
+2025-01-07 16:55:53 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 16:55:53 [!!] AttributeError: type object 'Mount' has no attribute 'path'
+2025-01-07 16:55:53 [EE] User input was: 'lead horse'.
+2025-01-07 16:56:56 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 16:56:56 [..] Server Shut Down.
+2025-01-07 16:56:56 [..] Server Shut Down.
+2025-01-07 16:57:00 [..] Loaded.
+2025-01-07 16:56:57 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 16:57:00 [..] Loaded.
+2025-01-07 16:57:00 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 16:57:00 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 16:57:00 [..] Webserver starting on 4005
+2025-01-07 16:57:00 [..] Server successfully reloaded.
+2025-01-07 16:57:26 [!!] Traceback (most recent call last):
+2025-01-07 16:57:26 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 299, in set_class_from_typeclass
+2025-01-07 16:57:26 [!!]     self.__dbclass__ = self._meta.concrete_model or self.__class__
+2025-01-07 16:57:26 [!!]                        ^^^^^^^^^^
+2025-01-07 16:57:26 [!!] AttributeError: 'Mount' object has no attribute '_meta'. Did you mean: 'Meta'?
+2025-01-07 16:57:26 [!!] Critical: Class <class 'typeclasses.mounts.Mount'> of horse is not a valid typeclass!
+2025-01-07 16:57:26 [!!] Temporarily falling back to <class 'evennia.objects.objects.DefaultObject'>.
+2025-01-07 17:00:33 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 17:00:33 [..] Server Shut Down.
+2025-01-07 17:00:33 [..] Server Shut Down.
+2025-01-07 17:00:36 [..] Loaded.
+2025-01-07 17:00:33 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:00:36 [..] Loaded.
+2025-01-07 17:00:36 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:00:36 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:00:36 [..] Webserver starting on 4005
+2025-01-07 17:00:36 [..] Server successfully reloaded.
+2025-01-07 17:01:41 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 17:01:41 [..] Server Shut Down.
+2025-01-07 17:01:41 [..] Server Shut Down.
+2025-01-07 17:01:44 [..] Loaded.
+2025-01-07 17:01:42 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:01:44 [..] Loaded.
+2025-01-07 17:01:44 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:01:44 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:01:44 [..] Webserver starting on 4005
+2025-01-07 17:01:44 [..] Server successfully reloaded.
+2025-01-07 17:03:37 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 17:03:37 [..] Server Shut Down.
+2025-01-07 17:03:37 [..] Server Shut Down.
+2025-01-07 17:03:40 [..] Loaded.
+2025-01-07 17:03:38 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:03:40 [..] Loaded.
+2025-01-07 17:03:40 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:03:40 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:03:40 [..] Webserver starting on 4005
+2025-01-07 17:03:40 [..] Server successfully reloaded.
+2025-01-07 17:04:38 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 17:04:38 [..] Server Shut Down.
+2025-01-07 17:04:38 [..] Server Shut Down.
+2025-01-07 17:04:41 [..] Loaded.
+2025-01-07 17:04:39 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:04:41 [..] Loaded.
+2025-01-07 17:04:41 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:04:41 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:04:41 [..] Webserver starting on 4005
+2025-01-07 17:04:41 [..] Server successfully reloaded.
+2025-01-07 17:04:45 [!!] Traceback (most recent call last):
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1322, in move_to
+2025-01-07 17:04:45 [!!]     self.at_post_move(source_location, move_type=move_type, **kwargs)
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\characters.py", line 191, in at_post_move
+2025-01-07 17:04:45 [!!]     super().at_post_move(source_location, move_type)
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 3220, in at_post_move
+2025-01-07 17:04:45 [!!]     self.msg(text=(self.at_look(self.location), {"type": "look"}))
+2025-01-07 17:04:45 [!!]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 2671, in at_look
+2025-01-07 17:04:45 [!!]     description = target.return_appearance(self, **kwargs)
+2025-01-07 17:04:45 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1907, in return_appearance
+2025-01-07 17:04:45 [!!]     characters=self.get_display_characters(looker, **kwargs),
+2025-01-07 17:04:45 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 65, in get_display_characters
+2025-01-07 17:04:45 [!!]     mount_names = iter_to_multiline(
+2025-01-07 17:04:45 [!!]                   ^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 26, in iter_to_multiline
+2025-01-07 17:04:45 [!!]     iterable = list(make_iter(iterable))
+2025-01-07 17:04:45 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 66, in <genexpr>
+2025-01-07 17:04:45 [!!]     (f"{capitalize_name(mount, looker)} is {mount.db.stance} here.")
+2025-01-07 17:04:45 [!!]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:45 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 45, in capitalize_name
+2025-01-07 17:04:45 [!!]     return (obj.get_display_name(looker)[0].upper() + obj.get_display_name(looker)[1:])
+2025-01-07 17:04:45 [!!]             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+2025-01-07 17:04:45 [!!] TypeError: 'NoneType' object is not subscriptable
+2025-01-07 17:04:50 [!!] Traceback (most recent call last):
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 17:04:50 [!!]     ret = cmd.func()
+2025-01-07 17:04:50 [!!]           ^^^^^^^^^^
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\default\general.py", line 90, in func
+2025-01-07 17:04:50 [!!]     desc = caller.at_look(target)
+2025-01-07 17:04:50 [!!]            ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 2671, in at_look
+2025-01-07 17:04:50 [!!]     description = target.return_appearance(self, **kwargs)
+2025-01-07 17:04:50 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1907, in return_appearance
+2025-01-07 17:04:50 [!!]     characters=self.get_display_characters(looker, **kwargs),
+2025-01-07 17:04:50 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 65, in get_display_characters
+2025-01-07 17:04:50 [!!]     mount_names = iter_to_multiline(
+2025-01-07 17:04:50 [!!]                   ^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 26, in iter_to_multiline
+2025-01-07 17:04:50 [!!]     iterable = list(make_iter(iterable))
+2025-01-07 17:04:50 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 66, in <genexpr>
+2025-01-07 17:04:50 [!!]     (f"{capitalize_name(mount, looker)} is {mount.db.stance} here.")
+2025-01-07 17:04:50 [!!]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:04:50 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 45, in capitalize_name
+2025-01-07 17:04:50 [!!]     return (obj.get_display_name(looker)[0].upper() + obj.get_display_name(looker)[1:])
+2025-01-07 17:04:50 [!!]             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+2025-01-07 17:04:50 [!!] TypeError: 'NoneType' object is not subscriptable
+2025-01-07 17:04:50 [EE] User input was: 'l'.
+2025-01-07 17:05:17 [..] Server disconnected from the portal.
+2025-01-07 17:05:17 [..] Main loop terminated.
+2025-01-07 17:05:17 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:05:20 [..] Loaded.
+2025-01-07 17:05:18 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:05:20 [..] Loaded.
+2025-01-07 17:05:20 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:05:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:05:20 [..] Webserver starting on 4005
+2025-01-07 17:05:20 [..] Server successfully reloaded.
+2025-01-07 17:05:22 [!!] Traceback (most recent call last):
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 17:05:22 [!!]     ret = cmd.func()
+2025-01-07 17:05:22 [!!]           ^^^^^^^^^^
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\default\general.py", line 90, in func
+2025-01-07 17:05:22 [!!]     desc = caller.at_look(target)
+2025-01-07 17:05:22 [!!]            ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 2671, in at_look
+2025-01-07 17:05:22 [!!]     description = target.return_appearance(self, **kwargs)
+2025-01-07 17:05:22 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1907, in return_appearance
+2025-01-07 17:05:22 [!!]     characters=self.get_display_characters(looker, **kwargs),
+2025-01-07 17:05:22 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 65, in get_display_characters
+2025-01-07 17:05:22 [!!]     mount_names = iter_to_multiline(
+2025-01-07 17:05:22 [!!]                   ^^^^^^^^^^^^^^^^^^
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 26, in iter_to_multiline
+2025-01-07 17:05:22 [!!]     iterable = list(make_iter(iterable))
+2025-01-07 17:05:22 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 66, in <genexpr>
+2025-01-07 17:05:22 [!!]     (f"{capitalize_name(mount, looker)} is {mount.db.stance} here.")
+2025-01-07 17:05:22 [!!]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:05:22 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 45, in capitalize_name
+2025-01-07 17:05:22 [!!]     return (obj.get_display_name(looker)[0].upper() + obj.get_display_name(looker)[1:])
+2025-01-07 17:05:22 [!!]             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+2025-01-07 17:05:22 [!!] IndexError: string index out of range
+2025-01-07 17:05:22 [EE] User input was: 'l'.
+2025-01-07 17:05:56 [..] Server disconnected from the portal.
+2025-01-07 17:05:56 [..] Main loop terminated.
+2025-01-07 17:05:56 [..] Server Shut Down.
+2025-01-07 17:05:56 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:05:59 [..] Loaded.
+2025-01-07 17:05:59 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:05:59 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:05:59 [..] Webserver starting on 4005
+2025-01-07 17:05:59 [..] Server successfully reloaded.
+2025-01-07 17:06:00 [!!] Traceback (most recent call last):
+2025-01-07 17:06:00 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 299, in set_class_from_typeclass
+2025-01-07 17:06:00 [!!]     self.__dbclass__ = self._meta.concrete_model or self.__class__
+2025-01-07 17:06:00 [!!]                        ^^^^^^^^^^
+2025-01-07 17:06:00 [!!] AttributeError: 'Mount' object has no attribute '_meta'. Did you mean: 'Meta'?
+2025-01-07 17:06:00 [!!] Critical: Class <class 'typeclasses.mounts.Mount'> of horse is not a valid typeclass!
+2025-01-07 17:06:00 [!!] Temporarily falling back to <class 'evennia.objects.objects.DefaultObject'>.
+2025-01-07 17:06:05 [!!] Traceback (most recent call last):
+2025-01-07 17:06:05 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 299, in set_class_from_typeclass
+2025-01-07 17:06:05 [!!]     self.__dbclass__ = self._meta.concrete_model or self.__class__
+2025-01-07 17:06:05 [!!]                        ^^^^^^^^^^
+2025-01-07 17:06:05 [!!] AttributeError: 'Horse' object has no attribute '_meta'. Did you mean: 'Meta'?
+2025-01-07 17:06:05 [!!] Critical: Class <class 'typeclasses.animals.Horse'> of horse is not a valid typeclass!
+2025-01-07 17:06:05 [!!] Temporarily falling back to <class 'evennia.objects.objects.DefaultObject'>.
+2025-01-07 17:06:19 [!!] Traceback (most recent call last):
+2025-01-07 17:06:19 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 17:06:19 [!!]     ret = cmd.func()
+2025-01-07 17:06:19 [!!]           ^^^^^^^^^^
+2025-01-07 17:06:19 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 112, in func
+2025-01-07 17:06:19 [!!]     if not target_mount[0].is_typeclass(Horse):
+2025-01-07 17:06:19 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:06:19 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 17:06:19 [!!]     typeclass = [typeclass.path]
+2025-01-07 17:06:19 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 17:06:19 [!!] AttributeError: type object 'Horse' has no attribute 'path'
+2025-01-07 17:06:19 [EE] User input was: 'lead horse'.
+2025-01-07 17:06:24 [!!] Traceback (most recent call last):
+2025-01-07 17:06:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 17:06:24 [!!]     ret = cmd.func()
+2025-01-07 17:06:24 [!!]           ^^^^^^^^^^
+2025-01-07 17:06:24 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 112, in func
+2025-01-07 17:06:24 [!!]     if not target_mount[0].is_typeclass(Horse):
+2025-01-07 17:06:24 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:06:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 17:06:24 [!!]     typeclass = [typeclass.path]
+2025-01-07 17:06:24 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 17:06:24 [!!] AttributeError: type object 'Horse' has no attribute 'path'
+2025-01-07 17:06:24 [EE] User input was: 'lead horse'.
+2025-01-07 17:06:48 [..] Server disconnected from the portal.
+2025-01-07 17:06:48 [..] Main loop terminated.
+2025-01-07 17:06:48 [..] Server Shut Down.
+2025-01-07 17:06:48 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:06:51 [..] Loaded.
+2025-01-07 17:06:51 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:06:51 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:06:51 [..] Webserver starting on 4005
+2025-01-07 17:06:51 [..] Server successfully reloaded.
+2025-01-07 17:07:49 [EE] Overwriting existing registered function stopWordFilter
+2025-01-07 17:14:57 [..] Server disconnected from the portal.
+2025-01-07 17:14:57 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:14:57 [..] Server Shut Down.
+2025-01-07 17:15:00 [..] Loaded.
+2025-01-07 17:14:58 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:15:00 [..] Loaded.
+2025-01-07 17:15:00 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:15:00 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:15:00 [..] Webserver starting on 4005
+2025-01-07 17:15:00 [..] Server successfully reloaded.
+2025-01-07 17:15:55 [..] Server disconnected from the portal.
+2025-01-07 17:15:55 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:15:55 [..] Server Shut Down.
+2025-01-07 17:15:58 [..] Loaded.
+2025-01-07 17:15:56 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:15:58 [..] Loaded.
+2025-01-07 17:15:58 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:15:58 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:15:58 [..] Webserver starting on 4005
+2025-01-07 17:15:58 [..] Server successfully reloaded.
+2025-01-07 17:20:03 [..] Server disconnected from the portal.
+2025-01-07 17:20:03 [..] Main loop terminated.
+2025-01-07 17:20:03 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:20:06 [..] Loaded.
+2025-01-07 17:20:03 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:20:06 [..] Loaded.
+2025-01-07 17:20:06 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:20:06 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:20:06 [..] Webserver starting on 4005
+2025-01-07 17:20:06 [..] Server successfully reloaded.
+None2025-01-07 17:20:24 [EE] Could not load typeclass 'typeclass.animals.Horse'.
+None2025-01-07 17:20:24 [EE] Could not load typeclass 'typeclass.animals.Horse'
+2025-01-07 17:20:24 [EE] Paths searched:
+2025-01-07 17:20:24 [EE]     typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     typeclasses.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     evennia.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     evennia.contrib.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     evennia.contrib.game_systems.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     evennia.contrib.base_systems.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     evennia.contrib.full_systems.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     evennia.contrib.tutorials.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE]     evennia.contrib.utils.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!] Traceback (most recent call last):
+2025-01-07 17:20:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 632, in _run_command
+2025-01-07 17:20:24 [!!]     _progressive_cmd_run(cmd, ret)
+2025-01-07 17:20:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 237, in _progressive_cmd_run
+2025-01-07 17:20:24 [!!]     value = next(generator)
+2025-01-07 17:20:24 [!!]             ^^^^^^^^^^^^^^^
+2025-01-07 17:20:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\default\building.py", line 2396, in func
+2025-01-07 17:20:24 [!!]     obj.swap_typeclass(
+2025-01-07 17:20:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 630, in swap_typeclass
+2025-01-07 17:20:24 [!!]     new_typeclass = class_from_module(new_typeclass, defaultpaths=settings.TYPECLASS_PATHS)
+2025-01-07 17:20:24 [!!]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:20:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1668, in class_from_module
+2025-01-07 17:20:24 [!!]     raise ImportError(err)
+2025-01-07 17:20:24 [!!] ImportError: 
+2025-01-07 17:20:24 [!!] Could not load typeclass 'typeclass.animals.Horse'
+2025-01-07 17:20:24 [!!] Paths searched:
+2025-01-07 17:20:24 [!!]     typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     typeclasses.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     evennia.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     evennia.contrib.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     evennia.contrib.game_systems.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     evennia.contrib.base_systems.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     evennia.contrib.full_systems.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     evennia.contrib.tutorials.typeclass.animals.Horse
+2025-01-07 17:20:24 [!!]     evennia.contrib.utils.typeclass.animals.Horse
+2025-01-07 17:20:24 [EE] User input was: 'typeclass/force horse = typeclass.animals.Horse'.
+2025-01-07 17:25:21 [..] Server disconnected from the portal.
+2025-01-07 17:25:21 [..] Main loop terminated.
+2025-01-07 17:25:21 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:25:25 [..] Loaded.
+2025-01-07 17:25:22 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:25:25 [..] Loaded.
+2025-01-07 17:25:25 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:25:25 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:25:25 [..] Webserver starting on 4005
+2025-01-07 17:25:25 [..] Server successfully reloaded.
+2025-01-07 17:25:52 [..] Server disconnected from the portal.
+2025-01-07 17:25:52 [..] Main loop terminated.
+2025-01-07 17:25:52 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:25:55 [..] Loaded.
+2025-01-07 17:25:53 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:25:55 [..] Loaded.
+2025-01-07 17:25:55 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:25:55 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:25:55 [..] Webserver starting on 4005
+2025-01-07 17:25:55 [..] Server successfully reloaded.
+2025-01-07 17:33:26 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2025-01-07 17:34:16 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-07 17:34:16 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-07 17:34:21 [..] Server disconnected from the portal.
+2025-01-07 17:34:21 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:34:21 [..] Server Shut Down.
+2025-01-07 17:34:24 [..] Loaded.
+2025-01-07 17:34:22 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:34:24 [..] Loaded.
+2025-01-07 17:34:24 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:34:24 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:34:24 [..] Webserver starting on 4005
+2025-01-07 17:34:24 [..] Server successfully reloaded.
+2025-01-07 17:34:24 [!!] Traceback (most recent call last):
+2025-01-07 17:34:24 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 181, in import_cmdset
+2025-01-07 17:34:24 [!!]     module = import_module(modpath, package="evennia")
+2025-01-07 17:34:24 [!!]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:34:24 [!!]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-07 17:34:24 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-07 17:34:24 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:34:24 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-07 17:34:24 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-07 17:34:24 [!!]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-07 17:34:24 [!!]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-07 17:34:24 [!!]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-07 17:34:24 [!!]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-07 17:34:24 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\default_cmdsets.py", line 18, in <module>
+2025-01-07 17:34:24 [!!]     from commands import mycommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
+2025-01-07 17:34:24 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 4, in <module>
+2025-01-07 17:34:24 [!!]     from typeclasses.animals import Horse
+2025-01-07 17:34:24 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\animals.py", line 14, in <module>
+2025-01-07 17:34:24 [!!]     class Animal(LivinMixin):
+2025-01-07 17:34:24 [!!]                  ^^^^^^^^^^
+2025-01-07 17:34:24 [!!] NameError: name 'LivinMixin' is not defined. Did you mean: 'LivingMixin'?
+2025-01-07 17:34:24 [EE] Traceback (most recent call last):
+2025-01-07 17:34:24 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdsethandler.py", line 181, in import_cmdset
+2025-01-07 17:34:24 [EE]     module = import_module(modpath, package="evennia")
+2025-01-07 17:34:24 [EE]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:34:24 [EE]   File "E:\scoop\apps\python312\current\Lib\importlib\__init__.py", line 90, in import_module
+2025-01-07 17:34:24 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-01-07 17:34:24 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:34:24 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2025-01-07 17:34:24 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2025-01-07 17:34:24 [EE]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2025-01-07 17:34:24 [EE]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2025-01-07 17:34:24 [EE]   File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+2025-01-07 17:34:24 [EE]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2025-01-07 17:34:24 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\default_cmdsets.py", line 18, in <module>
+2025-01-07 17:34:24 [EE]     from commands import mycommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
+2025-01-07 17:34:24 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 4, in <module>
+2025-01-07 17:34:24 [EE]     from typeclasses.animals import Horse
+2025-01-07 17:34:24 [EE]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\animals.py", line 14, in <module>
+2025-01-07 17:34:24 [EE]     class Animal(LivinMixin):
+2025-01-07 17:34:24 [EE]                  ^^^^^^^^^^
+2025-01-07 17:34:24 [EE] NameError: name 'LivinMixin' is not defined. Did you mean: 'LivingMixin'?
+None2025-01-07 17:34:24 [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+2025-01-07 17:34:24 [EE] (Traceback was logged 25-01-07 17:34:24-03)
+None2025-01-07 17:34:24 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+2025-01-07 17:34:24 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+2025-01-07 17:34:34 [!!] Traceback (most recent call last):
+2025-01-07 17:34:34 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 299, in set_class_from_typeclass
+2025-01-07 17:34:34 [!!]     self.__dbclass__ = self._meta.concrete_model or self.__class__
+2025-01-07 17:34:34 [!!]                        ^^^^^^^^^^
+2025-01-07 17:34:34 [!!] AttributeError: 'Horse' object has no attribute '_meta'. Did you mean: 'Meta'?
+2025-01-07 17:34:34 [!!] Critical: Class <class 'typeclasses.animals.Horse'> of horse is not a valid typeclass!
+2025-01-07 17:34:34 [!!] Temporarily falling back to <class 'evennia.objects.objects.DefaultObject'>.
+2025-01-07 17:34:36 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 17:34:36 [..] Server Shut Down.
+2025-01-07 17:34:36 [..] Server Shut Down.
+2025-01-07 17:34:38 [..] Loaded.
+2025-01-07 17:34:36 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:34:38 [..] Loaded.
+2025-01-07 17:34:38 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:34:38 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:34:38 [..] Webserver starting on 4005
+2025-01-07 17:34:38 [..] Server successfully reloaded.
+2025-01-07 17:34:41 [!!] Traceback (most recent call last):
+2025-01-07 17:34:41 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 299, in set_class_from_typeclass
+2025-01-07 17:34:41 [!!]     self.__dbclass__ = self._meta.concrete_model or self.__class__
+2025-01-07 17:34:41 [!!]                        ^^^^^^^^^^
+2025-01-07 17:34:41 [!!] AttributeError: 'Horse' object has no attribute '_meta'. Did you mean: 'Meta'?
+2025-01-07 17:34:41 [!!] Critical: Class <class 'typeclasses.animals.Horse'> of horse is not a valid typeclass!
+2025-01-07 17:34:41 [!!] Temporarily falling back to <class 'evennia.objects.objects.DefaultObject'>.
+2025-01-07 17:34:42 [!!] Traceback (most recent call last):
+2025-01-07 17:34:42 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 299, in set_class_from_typeclass
+2025-01-07 17:34:42 [!!]     self.__dbclass__ = self._meta.concrete_model or self.__class__
+2025-01-07 17:34:42 [!!]                        ^^^^^^^^^^
+2025-01-07 17:34:42 [!!] AttributeError: 'Horse' object has no attribute '_meta'. Did you mean: 'Meta'?
+2025-01-07 17:34:42 [!!] Critical: Class <class 'typeclasses.animals.Horse'> of horse is not a valid typeclass!
+2025-01-07 17:34:42 [!!] Temporarily falling back to <class 'evennia.objects.objects.DefaultObject'>.
+2025-01-07 17:34:47 [!!] Traceback (most recent call last):
+2025-01-07 17:34:47 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 17:34:47 [!!]     ret = cmd.func()
+2025-01-07 17:34:47 [!!]           ^^^^^^^^^^
+2025-01-07 17:34:47 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 112, in func
+2025-01-07 17:34:47 [!!]     if not target_mount[0].is_typeclass(Horse):
+2025-01-07 17:34:47 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:34:47 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 17:34:47 [!!]     typeclass = [typeclass.path]
+2025-01-07 17:34:47 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 17:34:47 [!!] AttributeError: type object 'Horse' has no attribute 'path'
+2025-01-07 17:34:47 [EE] User input was: 'lead horse'.
+2025-01-07 17:35:15 [!!] Traceback (most recent call last):
+2025-01-07 17:35:15 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 17:35:15 [!!]     ret = cmd.func()
+2025-01-07 17:35:15 [!!]           ^^^^^^^^^^
+2025-01-07 17:35:15 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 112, in func
+2025-01-07 17:35:15 [!!]     if not target_mount[0].is_typeclass(Horse):
+2025-01-07 17:35:15 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:35:15 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 17:35:15 [!!]     typeclass = [typeclass.path]
+2025-01-07 17:35:15 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 17:35:15 [!!] AttributeError: type object 'Horse' has no attribute 'path'
+2025-01-07 17:35:15 [EE] User input was: 'lead horse'.
+2025-01-07 17:35:20 [!!] Traceback (most recent call last):
+2025-01-07 17:35:20 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 17:35:20 [!!]     ret = cmd.func()
+2025-01-07 17:35:20 [!!]           ^^^^^^^^^^
+2025-01-07 17:35:20 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 51, in func
+2025-01-07 17:35:20 [!!]     if not target_mount.is_typeclass(Horse):
+2025-01-07 17:35:20 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 17:35:20 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\typeclasses\models.py", line 572, in is_typeclass
+2025-01-07 17:35:20 [!!]     typeclass = [typeclass.path]
+2025-01-07 17:35:20 [!!]                  ^^^^^^^^^^^^^^
+2025-01-07 17:35:20 [!!] AttributeError: type object 'Horse' has no attribute 'path'
+2025-01-07 17:35:20 [EE] User input was: 'ride horse'.
+2025-01-07 17:36:05 [..] Server disconnected from the portal.
+2025-01-07 17:36:05 [..] Main loop terminated.
+2025-01-07 17:36:05 [..] Server Shut Down.
+2025-01-07 17:36:05 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:36:07 [..] Loaded.
+2025-01-07 17:36:07 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:36:07 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:36:08 [..] Webserver starting on 4005
+2025-01-07 17:36:08 [..] Server successfully reloaded.
+2025-01-07 17:41:21 [..] Server disconnected from the portal.
+2025-01-07 17:41:21 [..] Main loop terminated.
+2025-01-07 17:41:21 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:41:24 [..] Loaded.
+2025-01-07 17:41:22 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:41:24 [..] Loaded.
+2025-01-07 17:41:24 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:41:24 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:41:24 [..] Webserver starting on 4005
+2025-01-07 17:41:24 [..] Server successfully reloaded.
+2025-01-07 17:42:38 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 17:42:38 [..] Server Shut Down.
+2025-01-07 17:42:38 [..] Server Shut Down.
+2025-01-07 17:42:41 [..] Loaded.
+2025-01-07 17:42:39 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 17:42:41 [..] Loaded.
+2025-01-07 17:42:41 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 17:42:41 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 17:42:41 [..] Webserver starting on 4005
+2025-01-07 17:42:41 [..] Server successfully reloaded.
+2025-01-07 17:51:41 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+2025-01-07 18:10:00 [..] Server disconnected from the portal.
+2025-01-07 18:10:00 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:10:00 [..] Server Shut Down.
+2025-01-07 18:10:03 [..] Loaded.
+2025-01-07 18:10:01 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 18:10:03 [..] Loaded.
+2025-01-07 18:10:03 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 18:10:03 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 18:10:03 [..] Webserver starting on 4005
+2025-01-07 18:10:04 [..] Server successfully reloaded.
+2025-01-07 18:19:04 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+2025-01-07 18:33:38 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+7 18:33:38 [..] Server Shut Down.
+2025-01-07 18:33:38 [..] Server Shut Down.
+2025-01-07 18:33:45 [..] Loaded.
+2025-01-07 18:33:42 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 18:33:45 [..] Loaded.
+2025-01-07 18:33:45 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 18:33:45 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 18:33:45 [..] Webserver starting on 4005
+2025-01-07 18:33:45 [..] Server successfully reloaded.
+2025-01-07 18:37:14 [..] Server disconnected from the portal.
+2025-01-07 18:37:14 [..] Main loop terminated.
+2025-01-07 18:37:14 [..] Server Shut Down.
+2025-01-07 18:37:14 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 18:37:17 [..] Loaded.
+2025-01-07 18:37:17 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 18:37:17 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 18:37:17 [..] Webserver starting on 4005
+2025-01-07 18:37:17 [..] Server successfully reloaded.
+2025-01-07 18:39:07 [..] Server disconnected from the portal.
+2025-01-07 18:39:07 [..] Main loop terminated.
+2025-01-07 18:39:07 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:39:09 [..] Loaded.
+2025-01-07 18:39:07 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 18:39:09 [..] Loaded.
+2025-01-07 18:39:09 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 18:39:09 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 18:39:09 [..] Webserver starting on 4005
+2025-01-07 18:39:09 [..] Server successfully reloaded.
+2025-01-07 18:42:56 [SS] Authentication Success: deputy(account 2) (IP: 127.0.0.1).
+2025-01-07 18:42:56 [..] Logged in: deputy(account 2) 127.0.0.1 (1 session(s) total)
+2025-01-07 18:48:08 [..] Server disconnected from the portal.
+2025-01-07 18:48:08 [..] Main loop terminated.
+2025-01-07 18:48:08 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:48:11 [..] Loaded.
+2025-01-07 18:48:09 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 18:48:11 [..] Loaded.
+2025-01-07 18:48:11 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 18:48:11 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 18:48:11 [..] Webserver starting on 4005
+2025-01-07 18:48:11 [..] Server successfully reloaded.
+2025-01-07 18:49:48 [..] Server disconnected from the portal.
+2025-01-07 18:49:48 [..] Main loop terminated.
+2025-01-07 18:49:48 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:49:51 [..] Loaded.
+2025-01-07 18:49:49 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 18:49:51 [..] Loaded.
+2025-01-07 18:49:51 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 18:49:51 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 18:49:51 [..] Webserver starting on 4005
+2025-01-07 18:49:51 [..] Server successfully reloaded.
+2025-01-07 18:57:04 [..] Server disconnected from the portal.
+2025-01-07 18:57:04 [..] Main loop terminated.
+2025-01-07 18:57:04 [..] Server Shut Down.
+2025-01-07 18:57:04 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 18:57:07 [..] Loaded.
+2025-01-07 18:57:07 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 18:57:07 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 18:57:07 [..] Webserver starting on 4005
+2025-01-07 18:57:07 [..] Server successfully reloaded.
+2025-01-07 18:57:44 [!!] Traceback (most recent call last):
+2025-01-07 18:57:44 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 18:57:44 [!!]     ret = cmd.func()
+2025-01-07 18:57:44 [!!]           ^^^^^^^^^^
+2025-01-07 18:57:44 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\default\general.py", line 90, in func
+2025-01-07 18:57:44 [!!]     desc = caller.at_look(target)
+2025-01-07 18:57:44 [!!]            ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:57:44 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 2671, in at_look
+2025-01-07 18:57:44 [!!]     description = target.return_appearance(self, **kwargs)
+2025-01-07 18:57:44 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:57:44 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1907, in return_appearance
+2025-01-07 18:57:44 [!!]     characters=self.get_display_characters(looker, **kwargs),
+2025-01-07 18:57:44 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:57:44 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 65, in get_display_characters
+2025-01-07 18:57:44 [!!]     mount_names = iter_to_multiline(
+2025-01-07 18:57:44 [!!]                   ^^^^^^^^^^^^^^^^^^
+2025-01-07 18:57:44 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 26, in iter_to_multiline
+2025-01-07 18:57:44 [!!]     iterable = list(make_iter(iterable))
+2025-01-07 18:57:44 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:57:44 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 73, in <genexpr>
+2025-01-07 18:57:44 [!!]     ) if mount.is_ridden and mount.rider != self.caller
+2025-01-07 18:57:44 [!!]          ^^^^^^^^^^^^^^^
+2025-01-07 18:57:44 [!!] AttributeError: 'Horse' object has no attribute 'is_ridden'
+2025-01-07 18:57:44 [EE] User input was: 'l'.
+2025-01-07 18:58:00 [!!] Traceback (most recent call last):
+2025-01-07 18:58:00 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 18:58:00 [!!]     ret = cmd.func()
+2025-01-07 18:58:00 [!!]           ^^^^^^^^^^
+2025-01-07 18:58:00 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\default\general.py", line 90, in func
+2025-01-07 18:58:00 [!!]     desc = caller.at_look(target)
+2025-01-07 18:58:00 [!!]            ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:00 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 2671, in at_look
+2025-01-07 18:58:00 [!!]     description = target.return_appearance(self, **kwargs)
+2025-01-07 18:58:00 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:00 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1907, in return_appearance
+2025-01-07 18:58:00 [!!]     characters=self.get_display_characters(looker, **kwargs),
+2025-01-07 18:58:00 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:00 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 65, in get_display_characters
+2025-01-07 18:58:00 [!!]     mount_names = iter_to_multiline(
+2025-01-07 18:58:00 [!!]                   ^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:00 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 26, in iter_to_multiline
+2025-01-07 18:58:00 [!!]     iterable = list(make_iter(iterable))
+2025-01-07 18:58:00 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:00 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 73, in <genexpr>
+2025-01-07 18:58:00 [!!]     ) if mount.is_ridden and mount.rider != self.caller
+2025-01-07 18:58:00 [!!]          ^^^^^^^^^^^^^^^
+2025-01-07 18:58:00 [!!] AttributeError: 'Horse' object has no attribute 'is_ridden'
+2025-01-07 18:58:00 [EE] User input was: 'l'.
+2025-01-07 18:58:02 [!!] Traceback (most recent call last):
+2025-01-07 18:58:02 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 18:58:02 [!!]     ret = cmd.func()
+2025-01-07 18:58:02 [!!]           ^^^^^^^^^^
+2025-01-07 18:58:02 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\default\general.py", line 90, in func
+2025-01-07 18:58:02 [!!]     desc = caller.at_look(target)
+2025-01-07 18:58:02 [!!]            ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:02 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 2671, in at_look
+2025-01-07 18:58:02 [!!]     description = target.return_appearance(self, **kwargs)
+2025-01-07 18:58:02 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:02 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1907, in return_appearance
+2025-01-07 18:58:02 [!!]     characters=self.get_display_characters(looker, **kwargs),
+2025-01-07 18:58:02 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:02 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 65, in get_display_characters
+2025-01-07 18:58:02 [!!]     mount_names = iter_to_multiline(
+2025-01-07 18:58:02 [!!]                   ^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:02 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 26, in iter_to_multiline
+2025-01-07 18:58:02 [!!]     iterable = list(make_iter(iterable))
+2025-01-07 18:58:02 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:02 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 73, in <genexpr>
+2025-01-07 18:58:02 [!!]     ) if mount.is_ridden and mount.rider != self.caller
+2025-01-07 18:58:02 [!!]          ^^^^^^^^^^^^^^^
+2025-01-07 18:58:02 [!!] AttributeError: 'Horse' object has no attribute 'is_ridden'
+2025-01-07 18:58:02 [EE] User input was: 'l'.
+2025-01-07 18:58:33 [!!] Traceback (most recent call last):
+2025-01-07 18:58:33 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 18:58:33 [!!]     ret = cmd.func()
+2025-01-07 18:58:33 [!!]           ^^^^^^^^^^
+2025-01-07 18:58:33 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\default\general.py", line 90, in func
+2025-01-07 18:58:33 [!!]     desc = caller.at_look(target)
+2025-01-07 18:58:33 [!!]            ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:33 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 2671, in at_look
+2025-01-07 18:58:33 [!!]     description = target.return_appearance(self, **kwargs)
+2025-01-07 18:58:33 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:33 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\objects\objects.py", line 1907, in return_appearance
+2025-01-07 18:58:33 [!!]     characters=self.get_display_characters(looker, **kwargs),
+2025-01-07 18:58:33 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:33 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 65, in get_display_characters
+2025-01-07 18:58:33 [!!]     mount_names = iter_to_multiline(
+2025-01-07 18:58:33 [!!]                   ^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:33 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\utils\utils.py", line 26, in iter_to_multiline
+2025-01-07 18:58:33 [!!]     iterable = list(make_iter(iterable))
+2025-01-07 18:58:33 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-07 18:58:33 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\typeclasses\rooms.py", line 73, in <genexpr>
+2025-01-07 18:58:33 [!!]     ) if mount.is_ridden and mount.rider != self.caller
+2025-01-07 18:58:33 [!!]          ^^^^^^^^^^^^^^^
+2025-01-07 18:58:33 [!!] AttributeError: 'Horse' object has no attribute 'is_ridden'
+2025-01-07 18:58:33 [EE] User input was: 'l'.
+2025-01-07 19:00:24 [..] Server disconnected from the portal.
+2025-01-07 19:00:24 [..] Main loop terminated.
+2025-01-07 19:00:24 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:00:27 [..] Loaded.
+2025-01-07 19:00:25 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:00:27 [..] Loaded.
+2025-01-07 19:00:27 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:00:27 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:00:27 [..] Webserver starting on 4005
+2025-01-07 19:00:27 [..] Server successfully reloaded.
+2025-01-07 19:01:03 [..] Server disconnected from the portal.
+2025-01-07 19:01:03 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:01:03 [..] Server Shut Down.
+2025-01-07 19:01:05 [..] Loaded.
+2025-01-07 19:01:03 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:01:05 [..] Loaded.
+2025-01-07 19:01:05 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:01:05 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:01:05 [..] Webserver starting on 4005
+2025-01-07 19:01:05 [..] Server successfully reloaded.
+2025-01-07 19:03:30 [..] Server disconnected from the portal.
+2025-01-07 19:03:30 [..] Main loop terminated.
+2025-01-07 19:03:30 [..] Server Shut Down.
+2025-01-07 19:03:30 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:03:32 [..] Loaded.
+2025-01-07 19:03:32 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:03:32 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:03:32 [..] Webserver starting on 4005
+2025-01-07 19:03:32 [..] Server successfully reloaded.
+2025-01-07 19:04:36 [..] Server disconnected from the portal.
+2025-01-07 19:04:36 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:04:36 [..] Server Shut Down.
+2025-01-07 19:04:39 [..] Loaded.
+2025-01-07 19:04:37 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:04:39 [..] Loaded.
+2025-01-07 19:04:39 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:04:39 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:04:39 [..] Webserver starting on 4005
+2025-01-07 19:04:39 [..] Server successfully reloaded.
+2025-01-07 19:05:40 [..] Server disconnected from the portal.
+2025-01-07 19:05:40 [..] Main loop terminated.
+2025-01-07 19:05:40 [..] Server Shut Down.
+2025-01-07 19:05:40 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:05:43 [..] Loaded.
+2025-01-07 19:05:43 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:05:43 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:05:43 [..] Webserver starting on 4005
+2025-01-07 19:05:43 [..] Server successfully reloaded.
+2025-01-07 19:08:52 [..] Server disconnected from the portal.
+2025-01-07 19:08:52 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:08:52 [..] Server Shut Down.
+2025-01-07 19:08:54 [..] Loaded.
+2025-01-07 19:08:52 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:08:54 [..] Loaded.
+2025-01-07 19:08:54 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:08:54 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:08:55 [..] Webserver starting on 4005
+2025-01-07 19:08:55 [..] Server successfully reloaded.
+2025-01-07 19:12:52 [..] Server disconnected from the portal.
+2025-01-07 19:12:52 [..] Main loop terminated.
+2025-01-07 19:12:52 [..] Server Shut Down.
+2025-01-07 19:12:52 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:12:54 [..] Loaded.
+2025-01-07 19:12:54 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:12:54 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:12:55 [..] Webserver starting on 4005
+2025-01-07 19:12:55 [..] Server successfully reloaded.
+2025-01-07 19:14:22 [..] Server disconnected from the portal.
+2025-01-07 19:14:22 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:14:22 [..] Server Shut Down.
+2025-01-07 19:14:25 [..] Loaded.
+2025-01-07 19:14:23 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:14:25 [..] Loaded.
+2025-01-07 19:14:25 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:14:25 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:14:25 [..] Webserver starting on 4005
+2025-01-07 19:14:25 [..] Server successfully reloaded.
+2025-01-07 19:21:42 [..] Server disconnected from the portal.
+2025-01-07 19:21:42 [..] Main loop terminated.
+2025-01-07 19:21:42 [..] Server Shut Down.
+2025-01-07 19:21:42 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:21:44 [..] Loaded.
+2025-01-07 19:21:44 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:21:44 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:21:45 [..] Webserver starting on 4005
+2025-01-07 19:21:45 [..] Server successfully reloaded.
+2025-01-07 19:23:12 [..] Server disconnected from the portal.
+2025-01-07 19:23:12 [..] Main loop terminated.
+2025-01-07 19:23:12 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:23:15 [..] Loaded.
+2025-01-07 19:23:13 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:23:15 [..] Loaded.
+2025-01-07 19:23:15 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:23:15 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:23:15 [..] Webserver starting on 4005
+2025-01-07 19:23:15 [..] Server successfully reloaded.
+2025-01-07 19:39:52 [..] Server disconnected from the portal.
+2025-01-07 19:39:52 [..] Main loop terminated.
+2025-01-07 19:39:52 [..] Server Shut Down.
+2025-01-07 19:39:52 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:39:55 [..] Loaded.
+2025-01-07 19:39:55 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:39:55 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:39:55 [..] Webserver starting on 4005
+2025-01-07 19:39:55 [..] Server successfully reloaded.
+2025-01-07 19:41:57 [..] Server disconnected from the portal.
+2025-01-07 19:41:57 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:41:57 [..] Server Shut Down.
+2025-01-07 19:41:59 [..] Loaded.
+2025-01-07 19:41:57 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:41:59 [..] Loaded.
+2025-01-07 19:41:59 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:41:59 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:41:59 [..] Webserver starting on 4005
+2025-01-07 19:41:59 [..] Server successfully reloaded.
+2025-01-07 19:50:59 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+2025-01-07 19:58:19 [..] Server disconnected from the portal.
+2025-01-07 19:58:19 [..] Main loop terminated.
+2025-01-07 19:58:19 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:58:21 [..] Loaded.
+2025-01-07 19:58:19 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:58:21 [..] Loaded.
+2025-01-07 19:58:21 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:58:21 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:58:21 [..] Webserver starting on 4005
+2025-01-07 19:58:21 [..] Server successfully reloaded.
+2025-01-07 19:59:57 [..] Server disconnected from the portal.
+2025-01-07 19:59:57 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:59:57 [..] Server Shut Down.
+2025-01-07 19:59:59 [..] Loaded.
+2025-01-07 19:59:57 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 19:59:59 [..] Loaded.
+2025-01-07 19:59:59 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 19:59:59 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 19:59:59 [..] Webserver starting on 4005
+2025-01-07 19:59:59 [..] Server successfully reloaded.
+2025-01-07 20:01:38 [!!] Traceback (most recent call last):
+2025-01-07 20:01:38 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 20:01:38 [!!]     ret = cmd.func()
+2025-01-07 20:01:38 [!!]           ^^^^^^^^^^
+2025-01-07 20:01:38 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 117, in func
+2025-01-07 20:01:38 [!!]     mount_cap_name = target_mount[0].get_display_name()[0].upper() + target_mount[0].get_display_name()[1:]
+2025-01-07 20:01:38 [!!]                      ~~~~~~~~~~~~^^^
+2025-01-07 20:01:38 [!!] IndexError: list index out of range
+2025-01-07 20:01:38 [EE] User input was: 'lead horse'.
+2025-01-07 20:02:42 [..] Server disconnected from the portal.
+2025-01-07 20:02:42 [..] Main loop terminated.
+2025-01-07 20:02:42 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:02:45 [..] Loaded.
+2025-01-07 20:02:43 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 20:02:45 [..] Loaded.
+2025-01-07 20:02:45 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 20:02:45 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 20:02:45 [..] Webserver starting on 4005
+2025-01-07 20:02:45 [..] Server successfully reloaded.
+2025-01-07 20:04:11 [!!] Traceback (most recent call last):
+2025-01-07 20:04:11 [!!]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-07 20:04:11 [!!]     ret = cmd.func()
+2025-01-07 20:04:11 [!!]           ^^^^^^^^^^
+2025-01-07 20:04:11 [!!]   File "E:\Documents\Development\west_of_doom\west-of-doom\commands\mountcommands.py", line 118, in func
+2025-01-07 20:04:11 [!!]     mount_cap_name = target_mount[0].get_display_name()[0].upper() + target_mount[0].get_display_name()[1:]
+2025-01-07 20:04:11 [!!]                      ~~~~~~~~~~~~^^^
+2025-01-07 20:04:11 [!!] IndexError: list index out of range
+2025-01-07 20:04:11 [EE] User input was: 'lead horse'.
+2025-01-07 20:05:51 [..] Server disconnected from the portal.
+2025-01-07 20:05:51 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:05:51 [..] Server Shut Down.
+2025-01-07 20:05:54 [..] Loaded.
+2025-01-07 20:05:52 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 20:05:54 [..] Loaded.
+2025-01-07 20:05:54 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 20:05:54 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 20:05:54 [..] Webserver starting on 4005
+2025-01-07 20:05:54 [..] Server successfully reloaded.
+2025-01-07 20:07:14 [..] Server disconnected from the portal.
+2025-01-07 20:07:14 [..] Main loop terminated.
+2025-01-07 20:07:14 [..] Server Shut Down.
+2025-01-07 20:07:14 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-07 20:07:17 [..] Loaded.
+2025-01-07 20:07:17 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-07 20:07:17 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-07 20:07:17 [..] Webserver starting on 4005
+2025-01-07 20:07:17 [..] Server successfully reloaded.
+2025-01-07 20:08:21 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-07 20:08:24 [..] Logged out: deputy(account 2) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-07 20:08:39 [..] Server disconnected from the portal.
+2025-01-07 20:08:39 [..] Main loop terminated.
+2025-01-07 20:08:39 [..] Server Shut Down.
+2025-01-07 20:08:39 [..] Server Shut Down.

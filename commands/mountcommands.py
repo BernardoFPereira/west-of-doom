@@ -1,6 +1,7 @@
 from commands.command import MuxCommand
 from evennia import CmdSet
 from typeclasses.mounts import Mount
+from typeclasses.animals import Horse
 
 class CmdRide(MuxCommand):
     '''
@@ -47,16 +48,16 @@ class CmdRide(MuxCommand):
             
             target_mount = target_mount[0]
 
-            if not target_mount.is_typeclass(Mount):
+            if not target_mount.is_typeclass(Horse):
                 return self.msg("You can't ride that!")
             
             if self.caller.ndb.mount:
                 if target_mount != self.caller.ndb.mount:
-                    return self.msg(f"That's not your mount!1")
+                    return self.msg("That's not your mount!1")
             
             if target_mount.ndb.rider:
                 if self.caller != target_mount.ndb.rider:
-                    return self.msg(f"That's not your mount!2")
+                    return self.msg("That's not your mount!2")
 
             target_mount.ndb.rider = self.caller
             self.caller.ndb.mount = target_mount
@@ -93,6 +94,14 @@ class CmdLead(MuxCommand):
         target_mount = self.caller.search(self.target, quiet=True)
         out_string = ''
 
+        # new_targets = []
+        # for mount in target_mount:
+        #     if not mount.ndb.rider:
+        #         new_targets.append(mount)
+        #     else:
+        #         continue
+        # target_mount = new_targets
+        
         if not target_mount:
             if not self.caller.ndb.mount:
                 self.caller.msg('Lead what?')
@@ -105,10 +114,10 @@ class CmdLead(MuxCommand):
             CmdDismount.func(self, lead=True)
             out_string = f"$You() $conj(start) leading {self.caller.ndb.mount.get_display_name()}."
 
-        else:    
+        else:
             mount_cap_name = target_mount[0].get_display_name()[0].upper() + target_mount[0].get_display_name()[1:]
             
-            if not target_mount[0].is_typeclass(Mount):
+            if not target_mount[0].is_typeclass(Horse):
                 return self.msg("You may only lead mounts!")  
                       
             if target_mount[0].ndb.rider:

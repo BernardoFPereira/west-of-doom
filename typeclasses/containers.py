@@ -4,6 +4,12 @@ from evennia.utils import iter_to_str, defaultdict
 from utils.utils import iter_to_multiline
 
 class Container(Object):
+    appearance_template =  """
+{header}
+{desc}{characters}{things}
+{exits}
+{footer}
+    """
     
     def at_object_creation(self):
         self.tags.add('container')

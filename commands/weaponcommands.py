@@ -1,5 +1,5 @@
 from commands.command import MuxCommand
-from typeclasses.rooms import Room
+# from typeclasses.rooms import Room
 from evennia import CmdSet
 
 class ShootCmd(MuxCommand):
@@ -47,20 +47,20 @@ class ShootCmd(MuxCommand):
                 direction = "below"
             
             if distance >= 5:
-                room[1].msg_contents(f"|YYou hear the distant thundering of gunfire.|n")
-                room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
+                room[1].msg_contents("|YYou hear the distant thundering of gunfire.|n")
+                # room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
                 
             if distance < 5 and distance > 2:
                 room[1].msg_contents(f"|yBOOM!|Y Shots fired around {direction}.|n")
-                room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
+                # room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
                 
             if distance > 0 and distance <= 2:
                 room[1].msg_contents(f"|yBANG!|Y Shots fired from {direction}.|n", exclude=caller)
-                room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
+                # room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
                 
             if distance == 0:
-                room[1].msg_contents(f"|yBANG!|Y $You() fired a weapon!|n", from_obj=caller)
-                room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
+                room[1].msg_contents("|yBANG!|Y $You() fired a weapon!|n", from_obj=caller)
+                # room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
 
 class CmdReload(MuxCommand):
     pass

@@ -66,10 +66,13 @@ class Room(ObjectParent, DefaultRoom):
                 (f"{capitalize_name(mount, looker)} is {mount.db.stance} here.")
                 if not mount.ndb.rider
                 else(
+                    # ""
                     f"{capitalize_name(mount, looker)} is {mount.db.stance} here, ridden by {(mount.ndb.rider.get_display_name(looker) if looker != mount.ndb.rider else 'you')}."
-                    if mount.ndb.is_ridden
-                else
-                (f"{capitalize_name(mount, looker)} is {mount.db.stance} here, led by {(mount.ndb.rider.get_display_name(looker) if looker != mount.ndb.rider else 'you')}."))
+                    if mount.ndb.is_ridden and looker == mount.ndb.rider
+                    else "" if mount.ndb.is_ridden and looker != mount.ndb.rider
+                    else
+                    (f"{capitalize_name(mount, looker)} is {mount.db.stance} here, led by {(mount.ndb.rider.get_display_name(looker) if looker != mount.ndb.rider else 'you')}.")
+                )
                 for mount in mounts
         )
         if mount_names:

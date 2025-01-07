@@ -2,7 +2,7 @@ from typeclasses.characters import Character
 
 from evennia.utils.funcparser import FuncParser
 from evennia.utils.funcparser import funcparser_callable_an
-from utils.utils import capitalize_name
+# from utils.utils import capitalize_name
 from django.utils.translation import gettext as _
 
 parser = FuncParser({"an": funcparser_callable_an})
@@ -13,31 +13,16 @@ class Mount(Character):
     '''
     _content_types = ("mount", )
 
-    appearance_template = """
-{header}
-{desc}{characters}{things}
-{exits}
-{footer}
-    """
+#     appearance_template = """
+# {header}
+# {desc}{characters}{things}
+# {exits}
+# {footer}
+#     """
 
     def at_object_creation(self):
         self.tags.add('rideable')
         self.db.stance = 'standing'
-
-    def get_display_name(self, looker=None, **kwargs):
-        '''
-        Return object's name, if kwarg are used,
-        checks what format it should be.
-        '''
-        display_name = parser.parse(f"$an({self.key})")
-        article, name = display_name.split(' ')
-        display_name = article + f" |h{name}|H"
-
-        if looker:
-            # Check for Builder permission. If valid, display dbref (#XYZ)
-            if looker.locks.check_lockstring(looker, "_dummy:perm(Builder)"):
-                display_name += f"({self.dbref})"
-        return display_name
 
     def announce_move_from(self, destination, msg=None, mapping=None, move_type="move",**kwargs):
         if self.ndb.is_ridden:

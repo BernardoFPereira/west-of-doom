@@ -53,4 +53,4 @@ def is_sitting_msg(character):
     """
 
     if character.db.stance == 'sitting':
-        return character.msg(f"Shouldn't you stand upright first?")
+        return character.msg("Shouldn't you stand upright first?")

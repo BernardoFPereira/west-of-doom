@@ -17,6 +17,12 @@ class Door(Exit):
 # {exits}
 # {footer}
 #     """
+    appearance_template =  """
+{header}
+{desc}{characters}{things}
+{exits}
+{footer}
+    """
 
     def at_object_creation(self):
         self.tags.add('door')

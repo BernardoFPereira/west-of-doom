@@ -36,6 +36,14 @@ class Exit(ObjectParent, DefaultExit):
                                         not be called if the attribute `err_traverse` is
                                         defined, in which case that will simply be echoed.
     """
+    
+    appearance_template =  """
+{header}
+{desc}{characters}{things}
+{exits}
+{footer}
+    """
+    
     def at_failed_traverse(self, traversing_object, **kwargs):
 
         if kwargs.get('not_standing'):
@@ -104,6 +112,25 @@ class Trail(Exit):
     def get_display_name(self, looker=None, **kwargs):
         mode = kwargs.get('mode')
         display_name = f"-{self.name}-"
+
+        if mode == 'dir':
+            return (
+                display_name + f"({self.dbref})"
+                if looker.locks.check_lockstring(looker, "_dummy:perm(Builder)")
+                else display_name)
+        return (
+            (f"{self.key}" + f"({self.dbref})")
+            if looker.locks.check_lockstring(looker, "_dummy:perm(Builder)")
+            else f"{self.key}")
+
+class Water(Exit):
+    def at_object_creation(self):
+        self.db.desc = "This is a Water Exit."
+        self.db.road_name = 'water'
+
+    def get_display_name(self, looker=None, **kwargs):
+        mode = kwargs.get('mode')
+        display_name = f"~{self.name}~"
 
         if mode == 'dir':
             return (
