@@ -69,5 +69,5 @@ class Container(Object):
         if self.db.is_open == False:
             out_str = ""
         
-        return out_str
+        return "\n" + out_str
         

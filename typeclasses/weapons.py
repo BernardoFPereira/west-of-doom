@@ -1,8 +1,27 @@
 from typeclasses.objects import Object
 
 class Weapon(Object):
+    
+    _content_types = super()._content_types
+    
     def at_object_creation(self):
         self.tags.add(['equipment', 'weapon'])
+
+    def get_display_name(self, looker, **kwargs):
+        '''
+        return object's name, if kwarg are used,
+        checks what format it should be.
+        '''
+        display_name = f"|h{self.key}|H" if not self.location.db.is_dark else "|hweapon|H"
+        
+        if looker:
+            # Check for Builder permission. If valid, display dbref (#XYZ)
+            if looker.locks.check_lockstring(looker, "_dummy:perm(Builder)"):
+                display_name +=  f"({self.dbref})"
+
+        return display_name
+
+        
         
     @property
     def damage(self):

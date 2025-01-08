@@ -172,3 +172,9 @@ class Object(ObjectParent, DefaultObject):
     """
 
     pass
+
+    def return_appearance(self, looker):
+        if self.location.db.is_dark:
+            return "It's too dark to see this."
+        else:
+            return super().return_appearance(looker)

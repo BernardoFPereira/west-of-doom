@@ -32,10 +32,10 @@ class Animal(Character, LivingMixin):
     generate and set the descriptions.
 
     How to use:
-        Use this class as parent for any animal. It
-        But for more complex descriptions you should
-        make a new class that inherits from this one and overload
-        a couple things:
+        Use this class as parent for any animal.
+        It has basic features but for more complex descriptions
+        you should make a new class that inherits from this
+        one and overload a couple things:
         
             trait_options: to customize what characteristics said
             animal could have.
@@ -84,14 +84,13 @@ class Animal(Character, LivingMixin):
         checks what format it should be.
         '''
         display_name = f"|h{self.key}|H"
-        if self.db.named:
-            display_name = f"|h{self.key.capitalize()}|H"
 
         if not self.db.named:
-            full_color_name = parser.parse(f"$an({self.appearance['color']})")# if 'wrinkle' not in self.appearance else 'a naked'
+            full_color_name = parser.parse(f"$an({self.appearance['color']})")
             article, color_name = full_color_name.split(' ', 1)
             display_name = f"{article} {color_name} |h{self.key}|H"
         else:
+            display_name = f"|h{self.key.capitalize()}|H"
             self.appearance_template =  """
 |B{name}|n
 {header}

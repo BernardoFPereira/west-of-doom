@@ -140,3 +140,60 @@
 |Portal| 2025-01-07 20:08:40 [..] Main loop terminated.
 |Portal| 2025-01-07 20:08:40 [..] Server Shut Down.
 |Portal| 2025-01-07 20:08:40 [..] Server Shut Down.
+|Portal| 2025-01-07 22:18:22 [..] Loaded.
+|Portal| 2025-01-07 22:18:20 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-07 22:18:22 [..] Loaded.
+|Portal| 2025-01-07 22:18:22 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-07 22:18:22 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-07 22:18:23 [..] AMP starting on 4006
+|Portal| 2025-01-07 22:18:23 [..] Telnet starting on 4000
+|Portal| 2025-01-07 22:18:23 [..] Websocket starting on 4002
+|Portal| 2025-01-07 22:18:23 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-07 22:18:23 [..] Portal starting server ... 
+|Portal| 2025-01-07 22:19:42 [..] Portal starting server ... 
+|Portal| 2025-01-08 09:58:02 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-08 09:58:02 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-08 09:58:02 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-08 09:58:02 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-08 09:58:02 [..] Main loop terminated.
+|Portal| 2025-01-08 09:58:02 [..] Server Shut Down.
+|Portal| 2025-01-08 09:58:02 [..] Server Shut Down.
+|Portal| 2025-01-08 13:17:25 [..] Loaded.
+|Portal| 2025-01-08 13:17:23 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-08 13:17:25 [..] Loaded.
+|Portal| 2025-01-08 13:17:25 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-08 13:17:25 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-08 13:17:27 [..] AMP starting on 4006
+|Portal| 2025-01-08 13:17:27 [..] Telnet starting on 4000
+|Portal| 2025-01-08 13:17:27 [..] Websocket starting on 4002
+|Portal| 2025-01-08 13:17:27 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-08 13:17:27 [..] Portal starting server ... 
+|Portal| 2025-01-08 13:45:18 [..] Portal starting server ... 
+|Portal| 2025-01-08 13:55:38 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62898)
+|Portal| 2025-01-08 13:55:38 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62911)
+|Portal| 2025-01-08 13:55:38 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62912)
+|Portal| 2025-01-08 13:56:44 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62963)
+|Portal| 2025-01-08 13:56:44 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62900)
+|Portal| 2025-01-08 13:56:44 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62964)
+|Portal| 2025-01-08 13:56:46 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62968)
+|Portal| 2025-01-08 13:56:46 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62899)
+|Portal| 2025-01-08 13:56:46 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=62967)
+|Portal| 2025-01-08 13:57:47 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63004)
+|Portal| 2025-01-08 13:57:47 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63006)
+|Portal| 2025-01-08 13:58:49 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63021)
+|Portal| 2025-01-08 13:58:49 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63023)
+|Portal| 2025-01-08 13:59:51 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63040)
+|Portal| 2025-01-08 13:59:51 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63041)
+|Portal| 2025-01-08 14:00:53 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63054)
+|Portal| 2025-01-08 14:00:53 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63055)
+|Portal| 2025-01-08 14:02:49 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63080)
+|Portal| 2025-01-08 14:02:49 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63081)
+|Portal| 2025-01-08 14:03:51 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63094)
+|Portal| 2025-01-08 14:03:51 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=63095)
+|Portal| 2025-01-08 14:05:18 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-08 14:05:18 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-08 14:05:18 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-08 14:05:18 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-08 14:05:18 [..] Main loop terminated.
+|Portal| 2025-01-08 14:05:18 [..] Server Shut Down.
+|Portal| 2025-01-08 14:05:18 [..] Server Shut Down.

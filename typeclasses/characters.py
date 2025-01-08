@@ -174,6 +174,8 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
         checks what format it should be.
         '''
         display_name = f"|h{self.key.capitalize()}|H"
+        if self.location.db.is_dark:
+            display_name = f"|h{'someone'.capitalize()}|H"
         if looker:
             # Check for Builder permission. If valid, display dbref (#XYZ)
             if looker.locks.check_lockstring(looker, "_dummy:perm(Builder)"):
