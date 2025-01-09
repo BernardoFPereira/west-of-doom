@@ -52,6 +52,8 @@ class Animal(Character, LivingMixin):
 {footer}
     """
 
+    is_pc = False
+
     @property
     def trait_options():
         return {
@@ -92,7 +94,7 @@ class Animal(Character, LivingMixin):
         else:
             display_name = f"|h{self.key.capitalize()}|H"
             self.appearance_template =  """
-|B{name}|n
+|y{name}|n
 {header}
 {desc}{characters}{things}
 {exits}

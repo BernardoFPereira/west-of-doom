@@ -49,11 +49,25 @@ class CmdExamine(MuxCommand):
         
         # self.msg(f"Examining {self.target}")
         target = caller.search(self.target)
+
+        if not target:
+            return
         
-        if target.db.is_open == False:
-            self.msg(target.get_display_desc(looker=self.caller))
-            
-        self.msg(target.get_display_things(looker=self.caller, examination=True))
+        if target and target.is_typeclass('typeclasses.containers.Container'):
+            if target.db.is_open == False:
+                _, state = target.get_display_desc(looker=caller).split("\n")
+                self.msg(state)
+            else:
+                self.msg(f"|b{target.get_display_name(looker=caller).capitalize()}|n")
+                self.msg(target.return_appearance(looker=caller))
+                # self.msg(target.get_display_desc(looker=caller))
+                self.msg(target.get_display_things(looker=caller, examination=True))
+            return
+
+        self.msg(target.return_appearance(looker=caller))
+        # self.msg(target.get_display_name(looker=caller))
+        # self.msg(target.get_display_desc(looker=caller))
+        self.msg(target.get_display_things(looker=caller, examination=True))
 
 class CmdHit(MuxCommand):
     '''

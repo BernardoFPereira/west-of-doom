@@ -13,16 +13,11 @@ class Mount(Character):
     '''
     _content_types = ("mount", )
 
-#     appearance_template = """
-# {header}
-# {desc}{characters}{things}
-# {exits}
-# {footer}
-#     """
+    is_pc = False
 
     def at_object_creation(self):
         self.tags.add('rideable')
-        self.db.stance = 'standing'
+        # self.db.stance = 'standing'
 
     def announce_move_from(self, destination, msg=None, mapping=None, move_type="move",**kwargs):
         if self.ndb.is_ridden:
@@ -66,7 +61,7 @@ class Mount(Character):
                 "object": self.get_display_name() if self.is_typeclass(Character,exact=True) else (self.get_display_name()[0].upper() + self.get_display_name()[1:]),
                 "exit": ('below' if exits[0].name == 'down' else 'above' if exits[0].name == 'up' else f"the {exits[0].name}") if exits else "somewhere",
                 "origin": origin or "nowhere",
-                "destination": destination or "nowhere",
+                "destination": destination or "somewhere",
             }
         )
 

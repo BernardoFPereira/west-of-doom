@@ -34,6 +34,22 @@ from evennia.settings_default import *
 # This is the name of your game. Make it catchy!
 SERVERNAME = "West of Doom"
 GAME_SLOGAN = "Where you can find the bad, the worse and the terrible!"
+SERVER_HOSTNAME = "wot.oriean.space"
+
+# open to the internet: 4000, 4001, 4002
+# closed to the internet (internal use): 4005, 4006
+TELNET_PORTS = [4000]
+WEBSERVER_PORTS = [(4001, 4005)]
+WEBSOCKET_CLIENT_PORT = 4002
+AMP_PORT = 4006
+
+WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
+
+# This needs to be set to your website address for django or you'll receive a
+# CSRF error when trying to log on to the web portal
+CSRF_TRUSTED_ORIGINS = ['https://oriean.space']
+
+# ALLOWED_HOSTS = [".oriean.space"]
 
 COMMAND_DEFAULT_CLASS = "commands.command.MuxCommand"
 
@@ -51,6 +67,7 @@ TIME_UNITS = {
         "month": 60 * 60 * 24 * 30,
         "year": 60 * 60 * 24 * 30 * 12,
 }
+
 
 ######################################################################
 # Settings given in secret_settings.py override those in this file.

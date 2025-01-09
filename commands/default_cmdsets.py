@@ -15,7 +15,7 @@ own cmdsets by inheriting from them or directly from `evennia.CmdSet`.
 """
 
 from evennia import default_cmds
-from commands import mycommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
+from commands import standardcommands, radiocommands, mountcommands, interactioncommands, movecommands, gametimecommands, buildingcommands, socialcommands, communicationcommands, weaponcommands
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
     """
@@ -35,7 +35,7 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         # any commands you add below will overload the default ones.
         #
         self.add(gametimecommands.CmdTime)
-        self.add(mycommands.MyCmdSet)
+        self.add(standardcommands.StandardCmdSet)
         self.add(radiocommands.RadioCmdSet)
         self.add(mountcommands.MountCmdSet)
         self.add(interactioncommands.InteractionsCmdSet)

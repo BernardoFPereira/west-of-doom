@@ -8,7 +8,7 @@ creation commands.
 
 """
 import random
-from evennia.objects.objects import DefaultCharacter
+from evennia import DefaultCharacter, AttributeProperty
 from .objects import ObjectParent
 from django.utils.translation import gettext as _
 from rules import dice
@@ -113,16 +113,33 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
     appearance_template =  """
 {header}
 |y{name}|n
-{desc}{characters}{things}
+{desc}
 {exits}
 {footer}
     """
 
     is_pc = True
 
+    strength = AttributeProperty(6) 
+    dexterity = AttributeProperty(6)
+    constitution = AttributeProperty(6)
+    perception = AttributeProperty(6)
+    wisdom = AttributeProperty(6)
+    charisma = AttributeProperty(6)
+    
+    hp = AttributeProperty(100) 
+    hp_max = AttributeProperty(100)
+    stance = AttributeProperty('standing')
+    
+    level = AttributeProperty(1)
+    xp = AttributeProperty(0)
+    coins = AttributeProperty(0)
+
     def at_object_creation(self):
         self.db.gender = 'male'
-        self.db.stance = 'standing'
+        self.stance = 'standing'
+
+        self.perception = random.randint(6,20)
 
         self.db.strength = random.randint(6,20)
         self.db.dexterity = random.randint(6,20)
