@@ -26,17 +26,17 @@ class CmdSocialNod(MuxCommand):
         caller = self.caller
         # Check to see if a target was specified
         if not self.target:
-            self.msg(f"|520You nod solemnly.|n")
+            self.msg("|520You nod solemnly.|n")
             self.caller.location.msg_contents(
-                f"|520$You(self) $conj(nod) solemnly.|n",
+                "|520$You(self) $conj(nod) solemnly.|n",
                 exclude=self.caller,
                 mapping={'self':self.caller.get_display_name()})
             return
         # Check if the target was 'self' or caller name
         if (self.target.lower() == 'self') or (self.target.lower() == self.caller.key.lower()):
-            self.msg(f'|520You nod to yourself.|n')
+            self.msg('|520You nod to yourself.|n')
             self.caller.location.msg_contents(
-                f"|520$You(caller) $conj(nod) to $pron(yourself,{self.caller.db.gender}).|n",
+                "|520$You(caller) $conj(nod) to $pron(yourself,{self.caller.db.gender}).|n",
                 exclude=self.caller,
                 mapping={'caller':self.caller.get_display_name()})
             return
@@ -54,18 +54,18 @@ class CmdSocialNod(MuxCommand):
         if target.key != self.caller.key:
             self.msg(f"|520You nod in agreement with {target.get_display_name()}.|n")
             self.caller.location.msg_contents(
-                f"|520$You(caller) $conj(nod) in agreement with $you(target).|n",
+                "|520$You(caller) $conj(nod) in agreement with $you(target).|n",
                 exclude=[self.caller, target],
                 mapping={'caller':self.caller.get_display_name(),
                         'target':target.get_display_name()}
                 )
             self.caller.location.msg_contents(
-                f"|520$You(caller) $conj(nod) in agreement with you.|n",
+                "|520$You(caller) $conj(nod) in agreement with you.|n",
                 exclude=[obj for obj in self.caller.location.contents if obj.key != target.key],
                 mapping={'caller':self.caller.get_display_name()}
                 )
             return
-        self.msg(f"|520You nod solemnly.|n")
+        self.msg("|520You nod solemnly.|n")
 
 class CmdSocialShake(MuxCommand):
     '''

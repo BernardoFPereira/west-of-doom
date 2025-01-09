@@ -89,7 +89,7 @@ class Room(ObjectParent, DefaultRoom):
 
         grouped_things = defaultdict(list)
         for thing in things:
-            grouped_things[thing.get_display_name(looker, **kwargs)].append(thing)
+            grouped_things[thing.get_display_name(looker, is_dark=True) if self.db.is_dark else thing.get_display_name(looker, **kwargs)].append(thing)
 
         thing_names = []
         for thingname, thinglist in sorted(grouped_things.items()):

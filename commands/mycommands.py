@@ -18,6 +18,41 @@ class CmdEcho(MuxCommand):
     def func(self):
         self.caller.msg(f"Echo: {self.args.strip()}")
 
+class CmdExamine(MuxCommand):
+    '''
+    Carefully |yexamine|n an object or creature.
+    
+    Usage:
+        examine <target>
+    '''
+
+    key = 'examine'
+    help_category = 'Exploring'
+    aliases = ['exam', 'exa']
+    locks = "cmd:all()"
+
+    def parse(self):
+        args = self.args.strip()
+        if not args:
+            self.target = ""
+        else:
+            self.target = args
+        # target = self.args.split(" ", 1)
+        # self.target = target[0].strip()
+    
+    def func(self):
+        caller = self.caller
+
+        if not self.target:
+            self.msg("Examine what?")
+            return
+        
+        self.msg(f"Examining {self.target}")
+        target = caller.search(self.target)
+        if target.db.is_open == False:
+            self.msg(target.get_display_desc(looker=self.caller))
+        self.msg(target.get_display_things(looker=self.caller, examination=True))
+
 class CmdHit(MuxCommand):
     '''
     Hit someone or something.
@@ -62,7 +97,7 @@ class CmdHit(MuxCommand):
 
         # Self msg
         self.caller.location.msg_contents(
-            f"|BYou hit $you(target) with $obj(weapon)!",
+            "|BYou hit $you(target) with $obj(weapon)!",
             exclude=[obj for obj in self.caller.location.contents if obj.key != self.caller.key],
             mapping = {
                 'target':target.get_display_name(looker=self.caller),
@@ -70,7 +105,7 @@ class CmdHit(MuxCommand):
             )
         # Onlookers msg
         self.caller.location.msg_contents(
-            f"$You(caller) $conj(hit) $you(target) with $obj(weapon)!",
+            "$You(caller) $conj(hit) $you(target) with $obj(weapon)!",
             exclude=[self.caller, target],
             mapping={
                 'caller':self.caller.get_display_name(),
@@ -79,7 +114,7 @@ class CmdHit(MuxCommand):
             )
         # Target msg
         target.location.msg_contents(
-            f"|R$You(caller) hits you with $obj(weapon)!|n",
+            "|R$You(caller) hits you with $obj(weapon)!|n",
             exclude = [obj for obj in self.caller.location.contents if obj.key != target.key],
             mapping={
                 'caller':self.caller.get_display_name(),
@@ -172,61 +207,61 @@ class CmdEquipment(MuxCommand):
             string = f"|wYour gear:\n{table}"
         self.caller.msg(text=(string, {"type": "equipment"}))
 
-    def handle_attack(self, target, weaponstr, hit, damage):
-        if damage == 0:
-            damage = 'no'
-        if hit:
-            # Self msg
-            self.caller.location.msg_contents(
-                f"|BYou hit $you(target) with $obj(weapon) for {damage} damage!",
-                exclude=[obj for obj in self.caller.location.contents if obj.key != self.caller.key],
-                mapping = {
-                    'target':target.get_display_name(mode='emote'),
-                    'weapon':weaponstr}
-                )
-            # Onlookers msg
-            self.caller.location.msg_contents(
-                f"$You(caller) $conj(hit) $you(target) with $obj(weapon) for {damage} damage!",
-                exclude=[self.caller, target],
-                mapping={
-                    'caller':self.caller.get_display_name(mode='emote'),
-                    'target':target.get_display_name(mode='emote'),
-                    'weapon':weaponstr}
-                )
-            # Target msg
-            target.location.msg_contents(
-                f"|R$you(caller) hits you with $obj(weapon) for {damage} damage!|n",
-                exclude = [obj for obj in self.caller.location.contents if obj.key != target.key],
-                mapping={
-                    'caller':self.caller.get_display_name(mode='emote'),
-                    'weapon':weaponstr}
-                )
-        if not hit:
-            # Self msg
-            self.caller.location.msg_contents(
-                f"|BYou try to hit $you(target) with $obj(weapon) but miss!",
-                exclude=[obj for obj in self.caller.location.contents if obj.key != self.caller.key],
-                mapping = {
-                    'target':target.get_display_name(mode='emote'),
-                    'weapon':weaponstr}
-                )
-            # Onlookers msg
-            self.caller.location.msg_contents(
-                f"$You(caller) $conj(try) $conj(hit) $you(target) with $obj(weapon) but misses!",
-                exclude=[self.caller, target],
-                mapping={
-                    'caller':self.caller.get_display_name(mode='emote'),
-                    'target':target.get_display_name(mode='emote'),
-                    'weapon':weaponstr}
-                )
-            # Target msg
-            target.location.msg_contents(
-                f"|R$you(caller) tries to hit you with $obj(weapon) but misses!|n",
-                exclude = [obj for obj in self.caller.location.contents if obj.key != target.key],
-                mapping={
-                    'caller':self.caller.get_display_name(mode='emote'),
-                    'weapon':weaponstr}
-                )
+    # def handle_attack(self, target, weaponstr, hit, damage):
+    #     if damage == 0:
+    #         damage = 'no'
+    #     if hit:
+    #         # Self msg
+    #         self.caller.location.msg_contents(
+    #             f"|BYou hit $you(target) with $obj(weapon) for {damage} damage!",
+    #             exclude=[obj for obj in self.caller.location.contents if obj.key != self.caller.key],
+    #             mapping = {
+    #                 'target':target.get_display_name(mode='emote'),
+    #                 'weapon':weaponstr}
+    #             )
+    #         # Onlookers msg
+    #         self.caller.location.msg_contents(
+    #             f"$You(caller) $conj(hit) $you(target) with $obj(weapon) for {damage} damage!",
+    #             exclude=[self.caller, target],
+    #             mapping={
+    #                 'caller':self.caller.get_display_name(mode='emote'),
+    #                 'target':target.get_display_name(mode='emote'),
+    #                 'weapon':weaponstr}
+    #             )
+    #         # Target msg
+    #         target.location.msg_contents(
+    #             f"|R$you(caller) hits you with $obj(weapon) for {damage} damage!|n",
+    #             exclude = [obj for obj in self.caller.location.contents if obj.key != target.key],
+    #             mapping={
+    #                 'caller':self.caller.get_display_name(mode='emote'),
+    #                 'weapon':weaponstr}
+    #             )
+    #     if not hit:
+    #         # Self msg
+    #         self.caller.location.msg_contents(
+    #             f"|BYou try to hit $you(target) with $obj(weapon) but miss!",
+    #             exclude=[obj for obj in self.caller.location.contents if obj.key != self.caller.key],
+    #             mapping = {
+    #                 'target':target.get_display_name(mode='emote'),
+    #                 'weapon':weaponstr}
+    #             )
+    #         # Onlookers msg
+    #         self.caller.location.msg_contents(
+    #             f"$You(caller) $conj(try) $conj(hit) $you(target) with $obj(weapon) but misses!",
+    #             exclude=[self.caller, target],
+    #             mapping={
+    #                 'caller':self.caller.get_display_name(mode='emote'),
+    #                 'target':target.get_display_name(mode='emote'),
+    #                 'weapon':weaponstr}
+    #             )
+    #         # Target msg
+    #         target.location.msg_contents(
+    #             f"|R$you(caller) tries to hit you with $obj(weapon) but misses!|n",
+    #             exclude = [obj for obj in self.caller.location.contents if obj.key != target.key],
+    #             mapping={
+    #                 'caller':self.caller.get_display_name(mode='emote'),
+    #                 'weapon':weaponstr}
+    #             )
 
 class MyNoInputCommand(Command):
     "Usage: Just press return, I dare you"
@@ -238,6 +273,7 @@ class MyNoInputCommand(Command):
 class MyCmdSet(CmdSet):
     key = "Main test cmd_set"
     def at_cmdset_creation(self):
+        self.add(CmdExamine)
         self.add(CmdEcho)
         self.add(CmdHit)
         self.add(CmdSwim)
