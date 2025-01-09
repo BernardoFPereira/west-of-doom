@@ -47,10 +47,12 @@ class CmdExamine(MuxCommand):
             self.msg("Examine what?")
             return
         
-        self.msg(f"Examining {self.target}")
+        # self.msg(f"Examining {self.target}")
         target = caller.search(self.target)
+        
         if target.db.is_open == False:
             self.msg(target.get_display_desc(looker=self.caller))
+            
         self.msg(target.get_display_things(looker=self.caller, examination=True))
 
 class CmdHit(MuxCommand):
