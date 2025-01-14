@@ -785,3 +785,357 @@
 |Portal| 2025-01-09 20:12:27 [..] Main loop terminated.
 |Portal| 2025-01-09 20:12:27 [..] Server Shut Down.
 |Portal| 2025-01-09 20:12:27 [..] Server Shut Down.
+|Portal| 2025-01-10 11:24:52 [..] Loaded.
+|Portal| 2025-01-10 11:24:50 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 11:24:52 [..] Loaded.
+|Portal| 2025-01-10 11:24:52 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 11:24:52 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 11:24:53 [..] AMP starting on 4006
+|Portal| 2025-01-10 11:24:53 [..] Telnet starting on 4000
+|Portal| 2025-01-10 11:24:53 [EE] Traceback (most recent call last):
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\tcp.py", line 1334, in startListening
+|Portal| 2025-01-10 11:24:53 [EE]     skt.bind(addr)
+|Portal| 2025-01-10 11:24:53 [EE] OSError: [WinError 10049] The requested address is not valid in its context
+|Portal| None|Portal| 2025-01-10 11:24:53 [EE] During handling of the above exception, another exception occurred:
+|Portal| None|Portal| 2025-01-10 11:24:53 [EE] Traceback (most recent call last):
+|Portal| 2025-01-10 11:24:53 [EE]   File "<frozen runpy>", line 198, in _run_module_as_main
+|Portal| 2025-01-10 11:24:53 [EE]   File "<frozen runpy>", line 88, in _run_code
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\scripts\twistd.exe\__main__.py", line 7, in <module>
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 35, in run
+|Portal| 2025-01-10 11:24:53 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 673, in run
+|Portal| 2025-01-10 11:24:53 [EE]     runApp(config)
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 29, in runApp
+|Portal| 2025-01-10 11:24:53 [EE]     runner.run()
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 374, in run
+|Portal| 2025-01-10 11:24:53 [EE]     self.postApplication()
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\_twistw.py", line 51, in postApplication
+|Portal| 2025-01-10 11:24:53 [EE]     service.IService(self.application).privilegedStartService()
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2025-01-10 11:24:53 [EE]     service.privilegedStartService()
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 97, in privilegedStartService
+|Portal| 2025-01-10 11:24:53 [EE]     super().privilegedStartService()
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2025-01-10 11:24:53 [EE]     service.privilegedStartService()
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\internet.py", line 114, in privilegedStartService
+|Portal| 2025-01-10 11:24:53 [EE]     self._port = self._getPort()
+|Portal| 2025-01-10 11:24:53 [EE]                  ^^^^^^^^^^^^^^^
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\internet.py", line 138, in _getPort
+|Portal| 2025-01-10 11:24:53 [EE]     return getattr(
+|Portal| 2025-01-10 11:24:53 [EE]            ^^^^^^^^
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\posixbase.py", line 364, in listenTCP
+|Portal| 2025-01-10 11:24:53 [EE]     p.startListening()
+|Portal| 2025-01-10 11:24:53 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\tcp.py", line 1336, in startListening
+|Portal| 2025-01-10 11:24:53 [EE]     raise CannotListenError(self.interface, self.port, le)
+|Portal| 2025-01-10 11:24:53 [EE] twisted.internet.error.CannotListenError: Couldn't listen on 10.0.2.29:4002: [WinError 10049] The requested address is not valid in its context.
+|Portal| 2025-01-10 11:25:23 [..] Loaded.
+|Portal| 2025-01-10 11:25:21 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 11:25:23 [..] Loaded.
+|Portal| 2025-01-10 11:25:23 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 11:25:23 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 11:25:23 [..] AMP starting on 4006
+|Portal| 2025-01-10 11:25:23 [..] Telnet starting on 4000
+|Portal| 2025-01-10 11:25:23 [EE] Traceback (most recent call last):
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\tcp.py", line 1334, in startListening
+|Portal| 2025-01-10 11:25:23 [EE]     skt.bind(addr)
+|Portal| 2025-01-10 11:25:23 [EE] OSError: [WinError 10049] The requested address is not valid in its context
+|Portal| None|Portal| 2025-01-10 11:25:23 [EE] During handling of the above exception, another exception occurred:
+|Portal| None|Portal| 2025-01-10 11:25:23 [EE] Traceback (most recent call last):
+|Portal| 2025-01-10 11:25:23 [EE]   File "<frozen runpy>", line 198, in _run_module_as_main
+|Portal| 2025-01-10 11:25:23 [EE]   File "<frozen runpy>", line 88, in _run_code
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\scripts\twistd.exe\__main__.py", line 7, in <module>
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 35, in run
+|Portal| 2025-01-10 11:25:23 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 673, in run
+|Portal| 2025-01-10 11:25:23 [EE]     runApp(config)
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 29, in runApp
+|Portal| 2025-01-10 11:25:23 [EE]     runner.run()
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 374, in run
+|Portal| 2025-01-10 11:25:23 [EE]     self.postApplication()
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\_twistw.py", line 51, in postApplication
+|Portal| 2025-01-10 11:25:23 [EE]     service.IService(self.application).privilegedStartService()
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2025-01-10 11:25:23 [EE]     service.privilegedStartService()
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 97, in privilegedStartService
+|Portal| 2025-01-10 11:25:23 [EE]     super().privilegedStartService()
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2025-01-10 11:25:23 [EE]     service.privilegedStartService()
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\internet.py", line 114, in privilegedStartService
+|Portal| 2025-01-10 11:25:23 [EE]     self._port = self._getPort()
+|Portal| 2025-01-10 11:25:23 [EE]                  ^^^^^^^^^^^^^^^
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\internet.py", line 138, in _getPort
+|Portal| 2025-01-10 11:25:23 [EE]     return getattr(
+|Portal| 2025-01-10 11:25:23 [EE]            ^^^^^^^^
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\posixbase.py", line 364, in listenTCP
+|Portal| 2025-01-10 11:25:23 [EE]     p.startListening()
+|Portal| 2025-01-10 11:25:23 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\tcp.py", line 1336, in startListening
+|Portal| 2025-01-10 11:25:23 [EE]     raise CannotListenError(self.interface, self.port, le)
+|Portal| 2025-01-10 11:25:23 [EE] twisted.internet.error.CannotListenError: Couldn't listen on 10.0.2.29:4002: [WinError 10049] The requested address is not valid in its context.
+|Portal| 2025-01-10 12:08:08 [..] Loaded.
+|Portal| 2025-01-10 12:08:06 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 12:08:08 [..] Loaded.
+|Portal| 2025-01-10 12:08:08 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 12:08:08 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 12:08:08 [..] AMP starting on 4006
+|Portal| 2025-01-10 12:08:08 [..] Telnet starting on 4000
+|Portal| 2025-01-10 12:08:08 [..] Websocket starting on 4002
+|Portal| 2025-01-10 12:08:08 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 12:08:08 [..] Portal starting server ... 
+|Portal| 2025-01-10 12:09:10 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 12:09:10 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 12:09:10 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 12:09:10 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 12:09:10 [..] Main loop terminated.
+|Portal| 2025-01-10 12:09:10 [..] Server Shut Down.
+|Portal| 2025-01-10 12:09:10 [..] Server Shut Down.
+|Portal| 2025-01-10 19:40:39 [..] Loaded.
+|Portal| 2025-01-10 19:40:36 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 19:40:39 [..] Loaded.
+|Portal| 2025-01-10 19:40:39 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 19:40:39 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 19:40:40 [..] AMP starting on 4006
+|Portal| 2025-01-10 19:40:40 [..] Telnet starting on 4000
+|Portal| 2025-01-10 19:40:40 [EE] Traceback (most recent call last):
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\tcp.py", line 1334, in startListening
+|Portal| 2025-01-10 19:40:40 [EE]     skt.bind(addr)
+|Portal| 2025-01-10 19:40:40 [EE] OSError: [WinError 10049] The requested address is not valid in its context
+|Portal| None|Portal| 2025-01-10 19:40:40 [EE] During handling of the above exception, another exception occurred:
+|Portal| None|Portal| 2025-01-10 19:40:40 [EE] Traceback (most recent call last):
+|Portal| 2025-01-10 19:40:40 [EE]   File "<frozen runpy>", line 198, in _run_module_as_main
+|Portal| 2025-01-10 19:40:40 [EE]   File "<frozen runpy>", line 88, in _run_code
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\scripts\twistd.exe\__main__.py", line 7, in <module>
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 35, in run
+|Portal| 2025-01-10 19:40:40 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 673, in run
+|Portal| 2025-01-10 19:40:40 [EE]     runApp(config)
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\twistd.py", line 29, in runApp
+|Portal| 2025-01-10 19:40:40 [EE]     runner.run()
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\app.py", line 374, in run
+|Portal| 2025-01-10 19:40:40 [EE]     self.postApplication()
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\scripts\_twistw.py", line 51, in postApplication
+|Portal| 2025-01-10 19:40:40 [EE]     service.IService(self.application).privilegedStartService()
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2025-01-10 19:40:40 [EE]     service.privilegedStartService()
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\service.py", line 97, in privilegedStartService
+|Portal| 2025-01-10 19:40:40 [EE]     super().privilegedStartService()
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\service.py", line 271, in privilegedStartService
+|Portal| 2025-01-10 19:40:40 [EE]     service.privilegedStartService()
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\internet.py", line 114, in privilegedStartService
+|Portal| 2025-01-10 19:40:40 [EE]     self._port = self._getPort()
+|Portal| 2025-01-10 19:40:40 [EE]                  ^^^^^^^^^^^^^^^
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\application\internet.py", line 138, in _getPort
+|Portal| 2025-01-10 19:40:40 [EE]     return getattr(
+|Portal| 2025-01-10 19:40:40 [EE]            ^^^^^^^^
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\posixbase.py", line 364, in listenTCP
+|Portal| 2025-01-10 19:40:40 [EE]     p.startListening()
+|Portal| 2025-01-10 19:40:40 [EE]   File "E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\twisted\internet\tcp.py", line 1336, in startListening
+|Portal| 2025-01-10 19:40:40 [EE]     raise CannotListenError(self.interface, self.port, le)
+|Portal| 2025-01-10 19:40:40 [EE] twisted.internet.error.CannotListenError: Couldn't listen on 10.0.2.29:4002: [WinError 10049] The requested address is not valid in its context.
+|Portal| 2025-01-10 19:42:35 [..] Loaded.
+|Portal| 2025-01-10 19:42:33 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 19:42:35 [..] Loaded.
+|Portal| 2025-01-10 19:42:35 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 19:42:35 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 19:42:35 [..] AMP starting on 4006
+|Portal| 2025-01-10 19:42:35 [..] Telnet starting on 4000
+|Portal| 2025-01-10 19:42:35 [..] Websocket starting on 4002
+|Portal| 2025-01-10 19:42:35 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 19:42:35 [..] Portal starting server ... 
+|Portal| 2025-01-10 19:44:03 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64738)
+|Portal| 2025-01-10 19:44:34 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 19:44:34 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 19:44:34 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 19:44:34 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 19:44:34 [..] Main loop terminated.
+|Portal| 2025-01-10 19:44:34 [..] Server Shut Down.
+|Portal| 2025-01-10 19:44:34 [..] Server Shut Down.
+|Portal| 2025-01-10 19:49:26 [..] Loaded.
+|Portal| 2025-01-10 19:49:24 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 19:49:26 [..] Loaded.
+|Portal| 2025-01-10 19:49:26 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 19:49:26 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 19:49:26 [..] AMP starting on 4006
+|Portal| 2025-01-10 19:49:26 [..] Telnet starting on 4000
+|Portal| 2025-01-10 19:49:26 [..] Websocket starting on 4002
+|Portal| 2025-01-10 19:49:26 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 19:49:26 [..] Portal starting server ... 
+|Portal| 2025-01-10 19:50:32 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64918)
+|Portal| 2025-01-10 19:50:33 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64920)
+|Portal| 2025-01-10 19:50:33 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64917)
+|Portal| 2025-01-10 19:51:34 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64935)
+|Portal| 2025-01-10 19:51:34 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64936)
+|Portal| 2025-01-10 19:52:36 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64960)
+|Portal| 2025-01-10 19:52:36 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64961)
+|Portal| 2025-01-10 19:53:19 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 19:53:19 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 19:53:19 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 19:53:19 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 19:53:19 [..] Main loop terminated.
+|Portal| 2025-01-10 19:53:19 [..] Server Shut Down.
+|Portal| 2025-01-10 19:53:19 [..] Server Shut Down.
+|Portal| 2025-01-10 19:53:29 [..] Loaded.
+|Portal| 2025-01-10 19:53:27 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 19:53:29 [..] Loaded.
+|Portal| 2025-01-10 19:53:29 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 19:53:29 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 19:53:29 [..] AMP starting on 4006
+|Portal| 2025-01-10 19:53:29 [..] Telnet starting on 4000
+|Portal| 2025-01-10 19:53:29 [..] Websocket starting on 4002
+|Portal| 2025-01-10 19:53:29 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 19:53:29 [..] Portal starting server ... 
+|Portal| 2025-01-10 19:54:36 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65026)
+|Portal| 2025-01-10 19:54:36 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65025)
+|Portal| 2025-01-10 19:54:36 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65029)
+|Portal| 2025-01-10 19:55:36 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65056)
+|Portal| 2025-01-10 19:55:37 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65057)
+|Portal| 2025-01-10 19:56:39 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65073)
+|Portal| 2025-01-10 19:56:39 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65074)
+|Portal| 2025-01-10 19:57:41 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65088)
+|Portal| 2025-01-10 19:57:41 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65089)
+|Portal| 2025-01-10 19:58:43 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65107)
+|Portal| 2025-01-10 19:58:44 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65108)
+|Portal| 2025-01-10 19:59:03 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 19:59:03 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 19:59:03 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 19:59:03 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 19:59:03 [..] Main loop terminated.
+|Portal| 2025-01-10 19:59:03 [..] Server Shut Down.
+|Portal| 2025-01-10 19:59:03 [..] Server Shut Down.
+|Portal| 2025-01-10 20:00:23 [..] Loaded.
+|Portal| 2025-01-10 20:00:21 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 20:00:23 [..] Loaded.
+|Portal| 2025-01-10 20:00:23 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 20:00:23 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 20:00:23 [..] AMP starting on 4006
+|Portal| 2025-01-10 20:00:23 [..] Telnet starting on 4000
+|Portal| 2025-01-10 20:00:23 [..] Websocket starting on 4002
+|Portal| 2025-01-10 20:00:23 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 20:00:24 [..] Portal starting server ... 
+|Portal| 2025-01-10 20:01:34 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65199)
+|Portal| 2025-01-10 20:01:34 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65201)
+|Portal| 2025-01-10 20:01:34 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65198)
+|Portal| 2025-01-10 20:02:09 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 20:02:09 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 20:02:09 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 20:02:09 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 20:02:09 [..] Main loop terminated.
+|Portal| 2025-01-10 20:02:09 [..] Server Shut Down.
+|Portal| 2025-01-10 20:02:09 [..] Server Shut Down.
+|Portal| 2025-01-10 20:02:22 [..] Loaded.
+|Portal| 2025-01-10 20:02:20 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 20:02:22 [..] Loaded.
+|Portal| 2025-01-10 20:02:22 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 20:02:22 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 20:02:22 [..] AMP starting on 4006
+|Portal| 2025-01-10 20:02:22 [..] Telnet starting on 4000
+|Portal| 2025-01-10 20:02:22 [..] Websocket starting on 4002
+|Portal| 2025-01-10 20:02:22 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 20:02:23 [..] Portal starting server ... 
+|Portal| 2025-01-10 20:03:31 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65263)
+|Portal| 2025-01-10 20:03:31 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65262)
+|Portal| 2025-01-10 20:03:31 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65266)
+|Portal| 2025-01-10 20:04:32 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65291)
+|Portal| 2025-01-10 20:04:32 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65292)
+|Portal| 2025-01-10 20:05:35 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65325)
+|Portal| 2025-01-10 20:05:35 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65326)
+|Portal| 2025-01-10 20:07:09 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 20:07:09 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 20:07:09 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 20:07:09 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 20:07:09 [..] Main loop terminated.
+|Portal| 2025-01-10 20:07:09 [..] Server Shut Down.
+|Portal| 2025-01-10 20:07:09 [..] Server Shut Down.
+|Portal| 2025-01-10 20:07:20 [..] Loaded.
+|Portal| 2025-01-10 20:07:18 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 20:07:20 [..] Loaded.
+|Portal| 2025-01-10 20:07:20 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 20:07:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 20:07:20 [..] AMP starting on 4006
+|Portal| 2025-01-10 20:07:20 [..] Telnet starting on 4000
+|Portal| 2025-01-10 20:07:20 [..] Websocket starting on 4002
+|Portal| 2025-01-10 20:07:20 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 20:07:21 [..] Portal starting server ... 
+|Portal| 2025-01-10 20:08:07 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 20:08:07 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 20:08:07 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 20:08:07 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 20:08:07 [..] Main loop terminated.
+|Portal| 2025-01-10 20:08:07 [..] Server Shut Down.
+|Portal| 2025-01-10 20:08:07 [..] Server Shut Down.
+|Portal| 2025-01-10 20:08:17 [..] Loaded.
+|Portal| 2025-01-10 20:08:15 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 20:08:17 [..] Loaded.
+|Portal| 2025-01-10 20:08:17 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 20:08:17 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 20:08:17 [..] AMP starting on 4006
+|Portal| 2025-01-10 20:08:17 [..] Telnet starting on 4000
+|Portal| 2025-01-10 20:08:17 [..] Websocket starting on 4002
+|Portal| 2025-01-10 20:08:17 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 20:08:17 [..] Portal starting server ... 
+|Portal| 2025-01-10 20:09:26 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65454)
+|Portal| 2025-01-10 20:09:26 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65455)
+|Portal| 2025-01-10 20:09:27 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65452)
+|Portal| 2025-01-10 20:10:22 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 20:10:22 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 20:10:22 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 20:10:22 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 20:10:22 [..] Main loop terminated.
+|Portal| 2025-01-10 20:10:22 [..] Server Shut Down.
+|Portal| 2025-01-10 20:10:22 [..] Server Shut Down.
+|Portal| 2025-01-10 20:10:32 [..] Loaded.
+|Portal| 2025-01-10 20:10:30 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 20:10:32 [..] Loaded.
+|Portal| 2025-01-10 20:10:32 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 20:10:32 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 20:10:32 [..] AMP starting on 4006
+|Portal| 2025-01-10 20:10:32 [..] Telnet starting on 4000
+|Portal| 2025-01-10 20:10:32 [..] Websocket starting on 4002
+|Portal| 2025-01-10 20:10:32 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 20:10:32 [..] Portal starting server ... 
+|Portal| 2025-01-10 20:11:32 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65516)
+|Portal| 2025-01-10 20:11:39 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 20:11:39 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 20:11:39 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 20:11:39 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 20:11:39 [..] Main loop terminated.
+|Portal| 2025-01-10 20:11:39 [..] Server Shut Down.
+|Portal| 2025-01-10 20:11:39 [..] Server Shut Down.
+|Portal| 2025-01-10 20:15:01 [..] Loaded.
+|Portal| 2025-01-10 20:14:59 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-10 20:15:01 [..] Loaded.
+|Portal| 2025-01-10 20:15:01 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-10 20:15:01 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-10 20:15:01 [..] AMP starting on 4006
+|Portal| 2025-01-10 20:15:01 [..] Telnet starting on 4000
+|Portal| 2025-01-10 20:15:01 [..] Websocket starting on 4002
+|Portal| 2025-01-10 20:15:01 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-10 20:15:01 [..] Portal starting server ... 
+|Portal| 2025-01-10 20:15:31 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-10 20:15:31 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-10 20:15:31 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-10 20:15:31 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-10 20:15:31 [..] Main loop terminated.
+|Portal| 2025-01-10 20:15:31 [..] Server Shut Down.
+|Portal| 2025-01-10 20:15:31 [..] Server Shut Down.
+|Portal| 2025-01-11 19:48:06 [..] Loaded.
+|Portal| 2025-01-11 19:48:04 [..] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\portal\portal.py...
+|Portal| 2025-01-11 19:48:06 [..] Loaded.
+|Portal| 2025-01-11 19:48:06 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+|Portal| 2025-01-11 19:48:06 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-01-11 19:48:07 [..] AMP starting on 4006
+|Portal| 2025-01-11 19:48:07 [..] Telnet starting on 4000
+|Portal| 2025-01-11 19:48:07 [..] Websocket starting on 4002
+|Portal| 2025-01-11 19:48:07 [..] Webserver-proxy starting on 4001
+|Portal| 2025-01-11 19:48:07 [..] Portal starting server ... 
+|Portal| 2025-01-11 19:49:33 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65138)
+|Portal| 2025-01-11 19:49:33 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65139)
+|Portal| 2025-01-11 19:49:33 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65140)
+|Portal| 2025-01-11 19:49:33 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65108)
+|Portal| 2025-01-11 19:49:33 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=65137)
+|Portal| 2025-01-11 19:49:48 [..] (TCP Port 4001 Closed)
+|Portal| 2025-01-11 19:49:48 [..] (TCP Port 4006 Closed)
+|Portal| 2025-01-11 19:49:48 [..] (TCP Port 4002 Closed)
+|Portal| 2025-01-11 19:49:48 [..] (TCP Port 4000 Closed)
+|Portal| 2025-01-11 19:49:48 [..] Main loop terminated.
+|Portal| 2025-01-11 19:49:48 [..] Server Shut Down.
+|Portal| 2025-01-11 19:49:48 [..] Server Shut Down.

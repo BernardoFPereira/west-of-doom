@@ -4210,3 +4210,144 @@ secret_settings.py file not found or failed to import.
 2025-01-09 20:12:27 [..] Main loop terminated.
 2025-01-09 20:12:27 [..] Server Shut Down.
 2025-01-09 20:12:27 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 12:08:11 [..] Loaded.
+2025-01-10 12:08:11 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 12:08:11 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 12:08:11 [..] Webserver starting on 4005
+2025-01-10 12:08:11 [..] Evennia Server successfully started.
+2025-01-10 12:08:17 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 12:08:20 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 12:08:28 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 12:08:57 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 12:09:10 [..] Server disconnected from the portal.
+2025-01-10 12:09:10 [..] Main loop terminated.
+2025-01-10 12:09:10 [..] Server Shut Down.
+2025-01-10 12:09:10 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 19:42:38 [..] Loaded.
+2025-01-10 19:42:38 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 19:42:38 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 19:42:38 [..] Webserver starting on 4005
+2025-01-10 19:42:38 [..] Evennia Server successfully started.
+2025-01-10 19:44:34 [..] Server disconnected from the portal.
+2025-01-10 19:44:34 [..] Main loop terminated.
+2025-01-10 19:44:34 [..] Server Shut Down.
+2025-01-10 19:44:34 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 19:49:29 [..] Loaded.
+2025-01-10 19:49:29 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 19:49:29 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 19:49:29 [..] Webserver starting on 4005
+2025-01-10 19:49:29 [..] Evennia Server successfully started.
+2025-01-10 19:53:19 [..] Server disconnected from the portal.
+2025-01-10 19:53:19 [..] Main loop terminated.
+2025-01-10 19:53:19 [..] Server Shut Down.
+2025-01-10 19:53:19 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 19:53:32 [..] Loaded.
+2025-01-10 19:53:32 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 19:53:32 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 19:53:32 [..] Webserver starting on 4005
+2025-01-10 19:53:32 [..] Evennia Server successfully started.
+2025-01-10 19:56:28 [SS] Authentication Failure: Marshal (IP: 127.0.0.1).
+2025-01-10 19:56:32 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-10 19:56:32 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-10 19:58:51 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-10 19:59:03 [..] Server disconnected from the portal.
+2025-01-10 19:59:03 [..] Main loop terminated.
+2025-01-10 19:59:03 [..] Server Shut Down.
+2025-01-10 19:59:03 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 20:00:26 [..] Loaded.
+2025-01-10 20:00:26 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 20:00:26 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 20:00:26 [..] Webserver starting on 4005
+2025-01-10 20:00:26 [..] Evennia Server successfully started.
+2025-01-10 20:02:09 [..] Server disconnected from the portal.
+2025-01-10 20:02:09 [..] Main loop terminated.
+2025-01-10 20:02:09 [..] Server Shut Down.
+2025-01-10 20:02:09 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 20:02:25 [..] Loaded.
+2025-01-10 20:02:25 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 20:02:25 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 20:02:25 [..] Webserver starting on 4005
+2025-01-10 20:02:26 [..] Evennia Server successfully started.
+2025-01-10 20:02:45 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-10 20:02:45 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-10 20:03:07 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-10 20:07:09 [..] Server disconnected from the portal.
+2025-01-10 20:07:09 [..] Main loop terminated.
+2025-01-10 20:07:09 [..] Server Shut Down.
+2025-01-10 20:07:09 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 20:07:23 [..] Loaded.
+2025-01-10 20:07:23 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 20:07:23 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 20:07:23 [..] Webserver starting on 4005
+2025-01-10 20:07:23 [..] Evennia Server successfully started.
+2025-01-10 20:08:07 [..] Server disconnected from the portal.
+2025-01-10 20:08:07 [..] Main loop terminated.
+2025-01-10 20:08:07 [..] Server Shut Down.
+2025-01-10 20:08:07 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 20:08:20 [..] Loaded.
+2025-01-10 20:08:20 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 20:08:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 20:08:20 [..] Webserver starting on 4005
+2025-01-10 20:08:20 [..] Evennia Server successfully started.
+2025-01-10 20:08:27 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 20:10:22 [..] Server disconnected from the portal.
+2025-01-10 20:10:22 [..] Main loop terminated.
+2025-01-10 20:10:22 [..] Server Shut Down.
+2025-01-10 20:10:22 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 20:10:35 [..] Loaded.
+2025-01-10 20:10:35 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 20:10:35 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 20:10:35 [..] Webserver starting on 4005
+2025-01-10 20:10:35 [..] Evennia Server successfully started.
+2025-01-10 20:10:37 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 20:10:39 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 20:11:39 [..] Server disconnected from the portal.
+2025-01-10 20:11:39 [..] Main loop terminated.
+2025-01-10 20:11:39 [..] Server Shut Down.
+2025-01-10 20:11:39 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-10 20:15:04 [..] Loaded.
+2025-01-10 20:15:04 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-10 20:15:04 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-10 20:15:04 [..] Webserver starting on 4005
+2025-01-10 20:15:04 [..] Evennia Server successfully started.
+2025-01-10 20:15:21 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-10 20:15:31 [..] Server disconnected from the portal.
+2025-01-10 20:15:31 [..] Main loop terminated.
+2025-01-10 20:15:31 [..] Server Shut Down.
+2025-01-10 20:15:31 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\west_of_doom\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-11 19:48:10 [..] Loaded.
+2025-01-11 19:48:10 [..] twistd 23.10.0 (E:\Documents\Development\west_of_doom\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-11 19:48:10 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-11 19:48:10 [..] Webserver starting on 4005
+2025-01-11 19:48:10 [..] Evennia Server successfully started.
+2025-01-11 19:48:29 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-11 19:48:32 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-01-11 19:48:34 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-11 19:48:51 [EE] Overwriting existing registered function stopWordFilter
+2025-01-11 19:49:31 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-11 19:49:48 [..] Server disconnected from the portal.
+2025-01-11 19:49:48 [..] Main loop terminated.
+2025-01-11 19:49:48 [..] Server Shut Down.
+2025-01-11 19:49:48 [..] Server Shut Down.

@@ -20,7 +20,7 @@ class CmdEcho(MuxCommand):
 
 class CmdExamine(MuxCommand):
     '''
-    Carefully |yexamine|n an object or creature.
+    Carefully |Bexamine|n an object or creature.
     
     Usage:
         examine <target>
@@ -142,7 +142,7 @@ class CmdSwim(MuxCommand):
     '''
     Turns |hswimming|n on and off.
     When |hswim|n is active, you'll not be warned when getting
-    into |~Bwater~|n.
+    into |B~water~|n.
     Using |Yswim always|n will ignore the strength of the water
     current if there is any.
     [NOT IMPLEMENTED YET]
