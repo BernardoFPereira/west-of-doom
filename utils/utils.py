@@ -1,4 +1,5 @@
 from evennia.utils import make_iter
+from enums import AmmoType
 
 def iter_to_multiline(iterable, sep="\n"):
     """
@@ -54,3 +55,30 @@ def is_sitting_msg(character):
 
     if character.db.stance == 'sitting':
         return character.msg("Shouldn't you stand upright first?")
+
+_OBJ_STATS = """
+|c{key}|n
+{desc}
+
+Weight: |w{weight}|n
+Quality: |w{quality}|n
+""".strip()
+
+def get_gear_stats(obj, owner=None):
+    """
+    Get a string of stats about the object.
+
+    Args:
+        obj (Object): The object to get stats for.
+        owner (Object): The one currently owning/carrying `obj`, if any. Can be
+            used to show where they are wielding it.
+    Returns:
+        str: A nice info string to display about the object.
+
+    """
+    return _OBJ_STATS.format(
+        key=obj.key,
+        desc=obj.db.desc,
+        weight=obj.weight,
+        quality='pristine',
+    )

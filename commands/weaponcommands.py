@@ -8,6 +8,7 @@ class ShootCmd(MuxCommand):
     Usage:
         shoot <target>
     '''
+    help_category = "Combat"
     key = "shoot"
     aliases = ["sh","fire","shot"]
 

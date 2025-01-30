@@ -84,18 +84,19 @@ class Door(Exit):
         
         # door_direction = self.aliases.get()[0]
         door_direction = self.key[0]
-        door_key = self.key
+        # door_key = self.key
         door_name = self.db.door_name
 
-        other_direction = ''
+        # other_direction = ''
 
-        for direction in direction_dict:
-            if direction[0] in door_key:
-                other_direction = direction_dict[door_direction][1]
-        other_side = self.destination.search(other_direction, typeclass='typeclasses.doors.Door')
+        # for direction in direction_dict:
+        #     if direction[0] in door_key:
+        #         other_direction = direction_dict[door_direction][1]
+        other_side = self.get_return_exit()
+        # other_side = self.destination.search(other_direction, typeclass='typeclasses.doors.Door')
 
-        self.db.return_exit = other_side
-        other_side.db.return_exit = self
+        # self.db.return_exit = other_side
+        # other_side.db.return_exit = self
 
         if named:
             # self.aliases.clear()
@@ -123,13 +124,15 @@ class Door(Exit):
     def open(self):
         if not self.db.is_open:
             self.db.is_open = True
-            self.db.return_exit.db.is_open = True
+            self.get_return_exit().db.is_open = True
+            # self.db.return_exit.db.is_open = True
 
     def close(self):
         if self.db.is_open:
             self.db.is_open = False
-            self.db.return_exit.db.is_open = False            
-
+            self.get_return_exit().db.is_open = False
+            # self.db.return_exit.db.is_open = False
+            
     def get_display_name(self, looker=None, **kwargs):
         mode = kwargs.get('mode')
         if mode == 'dir':

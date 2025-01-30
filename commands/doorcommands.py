@@ -1,3 +1,5 @@
+# !!!UNUSED!!!
+
 from commands.command import Command
 from evennia import CmdSet
 

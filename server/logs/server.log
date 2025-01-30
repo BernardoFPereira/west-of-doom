@@ -4351,3 +4351,721 @@ secret_settings.py file not found or failed to import.
 2025-01-11 19:49:48 [..] Main loop terminated.
 2025-01-11 19:49:48 [..] Server Shut Down.
 2025-01-11 19:49:48 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-14 16:18:18 [..] Loaded.
+2025-01-14 16:18:18 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-14 16:18:18 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-14 16:18:18 [..] Webserver starting on 4005
+2025-01-14 16:18:18 [..] Evennia Server successfully started.
+2025-01-14 16:18:35 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-14 16:18:35 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-14 16:19:22 [EE] Overwriting existing registered function stopWordFilter
+None2025-01-14 16:21:40 [EE] Could not load typeclass 'typeclasses.Rooms.FieldRoom'
+2025-01-14 16:21:40 [EE] Paths searched:
+2025-01-14 16:21:40 [EE]     typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     typeclasses.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     evennia.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     evennia.contrib.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     evennia.contrib.game_systems.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     evennia.contrib.base_systems.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     evennia.contrib.full_systems.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     evennia.contrib.tutorials.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE]     evennia.contrib.utils.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!] Traceback (most recent call last):
+2025-01-14 16:21:40 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-14 16:21:40 [!!]     ret = cmd.func()
+2025-01-14 16:21:40 [!!]           ^^^^^^^^^^
+2025-01-14 16:21:40 [!!]   File "E:\Documents\Development\evennia\west-of-doom\commands\buildingcommands.py", line 76, in func
+2025-01-14 16:21:40 [!!]     new_room = create.create_object(
+2025-01-14 16:21:40 [!!]                ^^^^^^^^^^^^^^^^^^^^^
+2025-01-14 16:21:40 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\objects\manager.py", line 660, in create_object
+2025-01-14 16:21:40 [!!]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2025-01-14 16:21:40 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-14 16:21:40 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\utils.py", line 1668, in class_from_module
+2025-01-14 16:21:40 [!!]     raise ImportError(err)
+2025-01-14 16:21:40 [!!] ImportError: 
+2025-01-14 16:21:40 [!!] Could not load typeclass 'typeclasses.Rooms.FieldRoom'
+2025-01-14 16:21:40 [!!] Paths searched:
+2025-01-14 16:21:40 [!!]     typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     typeclasses.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     evennia.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     evennia.contrib.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     evennia.contrib.game_systems.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     evennia.contrib.base_systems.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     evennia.contrib.full_systems.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     evennia.contrib.tutorials.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [!!]     evennia.contrib.utils.typeclasses.Rooms.FieldRoom
+2025-01-14 16:21:40 [EE] User input was: '@dig Plain Field:typeclasses.Rooms.FieldRoom = south;s, north;n'.
+2025-01-14 16:27:18 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+None2025-01-14 16:33:46 [EE] Could not load typeclass 'typeclasses.exits.RoadExit'
+2025-01-14 16:33:46 [EE] Paths searched:
+2025-01-14 16:33:46 [EE]     typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     typeclasses.typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     evennia.typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     evennia.contrib.typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     evennia.contrib.game_systems.typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     evennia.contrib.base_systems.typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     evennia.contrib.full_systems.typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     evennia.contrib.tutorials.typeclasses.exits.RoadExit
+2025-01-14 16:33:46 [EE]     evennia.contrib.utils.typeclasses.exits.RoadExit
+2025-01-14 16:54:41 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-14 17:09:36 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-14 17:09:36 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-14 17:14:40 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-14 17:14:48 [..] Server disconnected from the portal.
+2025-01-14 17:14:48 [..] Main loop terminated.
+2025-01-14 17:14:48 [..] Server Shut Down.
+2025-01-14 17:14:48 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-14 17:54:05 [..] Loaded.
+2025-01-14 17:54:05 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-14 17:54:05 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-14 17:54:05 [..] Webserver starting on 4005
+2025-01-14 17:54:05 [..] Evennia Server successfully started.
+2025-01-14 17:54:18 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-14 17:54:18 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-14 17:55:27 [..] Server disconnected from the portal.
+2025-01-14 17:55:27 [..] Main loop terminated.
+2025-01-14 17:55:27 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:55:30 [..] Loaded.
+2025-01-14 17:55:28 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-14 17:55:30 [..] Loaded.
+2025-01-14 17:55:30 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-14 17:55:30 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-14 17:55:30 [..] Webserver starting on 4005
+2025-01-14 17:55:30 [..] Server successfully reloaded.
+2025-01-14 17:56:04 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-14 17:56:17 [..] Server disconnected from the portal.
+2025-01-14 17:56:17 [..] Main loop terminated.
+2025-01-14 17:56:17 [..] Server Shut Down.
+2025-01-14 17:56:17 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-15 17:46:13 [..] Loaded.
+2025-01-15 17:46:13 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-15 17:46:13 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-15 17:46:13 [..] Webserver starting on 4005
+2025-01-15 17:46:13 [..] Evennia Server successfully started.
+2025-01-15 17:46:39 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-15 17:46:40 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-15 17:50:42 [!!] Traceback (most recent call last):
+2025-01-15 17:50:42 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-15 17:50:42 [!!]     ret = cmd.func()
+2025-01-15 17:50:42 [!!]           ^^^^^^^^^^
+2025-01-15 17:50:42 [!!]   File "E:\Documents\Development\evennia\west-of-doom\commands\standardcommands.py", line 133, in func
+2025-01-15 17:50:42 [!!]     target.location.msg_contents(
+2025-01-15 17:50:42 [!!]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-15 17:50:42 [!!] AttributeError: 'NoneType' object has no attribute 'msg_contents'
+2025-01-15 17:50:42 [EE] User input was: 'hit shack with shovel'.
+2025-01-15 17:51:36 [!!] Traceback (most recent call last):
+2025-01-15 17:51:36 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-15 17:51:36 [!!]     ret = cmd.func()
+2025-01-15 17:51:36 [!!]           ^^^^^^^^^^
+2025-01-15 17:51:36 [!!]   File "E:\Documents\Development\evennia\west-of-doom\commands\standardcommands.py", line 133, in func
+2025-01-15 17:51:36 [!!]     target.location.msg_contents(
+2025-01-15 17:51:36 [!!]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-15 17:51:36 [!!] AttributeError: 'NoneType' object has no attribute 'msg_contents'
+2025-01-15 17:51:36 [EE] User input was: 'hit shack'.
+2025-01-15 17:53:25 [EE] Overwriting existing registered function stopWordFilter
+2025-01-15 17:53:58 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-15 17:54:06 [..] Server disconnected from the portal.
+2025-01-15 17:54:06 [..] Main loop terminated.
+2025-01-15 17:54:06 [..] Server Shut Down.
+2025-01-15 17:54:06 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-16 12:42:57 [..] Loaded.
+2025-01-16 12:42:57 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-16 12:42:57 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-16 12:42:58 [..] Webserver starting on 4005
+2025-01-16 12:42:58 [..] Evennia Server successfully started.
+2025-01-16 12:44:03 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-16 12:44:03 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-16 12:44:52 [..] Server disconnected from the portal.
+2025-01-16 12:44:52 [..] Main loop terminated.
+2025-01-16 12:44:52 [..] Server Shut Down.
+2025-01-16 12:44:52 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-16 12:44:55 [..] Loaded.
+2025-01-16 12:44:55 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-16 12:44:55 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-16 12:44:55 [..] Webserver starting on 4005
+2025-01-16 12:44:55 [..] Server successfully reloaded.
+2025-01-16 12:50:33 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+6 12:50:33 [..] Server Shut Down.
+2025-01-16 12:50:33 [..] Server Shut Down.
+2025-01-16 12:50:35 [..] Loaded.
+2025-01-16 12:50:33 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-16 12:50:35 [..] Loaded.
+2025-01-16 12:50:35 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-16 12:50:35 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-16 12:50:35 [..] Webserver starting on 4005
+2025-01-16 12:50:35 [..] Server successfully reloaded.
+2025-01-16 12:51:25 [!!] Traceback (most recent call last):
+2025-01-16 12:51:25 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-16 12:51:25 [!!]     ret = cmd.func()
+2025-01-16 12:51:25 [!!]           ^^^^^^^^^^
+2025-01-16 12:51:25 [!!]   File "E:\Documents\Development\evennia\west-of-doom\commands\standardcommands.py", line 94, in func
+2025-01-16 12:51:25 [!!]     self.caller.msg(f"Following {self.target.get_display_name()}.")
+2025-01-16 12:51:25 [!!]                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-16 12:51:25 [!!] AttributeError: 'str' object has no attribute 'get_display_name'
+2025-01-16 12:51:25 [EE] User input was: 'follow horse'.
+2025-01-16 12:51:36 [!!] Traceback (most recent call last):
+2025-01-16 12:51:36 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-16 12:51:36 [!!]     ret = cmd.func()
+2025-01-16 12:51:36 [!!]           ^^^^^^^^^^
+2025-01-16 12:51:36 [!!]   File "E:\Documents\Development\evennia\west-of-doom\commands\standardcommands.py", line 94, in func
+2025-01-16 12:51:36 [!!]     self.caller.msg(f"Following {self.target.get_display_name()}.")
+2025-01-16 12:51:36 [!!]                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-16 12:51:36 [!!] AttributeError: 'str' object has no attribute 'get_display_name'
+2025-01-16 12:51:36 [EE] User input was: 'follow nugger'.
+2025-01-16 12:52:39 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+6 12:52:39 [..] Server Shut Down.
+2025-01-16 12:52:39 [..] Server Shut Down.
+2025-01-16 12:52:42 [..] Loaded.
+2025-01-16 12:52:40 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-16 12:52:42 [..] Loaded.
+2025-01-16 12:52:42 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-16 12:52:42 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-16 12:52:42 [..] Webserver starting on 4005
+2025-01-16 12:52:42 [..] Server successfully reloaded.
+2025-01-16 12:52:53 [!!] Traceback (most recent call last):
+2025-01-16 12:52:53 [!!]   File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\commands\cmdhandler.py", line 629, in _run_command
+2025-01-16 12:52:53 [!!]     ret = cmd.func()
+2025-01-16 12:52:53 [!!]           ^^^^^^^^^^
+2025-01-16 12:52:53 [!!]   File "E:\Documents\Development\evennia\west-of-doom\commands\standardcommands.py", line 95, in func
+2025-01-16 12:52:53 [!!]     self.caller.msg(f"Following {target.get_display_name()}.")
+2025-01-16 12:52:53 [!!]                                  ^^^^^^^^^^^^^^^^^^^^^^^
+2025-01-16 12:52:53 [!!] AttributeError: 'NoneType' object has no attribute 'get_display_name'
+2025-01-16 12:52:53 [EE] User input was: 'follow bug'.
+2025-01-16 12:53:43 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-16 12:53:48 [..] Server disconnected from the portal.
+2025-01-16 12:53:48 [..] Main loop terminated.
+2025-01-16 12:53:48 [..] Server Shut Down.
+2025-01-16 12:53:48 [..] Server Shut Down.
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:122:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 122, in log_trace
+    _log(tracestring, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file.
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:124:log_trace
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:46:_log
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:250:error
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py:142:emit
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:100:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:110:flush
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 124, in log_trace
+    _log(msg, log.error, prefix="!!", **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 46, in _log
+    logfunc("{line}", prefix=prefix, line=line)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 250, in error
+    self.emit(LogLevel.error, format, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_logger.py", line 142, in emit
+    self.observer(event)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 100, in write
+    self.flush()
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 110, in flush
+    self._file.flush()
+builtins.ValueError: I/O operation on closed file.
+
+Temporarily disabling observer <twisted.logger._file.FileLogObserver object at 0x00000230E4D43C20> due to exception: [Failure instance: Traceback: <class 'ValueError'>: I/O operation on closed file
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\application\app.py:447:getApplication
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\threadable.py:51:sync
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\log.py:276:msg
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py:81:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py:50:__call__
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py:362:write
+E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py:104:write
+]
+Traceback (most recent call last):
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\application\app.py", line 447, in getApplication
+    log.msg("Loaded.")
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\log.py", line 276, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_legacy.py", line 147, in publishToNewObserver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_observer.py", line 81, in __call__
+    observer(event)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\logger\_file.py", line 50, in __call__
+    self._outFile.write(text)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\utils\logger.py", line 362, in write
+    logfile.BaseLogFile.write(self, data)
+  File "E:\Documents\Development\evennia\.evenv\Lib\site-packages\twisted\python\logfile.py", line 104, in write
+    self._file.write(data)
+builtins.ValueError: I/O operation on closed file
+
+secret_settings.py file not found or failed to import.
+2025-01-28 20:40:50 [..] Loaded.
+2025-01-28 20:40:47 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:40:50 [..] Loaded.
+2025-01-28 20:40:50 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:40:50 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:40:50 [..] Webserver starting on 4005
+2025-01-28 20:40:50 [..] Server successfully reloaded.
+2025-01-28 20:42:03 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+8 20:42:03 [..] Server Shut Down.
+2025-01-28 20:42:03 [..] Server Shut Down.
+2025-01-28 20:42:06 [..] Loaded.
+2025-01-28 20:42:04 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:42:06 [..] Loaded.
+2025-01-28 20:42:06 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:42:06 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:42:06 [..] Webserver starting on 4005
+2025-01-28 20:42:06 [..] Server successfully reloaded.
+2025-01-28 20:45:26 [..] Server disconnected from the portal.
+2025-01-28 20:45:26 [..] Main loop terminated.
+2025-01-28 20:45:26 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+:45:29 [..] Loaded.
+2025-01-28 20:45:27 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:45:29 [..] Loaded.
+2025-01-28 20:45:29 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:45:29 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:45:29 [..] Webserver starting on 4005
+2025-01-28 20:45:29 [..] Server successfully reloaded.
+2025-01-28 20:47:35 [..] Server disconnected from the portal.
+secret_settings.py file not found or failed to import.
+8 20:47:35 [..] Server Shut Down.
+2025-01-28 20:47:35 [..] Server Shut Down.
+2025-01-28 20:47:37 [..] Loaded.
+2025-01-28 20:47:35 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:47:37 [..] Loaded.
+2025-01-28 20:47:37 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:47:37 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:47:37 [..] Webserver starting on 4005
+2025-01-28 20:47:37 [..] Server successfully reloaded.
+2025-01-28 20:49:19 [..] Server disconnected from the portal.
+2025-01-28 20:49:19 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:49:19 [..] Server Shut Down.
+2025-01-28 20:49:21 [..] Loaded.
+2025-01-28 20:49:19 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:49:21 [..] Loaded.
+2025-01-28 20:49:21 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:49:21 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:49:21 [..] Webserver starting on 4005
+2025-01-28 20:49:21 [..] Server successfully reloaded.
+2025-01-28 20:51:01 [..] Server disconnected from the portal.
+2025-01-28 20:51:01 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:51:01 [..] Server Shut Down.
+2025-01-28 20:51:04 [..] Loaded.
+2025-01-28 20:51:02 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:51:04 [..] Loaded.
+2025-01-28 20:51:04 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:51:04 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:51:04 [..] Webserver starting on 4005
+2025-01-28 20:51:04 [..] Server successfully reloaded.
+2025-01-28 20:51:27 [..] Server disconnected from the portal.
+2025-01-28 20:51:27 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:51:27 [..] Server Shut Down.
+2025-01-28 20:51:30 [..] Loaded.
+2025-01-28 20:51:28 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:51:30 [..] Loaded.
+2025-01-28 20:51:30 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:51:30 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:51:30 [..] Webserver starting on 4005
+2025-01-28 20:51:30 [..] Server successfully reloaded.
+2025-01-28 20:53:55 [..] Server disconnected from the portal.
+2025-01-28 20:53:55 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:53:55 [..] Server Shut Down.
+2025-01-28 20:53:57 [..] Loaded.
+2025-01-28 20:53:56 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:53:57 [..] Loaded.
+2025-01-28 20:53:57 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:53:57 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:53:58 [..] Webserver starting on 4005
+2025-01-28 20:53:58 [..] Server successfully reloaded.
+2025-01-28 20:59:56 [..] Server disconnected from the portal.
+2025-01-28 20:59:56 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:59:56 [..] Server Shut Down.
+2025-01-28 20:59:58 [..] Loaded.
+2025-01-28 20:59:56 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 20:59:58 [..] Loaded.
+2025-01-28 20:59:58 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 20:59:58 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 20:59:58 [..] Webserver starting on 4005
+2025-01-28 20:59:58 [..] Server successfully reloaded.
+2025-01-28 21:01:01 [..] Server disconnected from the portal.
+2025-01-28 21:01:01 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:01:01 [..] Server Shut Down.
+2025-01-28 21:01:04 [..] Loaded.
+2025-01-28 21:01:02 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 21:01:04 [..] Loaded.
+2025-01-28 21:01:04 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 21:01:04 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 21:01:04 [..] Webserver starting on 4005
+2025-01-28 21:01:04 [..] Server successfully reloaded.
+2025-01-28 21:01:17 [..] Server disconnected from the portal.
+2025-01-28 21:01:17 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:01:17 [..] Server Shut Down.
+2025-01-28 21:01:20 [..] Loaded.
+2025-01-28 21:01:18 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 21:01:20 [..] Loaded.
+2025-01-28 21:01:20 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 21:01:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 21:01:20 [..] Webserver starting on 4005
+2025-01-28 21:01:20 [..] Server successfully reloaded.
+2025-01-28 21:05:04 [EE] Overwriting existing registered function stopWordFilter
+2025-01-28 21:08:00 [..] Server disconnected from the portal.
+2025-01-28 21:08:00 [..] Main loop terminated.
+secret_settings.py file not found or failed to import.
+:08:00 [..] Server Shut Down.
+2025-01-28 21:08:02 [..] Loaded.
+2025-01-28 21:08:00 [..] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 21:08:02 [..] Loaded.
+2025-01-28 21:08:02 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 21:08:02 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 21:08:02 [..] Webserver starting on 4005
+2025-01-28 21:08:02 [..] Server successfully reloaded.
+2025-01-28 21:08:49 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-28 21:08:58 [..] Server disconnected from the portal.
+2025-01-28 21:08:58 [..] Main loop terminated.
+2025-01-28 21:08:58 [..] Server Shut Down.
+2025-01-28 21:08:58 [..] Server Shut Down.
+secret_settings.py file not found or failed to import.
+] Loading E:\Documents\Development\evennia\.evenv\Lib\site-packages\evennia\server\server.py...
+2025-01-28 21:49:52 [..] Loaded.
+2025-01-28 21:49:52 [..] twistd 23.10.0 (E:\Documents\Development\evennia\.evenv\Scripts\python.exe 3.12.8) starting up.
+2025-01-28 21:49:52 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-01-28 21:49:52 [..] Webserver starting on 4005
+2025-01-28 21:49:52 [..] Evennia Server successfully started.
+2025-01-28 22:14:14 [SS] Authentication Success: marshal(account 1) (IP: 127.0.0.1).
+2025-01-28 22:14:14 [..] Logged in: marshal(account 1) 127.0.0.1 (1 session(s) total)
+2025-01-28 22:29:25 [..] Logged out: marshal(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2025-01-29 09:27:01 [..] Server disconnected from the portal.
+2025-01-29 09:27:01 [..] Main loop terminated.
+2025-01-29 09:27:01 [..] Server Shut Down.
+2025-01-29 09:27:01 [..] Server Shut Down.

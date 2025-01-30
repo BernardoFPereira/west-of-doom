@@ -53,7 +53,7 @@ class CmdExamine(MuxCommand):
         if not target:
             return
         
-        if target and target.is_typeclass('typeclasses.containers.Container'):
+        if target.is_typeclass('typeclasses.containers.Container'):
             if target.db.is_open == False:
                 _, state = target.get_display_desc(looker=caller).split("\n")
                 self.msg(f"|b{target.get_display_name(looker=caller).capitalize()}|n")
@@ -65,10 +65,39 @@ class CmdExamine(MuxCommand):
                 self.msg(target.get_display_things(looker=caller, examination=True))
             return
 
+
         self.msg(target.return_appearance(looker=caller))
         # self.msg(target.get_display_name(looker=caller))
         # self.msg(target.get_display_desc(looker=caller))
         self.msg(target.get_display_things(looker=caller, examination=True))
+        
+        if target.is_typeclass('typeclasses.characters.Character'):
+            self.msg(target.return_condition_string())
+            return
+
+class CmdFollow(MuxCommand):
+    '''
+    Follow someone. Every time your 'follow target' moves
+    to a different room you will move right after.
+
+    Usage:
+        follow <target>
+        unfollow
+    '''
+    help_category = "General"
+    key = 'follow'
+
+    def parse(self):
+        self.args = self.args.strip()
+        self.target = self.args
+    
+    def func(self):
+        if not self.target:
+            self.caller.msg("Follow who?")
+            return
+        
+        target = self.caller.search(self.target)
+        self.caller.msg(f"Following {target.get_display_name()}.")
 
 class CmdHit(MuxCommand):
     '''
@@ -290,10 +319,13 @@ class MyNoInputCommand(Command):
 class StandardCmdSet(CmdSet):
     key = "Main test cmd_set"
     def at_cmdset_creation(self):
-        self.add(CmdExamine)
-        self.add(CmdEcho)
-        self.add(CmdHit)
-        self.add(CmdSwim)
-        self.add(CmdSneak)
-        self.add(CmdEquipment)
-        self.add(MyNoInputCommand)
+        self.add([
+                 CmdExamine,
+                 CmdEcho,
+                 CmdHit,
+                 CmdSwim,
+                 CmdSneak,
+                 CmdEquipment,
+                 CmdFollow,
+                 MyNoInputCommand
+             ])

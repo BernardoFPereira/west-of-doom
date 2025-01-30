@@ -80,6 +80,11 @@ class Animal(Character, LivingMixin):
 
         self.generate_animal()
 
+    def return_condition_string(self):
+        condition = self.hurt_level
+        condition_string = f"{self.get_display_name().capitalize()}|H is {condition}." if not self.db.named else f"{self.get_display_name()}|H is {condition}."
+        return condition_string
+
     def get_display_name(self, looker=None, **kwargs):
         '''
         return object's name, if kwarg are used,

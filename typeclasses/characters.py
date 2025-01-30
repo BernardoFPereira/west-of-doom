@@ -10,7 +10,9 @@ creation commands.
 import random
 from evennia import DefaultCharacter, AttributeProperty
 from .objects import ObjectParent
+from evennia.utils.utils import lazy_property
 from django.utils.translation import gettext as _
+from equipment import EquipmentHandler
 from rules import dice
 
 class LivingMixin:
@@ -28,17 +30,17 @@ class LivingMixin:
         elif 80 < percent <= 95:
             return "|gScraped|n"
         elif 60 < percent <= 80:
-            return "|GBruised|n"
+            return "|yBruised|n"
         elif 45 < percent <= 60:
             return "|yHurt|n"
         elif 30 < percent <= 45:
-            return "|yWounded|n"
+            return "|rWounded|n"
         elif 15 < percent <= 30:
             return "|rBadly wounded|n"
         elif 1 < percent < 15:
             return "|rBarely hanging on|n"
         elif percent == 0:
-            return "|RCollapsed!|n"
+            return "|rCollapsed|n"
 
     def heal(self, hp):
         """
@@ -120,12 +122,12 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
 
     is_pc = True
 
-    strength = AttributeProperty(6) 
-    dexterity = AttributeProperty(6)
-    constitution = AttributeProperty(6)
-    perception = AttributeProperty(6)
-    wisdom = AttributeProperty(6)
-    charisma = AttributeProperty(6)
+    body = AttributeProperty(6)
+    mind = AttributeProperty(6)
+    # strength = AttributeProperty(6) 
+    # dexterity = AttributeProperty(6)
+    # wisdom = AttributeProperty(6)
+    # charisma = AttributeProperty(6)
     
     hp = AttributeProperty(100) 
     hp_max = AttributeProperty(100)
@@ -144,6 +146,28 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
         self.db.strength = random.randint(6,20)
         self.db.dexterity = random.randint(6,20)
         self.db.intelligence = random.randint(6,20)
+
+
+    # def at_pre_object_receive(self, moved_object, source_location, **kwargs):
+    #     """Called by Evennia before object arrives 'in' this character (that is,
+    #     if they pick up something). If it returns False, move is aborted.
+        
+    #     """
+    #     return self.equipment.validate_slot_usage(moved_object)
+
+    # def at_object_receive(self, moved_object, source_location, **kwargs):
+    #     """ 
+    #     Called by Evennia when an object arrives 'in' the character.
+        
+    #     """
+    #     self.equipment.add(moved_object)
+
+    # def at_object_leave(self, moved_object, destination, **kwargs):
+    #     """ 
+    #     Called by Evennia when object leaves the Character. 
+        
+    #     """
+    #     self.equipment.remove(moved_object)
 
     @property
     def prompt(self):
@@ -178,6 +202,15 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
     #     Get the main stats of this character
     #     '''
     #     return self.db.strength, self.db.dexterity, self.db.intelligence
+    
+    @lazy_property
+    def equipment(self):
+        return EquipmentHandler(self)
+
+    def return_condition_string(self):
+        condition = self.hurt_level
+        condition_string = f"{self.get_display_name()} is {condition}."
+        return condition_string
 
     def get_gender(self):
         '''
