@@ -7,7 +7,7 @@ is setup to be the "default" character type created by the default
 creation commands.
 
 """
-import random
+# import random
 from evennia import DefaultCharacter, AttributeProperty
 from .objects import ObjectParent
 from evennia.utils.utils import lazy_property
@@ -124,13 +124,13 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
 
     body = AttributeProperty(6)
     mind = AttributeProperty(6)
-    # strength = AttributeProperty(6) 
-    # dexterity = AttributeProperty(6)
-    # wisdom = AttributeProperty(6)
-    # charisma = AttributeProperty(6)
+    grit = AttributeProperty(6)
+    reflex = AttributeProperty(6)
+    cunning = AttributeProperty(6)
     
     hp = AttributeProperty(100) 
     hp_max = AttributeProperty(100)
+    move_points = AttributeProperty(0)
     stance = AttributeProperty('standing')
     
     level = AttributeProperty(1)
@@ -138,22 +138,15 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
     coins = AttributeProperty(0)
 
     def at_object_creation(self):
+        self.move_points = int((self.body + self.grit) * 2.5 + (self.cunning * 1.5))
         self.db.gender = 'male'
-        self.stance = 'standing'
-
-        self.perception = random.randint(6,20)
-
-        self.db.strength = random.randint(6,20)
-        self.db.dexterity = random.randint(6,20)
-        self.db.intelligence = random.randint(6,20)
-
 
     # def at_pre_object_receive(self, moved_object, source_location, **kwargs):
     #     """Called by Evennia before object arrives 'in' this character (that is,
     #     if they pick up something). If it returns False, move is aborted.
         
     #     """
-    #     return self.equipment.validate_slot_usage(moved_object)
+    #     return self.equipment.validate_carry_capacity(moved_object)
 
     # def at_object_receive(self, moved_object, source_location, **kwargs):
     #     """ 
@@ -162,12 +155,12 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
     #     """
     #     self.equipment.add(moved_object)
 
-    # def at_object_leave(self, moved_object, destination, **kwargs):
-    #     """ 
-    #     Called by Evennia when object leaves the Character. 
+    def at_object_leave(self, moved_object, destination, **kwargs):
+        """ 
+        Called by Evennia when object leaves the Character. 
         
-    #     """
-    #     self.equipment.remove(moved_object)
+        """
+        self.equipment.remove(moved_object)
 
     @property
     def prompt(self):
@@ -192,16 +185,10 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
     @property
     def stats(self):
         string = """
-        STR: {}, DEX: {}, INT: {}
-        """.format( self.db.strength, self.db.dexterity, self.db.intelligence)
+        BOD: {}, MND: {}, GRT: {}, REF: {}, CUN: {}
+        """.format( self.body, self.mind, self.grit, self.reflex, self.cunning)
 
         return string
-    
-    # def get_stats(self):
-    #     '''
-    #     Get the main stats of this character
-    #     '''
-    #     return self.db.strength, self.db.dexterity, self.db.intelligence
     
     @lazy_property
     def equipment(self):
@@ -233,7 +220,7 @@ class Character(ObjectParent, LivingMixin, DefaultCharacter):
         return display_name
 
     def at_pre_move(self, destination, move_type="move", **kwargs):
-        if self.db.stance != 'standing':
+        if self.stance != 'standing':
             return False
         return super().at_pre_move(destination, move_type, **kwargs)
 

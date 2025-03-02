@@ -7,7 +7,10 @@ class Ability(Enum):
 
     BOD = "body"
     MND = "mind"
-
+    GRT = "grit"
+    REF = "reflex"
+    CUN = "cunning"
+    
     ARMOR = "armor"
 
     ALLEGIANCE_HOSTILE = "hostile"
@@ -16,20 +19,26 @@ class Ability(Enum):
 
 ABILITY_REVERSE_MAP = {
     "bod": Ability.BOD,
-    "mnd": Ability.MND
+    "mnd": Ability.MND,
+    "grit": Ability.GRT,
+    "reflex": Ability.REF,
+    "cunning": Ability.CUN,
 }
 
 class WieldLocations(Enum):
-    RIGHT_HAND = "right_hand"
-    LEFT_HAND = "left_hand"
-    # TWO_HANDS = "two_handed"
+    MAIN_HAND = "main_hand"
+    OFF_HAND = "off_hand"
+    TWO_HANDS = "two_handed"
+    
+class WearLocations(Enum):
     HEAD = "head"
     CHEST = "chest"
+    HANDS = "hands"
     LEGS = "legs"
     FEET = "feet"
     BACK = "back"
-    RIGHT_SHOULDER = "right_shoulder"
-    LEFT_SHOULDER = "left_shoulder"
+    SHOULDERS = "shoulders"
+    WAIST = "waist"
     BELT = "belt"
 
 class ObjType(Enum):
@@ -43,11 +52,22 @@ class ObjType(Enum):
     LOOT = "loot"
     QUEST = "quest"
     GEAR = "gear"
+    AMMO = "ammo"
+
+class GearCondition(Enum):
+    FLAWLESS = "flawless"
+    WELL_KEPT = "well-kept"
+    FINE = "fine"
+    USED = "used"
+    WORN = "worn"
+    NEGLECTED = "neglected"
+    USELESS = "useless"
 
 class AmmoType(Enum):
     MAGNUM = "magnum"
     STANDARD = "standard"
     PLINKING = "plinking"
     SHELLS = "shells"
-    NONE = "n/a"
+    ARROW = "arrow"
+    BOLT = "bolt"
     

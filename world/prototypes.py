@@ -1,3 +1,5 @@
+from enums import AmmoType, ObjType, WearLocations#, WieldLocations
+
 """
 Prototypes
 
@@ -48,43 +50,100 @@ See the `spawn` command and `evennia.prototypes.spawner.spawn` for more info.
 
 """
 
-## example of module-based prototypes using
-## the variable name as `prototype_key` and
-## simple Attributes
+# MELEE WEAPON PROTOTYPES
+CLUB = {
+  "typeclass": "typeclasses.weapons.Weapon",
+  "attrs": [
+    ("weight", 2),
+  ]
+}
 
-# from random import randint
-#
-# GOBLIN = {
-# "key": "goblin grunt",
-# "health": lambda: randint(20,30),
-# "resists": ["cold", "poison"],
-# "attacks": ["fists"],
-# "weaknesses": ["fire", "light"],
-# "tags": = [("greenskin", "monster"), ("humanoid", "monster")]
-# }
-#
-# GOBLIN_WIZARD = {
-# "prototype_parent": "GOBLIN",
-# "key": "goblin wizard",
-# "spells": ["fire ball", "lighting bolt"]
-# }
-#
-# GOBLIN_ARCHER = {
-# "prototype_parent": "GOBLIN",
-# "key": "goblin archer",
-# "attacks": ["short bow"]
-# }
-#
-# This is an example of a prototype without a prototype
-# (nor key) of its own, so it should normally only be
-# used as a mix-in, as in the example of the goblin
-# archwizard below.
-# ARCHWIZARD_MIXIN = {
-# "attacks": ["archwizard staff"],
-# "spells": ["greater fire ball", "greater lighting"]
-# }
-#
-# GOBLIN_ARCHWIZARD = {
-# "key": "goblin archwizard",
-# "prototype_parent" : ("GOBLIN_WIZARD", "ARCHWIZARD_MIXIN")
-# }
+KNIFE = {
+  "typeclass": "typeclasses.weapons.Weapon",
+  "attrs": [
+    ("weight", 0.5),
+  ]
+}
+
+SCRAP_SWORD = {
+  "typeclass": "typeclasses.weapons.Weapon",
+  "attrs": [
+    ("weight", 1.5),
+  ]
+}
+
+# AMMO PROTOYPES
+SHOTGUN_SHELL = {
+  "typeclass": "typeclasses.weapons.Ammo",
+  "key": "shell",
+  "aliases": ["a shell", "one shell"],
+  "attrs": [
+    ("ammo_type", AmmoType.SHELLS),
+    ("ammo_noise_bonus", 0),
+    ("damage", 6),
+  ],
+}
+
+PLINKING_ROUND = {
+  "typeclass": "typeclasses.weapons.Ammo",
+  "key": "plinking round",
+  "aliases": ["plk round"],
+  "attrs": [
+    ("ammo_type", AmmoType.PLINKING),
+    ("ammo_noise_bonus", -2),
+    ("damage", 25),
+  ],
+}
+
+STANDARD_ROUND = {
+  "typeclass": "typeclasses.weapons.Ammo",
+  "key": "standard round",
+  "aliases": ["std round"],
+  "attrs": [
+    ("ammo_type", AmmoType.STANDARD),
+    ("ammo_noise_bonus", 0),
+    ("damage", 40),
+  ],
+}
+
+MAGNUM_ROUND = {
+  "typeclass": "typeclasses.weapons.Ammo",
+  "key": "magnum round",
+  "aliases": ["mgn round"],
+  "attrs": [
+    ("ammo_type", AmmoType.MAGNUM),
+    ("damage", 55),
+    ("ammo_noise_bonus", 2),
+  ],
+}
+
+WOODEN_ARROW = {
+  "typeclass": "typeclasses.weapons.Ammo",
+  "key": "wooden arrow",
+  "attrs": [
+    ("ammo_type", AmmoType.ARROW),
+    ("damage", 55),
+    ("ammo_noise_bonus", 0),
+  ]
+}
+
+BOLT = {
+  "typeclass": "typeclasses.weapons.Ammo",
+  "key": "bolt",
+  "attrs": [
+    ("ammo_type", AmmoType.BOLT),
+    ("damage", 55),
+    ("ammo_noise_bonus", 1),
+  ]
+}
+
+# CLOTHING PROTOTYPES
+BASE_SHIRT = {
+  "typeclass": "typeclasses.items.Gear",
+  "equipment_use_slot": WearLocations.CHEST,
+  "key": "plain shirt",
+  "aliases": ["shirt", "plain_shirt"],
+  "attrs": [
+    ("weight", 0.2),
+  ]
+}

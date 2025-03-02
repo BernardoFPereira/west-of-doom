@@ -1,5 +1,4 @@
 from evennia.utils import make_iter
-from enums import AmmoType
 
 def iter_to_multiline(iterable, sep="\n"):
     """

@@ -170,6 +170,7 @@ class CmdPut(MuxCommand):
             return caller.msg(f"The {targ_container.name} is closed!")
 
         targ_item[0].location = targ_container
+        caller.equipment.remove(targ_item[0])
 
         caller.location.msg_contents("$You() $conj(put) $obj(target) in the $obj(container).",
                                      from_obj=caller,

@@ -47,14 +47,22 @@ WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
 
 # This needs to be set to your website address for django or you'll receive a
 # CSRF error when trying to log on to the web portal
-CSRF_TRUSTED_ORIGINS = ['https://oriean.space']
-
+# CSRF_TRUSTED_ORIGINS = ['https://oriean.space']
 # ALLOWED_HOSTS = [".oriean.space"]
 
 COMMAND_DEFAULT_CLASS = "commands.command.MuxCommand"
+PROTOTYPE_MODULES += [
+    "gear.headwear_prototypes",
+    "gear.footwear_prototypes",
+    "gear.legwear_prototypes",
+    "gear.container_prototypes",
+    "gear.rifle_prototypes",
+    "gear.revolver_prototypes",
+    "gear.shotgun_prototypes",
+]
 
 CMDSET_UNLOGGEDIN = "evennia.contrib.base_systems.menu_login.UnloggedinCmdSet"
-# CONNECTION_SCREEN_MODULE = "evennia.contrib.base_systems.menu_login.connection_screens"
+CONNECTION_SCREEN_MODULE = "evennia.contrib.base_systems.menu_login.connection_screens"
 AUTO_CREATE_CHARACTER_WITH_ACCOUNT = False
 
 TIME_GAME_EPOCH = 56515968000

@@ -30,6 +30,27 @@ class RollEngine:
             # disadvantage - lowest of 2 rolls
             return min(self.roll("1d20"), self.roll("1d20"))
 
+    def roll_random_table(self, dieroll, table_choices):
+        roll_result = self.roll(dieroll)
+
+        if isinstance(table_choices[0], (tuple, list)):
+
+            for (valrange, choice) in table_choices:
+                minval, *maxval = valrange.split('-', 1)
+                minval = abs(int(minval))
+                maxval = abs(int(maxval[0])) if maxval else minval
+
+                if minval <= roll_result <= maxval:
+                    return choice
+
+            # If we got here we must have set a dieroll producing a
+            # value outside of the table bondaries -- raise error
+
+            raise RuntimeError("roll_random_table: Invalid die roll!")
+        else:
+            roll_result = max(1, min(len(table_choices), roll_result))
+            return table_choices[roll_result - 1]
+
     def saving_throw():
         pass
 

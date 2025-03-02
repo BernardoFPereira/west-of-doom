@@ -1,6 +1,5 @@
 from typeclasses.objects import Object
-
-from evennia.utils import iter_to_str, defaultdict
+from evennia.utils import defaultdict
 from utils.utils import iter_to_multiline
 
 class Container(Object):
