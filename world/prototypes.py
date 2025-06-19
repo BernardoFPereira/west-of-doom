@@ -140,10 +140,10 @@ BOLT = {
 # CLOTHING PROTOTYPES
 BASE_SHIRT = {
   "typeclass": "typeclasses.items.Gear",
-  "equipment_use_slot": WearLocations.CHEST,
   "key": "plain shirt",
   "aliases": ["shirt", "plain_shirt"],
   "attrs": [
+    ("equipment_use_slot", WearLocations.CHEST),
     ("weight", 0.2),
   ]
 }

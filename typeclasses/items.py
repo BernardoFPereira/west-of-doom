@@ -7,7 +7,7 @@ class Gear(Object):
     Base for all equippable objects.
     
     """
-    equipment_use_slot = None
+    equipment_use_slot = AttributeProperty(None)
     weight = AttributeProperty(0, autocreate=False)
     value = AttributeProperty(0, autocreate=False)
     
@@ -36,6 +36,6 @@ class Gear(Object):
         return False
 
 class ContainerGear(Gear):
-    equipment_use_slot = WearLocations.BACK
+    equipment_use_slot = AttributeProperty(WearLocations.BACK)
     obj_type = ObjType.CONTAINER
 

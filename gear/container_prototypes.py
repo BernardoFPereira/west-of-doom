@@ -11,8 +11,10 @@ BASE_BELT = {
 BASE_BANDOLIER = {
   "typeclass": "typeclasses.items.ContainerGear",
   "key": "bandolier",
-  "equipment_use_slot": WearLocations.SHOULDERS,
-  "weight": 0.5
+  "attrs": [
+    ("equipment_use_slot", WearLocations.SHOULDERS),
+    ("weight", 0.5),
+  ],
 }
 
 BASE_BACKPACK = {

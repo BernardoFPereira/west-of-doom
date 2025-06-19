@@ -31,6 +31,11 @@ class CmdWear(MuxCommand):
             return
 
         target = caller.search(self.target, candidates=caller.contents)
+
+        # Silly debug
+        # caller.msg(f"{target}")
+        # caller.msg(f"{target.equipment_use_slot}")
+        # caller.msg(f"{target.attributes.get("equipment_use_slot")}")
         
         if target and type(target.equipment_use_slot) == WearLocations:
             caller.equipment.add(target)
@@ -112,7 +117,7 @@ class CmdRemove(MuxCommand):
         if target:
             caller.equipment.remove(target)
             
-            if type(target.equipment_use_slot) == WieldLocations:
+            if type(target.equipment_use_slot) == WieldLocations or WearLocations:
                 caller.msg(f"You stop wielding {target.get_numbered_name(1, caller)[0]}.")
             else:
                 caller.msg(f"You take off {target.get_numbered_name(1, caller)[0]}.")

@@ -9,7 +9,7 @@ from enums import ObjType, WieldLocations, AmmoType
 
 class Weapon(Gear):
     _content_types = ("object",)
-    equipment_use_slot = WieldLocations.MAIN_HAND
+    equipment_use_slot = AttributeProperty(WieldLocations.MAIN_HAND)
     weight = AttributeProperty(1)
     
     obj_type = ObjType.WEAPON
