@@ -85,6 +85,14 @@ class ShootCmd(MuxCommand):
                 # room[1].msg_contents(f"|R({source_room} -> {room[1]}) - {distance}|n")
 
 class CmdLoad(MuxCommand):
+    '''
+    Loads your wielded weapon with the proper ammo type.
+    Using |hunload|H, will empty your weapon into your inventory.
+    Usage:
+        load
+        reload
+        unload
+    '''
     key = "load"
     aliases = ["reload", "unload"]
 
